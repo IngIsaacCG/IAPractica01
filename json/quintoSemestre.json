@@ -1,0 +1,217 @@
+[
+  {
+    "clave": "1537",
+    "nombre": "DISPOSITIVOS ELECTRÓNICOS",
+    "semestre": 5,
+    "creditos": 8,
+    "division": "INGENIERÍA ELÉCTRICA",
+    "departamento": "ELECTRÓNICA",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico-práctico",
+    "horas_semana": {
+      "teoricas": 3.0,
+      "practicas": 2.0,
+      "total": 5.0
+    },
+    "seriacion": {
+      "antecedente": "Electricidad y Magnetismo",
+      "consecuente": "Circuitos Eléctricos"
+    },
+    "objetivo": "El alumno analizará el funcionamiento físico y el comportamiento eléctrico de los principales dispositivos semiconductores (diodos, transistores BJT y MOSFET), aplicándolos en el diseño y análisis de circuitos electrónicos básicos de polarización y amplificación.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Fundamentos de semiconductores y el diodo de unión P-N",
+        "horas": 9.0
+      },
+      {
+        "num": 2,
+        "nombre": "Circuitos con diodos y aplicaciones de rectificación",
+        "horas": 9.0
+      },
+      {
+        "num": 3,
+        "nombre": "El transistor de unión bipolar (BJT): Polarización y modelos",
+        "horas": 12.0
+      },
+      {
+        "num": 4,
+        "nombre": "El transistor de efecto de campo (MOSFET): Funcionamiento y polarización",
+        "horas": 12.0
+      },
+      {
+        "num": 5,
+        "nombre": "Amplificadores de señal con BJT y MOSFET",
+        "horas": 6.0
+      }
+    ]
+  },
+  {
+    "clave": "1538",
+    "nombre": "ESTRUCTURA Y PROGRAMACIÓN DE COMPUTADORAS",
+    "semestre": 5,
+    "creditos": 8,
+    "division": "INGENIERÍA ELÉCTRICA",
+    "departamento": "INGENIERÍA EN COMPUTACIÓN",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico-práctico",
+    "horas_semana": {
+      "teoricas": 3.0,
+      "practicas": 2.0,
+      "total": 5.0
+    },
+    "seriacion": {
+      "antecedente": "Estructura de Datos y Algoritmos II",
+      "consecuente": "Diseño Digital Moderno, Sistemas Operativos"
+    },
+    "objetivo": "El alumno comprenderá la arquitectura interna de un procesador, el ciclo de instrucción y la organización de memoria y buses, desarrollando programas en lenguaje ensamblador para manipular recursos a bajo nivel.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Organización del procesador y arquitectura del conjunto de instrucciones (ISA)",
+        "horas": 9.0
+      },
+      {
+        "num": 2,
+        "nombre": "Modos de direccionamiento y repertorio de instrucciones",
+        "horas": 12.0
+      },
+      {
+        "num": 3,
+        "nombre": "Programación en lenguaje ensamblador y subrutinas",
+        "horas": 15.0
+      },
+      {
+        "num": 4,
+        "nombre": "Manejo de pilas, interrupciones y periféricos de entrada/salida",
+        "horas": 12.0
+      }
+    ]
+  },
+  {
+    "clave": "1539",
+    "nombre": "INGENIERÍA DE SOFTWARE",
+    "semestre": 5,
+    "creditos": 8,
+    "division": "INGENIERÍA ELÉCTRICA",
+    "departamento": "INGENIERÍA EN COMPUTACIÓN",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico-práctico",
+    "horas_semana": {
+      "teoricas": 3.0,
+      "practicas": 2.0,
+      "total": 5.0
+    },
+    "seriacion": {
+      "antecedente": "Programación Orientada a Objetos",
+      "consecuente": "Administración de Proyectos de Software"
+    },
+    "objetivo": "El alumno aplicará principios, metodologías y modelado Orientado a Objetos (UML) para la ingeniería de requerimientos, diseño de arquitectura, verificación y mantenimiento de sistemas de software de calidad.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Introducción a la Ingeniería de Software y ciclo de vida",
+        "horas": 6.0
+      },
+      {
+        "num": 2,
+        "nombre": "Ingeniería de requerimientos y modelado conceptual",
+        "horas": 12.0
+      },
+      {
+        "num": 3,
+        "nombre": "Diseño de la arquitectura y modelado UML",
+        "horas": 15.0
+      },
+      {
+        "num": 4,
+        "nombre": "Pruebas, verificación, validación y mantenimiento del software",
+        "horas": 15.0
+      }
+    ]
+  },
+  {
+    "clave": "1540",
+    "nombre": "LENGUAJES FORMALES Y AUTÓMATAS",
+    "semestre": 5,
+    "creditos": 8,
+    "division": "INGENIERÍA ELÉCTRICA",
+    "departamento": "INGENIERÍA EN COMPUTACIÓN",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico",
+    "horas_semana": {
+      "teoricas": 4.0,
+      "practicas": 0.0,
+      "total": 4.0
+    },
+    "seriacion": {
+      "antecedente": "Estructuras Discretas",
+      "consecuente": "Compiladores"
+    },
+    "objetivo": "El alumno analizará la jerarquía de Chomsky, los modelos teóricos de autómatas finitos, autómatas con pila y Máquinas de Turing para formalizar los procesos de reconocimiento de lenguajes y computabilidad.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Alfabetos, cadenas, lenguajes y la jerarquía de Chomsky",
+        "horas": 8.0
+      },
+      {
+        "num": 2,
+        "nombre": "Autómatas Finitos (DFA, NFA) y Expresiones Regulares",
+        "horas": 18.0
+      },
+      {
+        "num": 3,
+        "nombre": "Gramáticas Libres de Contexto y Autómatas con Pila",
+        "horas": 18.0
+      },
+      {
+        "num": 4,
+        "nombre": "Máquinas de Turing, computabilidad y decidibilidad",
+        "horas": 20.0
+      }
+    ]
+  },
+  {
+    "clave": "1541",
+    "nombre": "SEÑALES Y SISTEMAS",
+    "semestre": 5,
+    "creditos": 8,
+    "division": "INGENIERÍA ELÉCTRICA",
+    "departamento": "TELECOMUNICACIONES",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico",
+    "horas_semana": {
+      "teoricas": 4.0,
+      "practicas": 0.0,
+      "total": 4.0
+    },
+    "seriacion": {
+      "antecedente": "Matemáticas Avanzadas",
+      "consecuente": "Sistemas de Comunicaciones"
+    },
+    "objetivo": "El alumno analizará y caracterizará señales continuas y discretas en el dominio del tiempo y de la frecuencia utilizando las transformadas de Fourier, Laplace y Z en sistemas lineales e invariantes en el tiempo (LTI).",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Clasificación y representación de señales y sistemas LTI",
+        "horas": 12.0
+      },
+      {
+        "num": 2,
+        "nombre": "Análisis de Fourier para señales continuas y discretas",
+        "horas": 18.0
+      },
+      {
+        "num": 3,
+        "nombre": "Transformada de Laplace y respuesta en frecuencia de sistemas",
+        "horas": 18.0
+      },
+      {
+        "num": 4,
+        "nombre": "Transformada Z y muestreo de señales continuas",
+        "horas": 16.0
+      }
+    ]
+  }
+]
