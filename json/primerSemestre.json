@@ -1,0 +1,257 @@
+[
+  {
+    "clave": "1120",
+    "nombre": "ÁLGEBRA",
+    "semestre": 1,
+    "creditos": 8,
+    "division": "CIENCIAS BÁSICAS",
+    "departamento": "COORDINACIÓN DE MATEMÁTICAS",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico",
+    "horas_semana": {
+      "teoricas": 4.0,
+      "practicas": 0.0,
+      "total": 4.0
+    },
+    "seriacion": {
+      "antecedente": "Ninguna",
+      "consecuente": "Álgebra Lineal"
+    },
+    "objetivo": "El alumno analizará las propiedades de los sistemas numéricos y las utilizará en la resolución de problemas de polinomios, sistemas de ecuaciones lineales y matrices y determinantes, para que de manera conjunta estos conceptos le permitan iniciar el estudio de la física y la matemática aplicada.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Trigonometría",
+        "horas": 8.0
+      },
+      {
+        "num": 2,
+        "nombre": "Números reales",
+        "horas": 10.0
+      },
+      {
+        "num": 3,
+        "nombre": "Números complejos",
+        "horas": 12.0
+      },
+      {
+        "num": 4,
+        "nombre": "Polinomios",
+        "horas": 10.0
+      },
+      {
+        "num": 5,
+        "nombre": "Sistemas de ecuaciones",
+        "horas": 8.0
+      },
+      {
+        "num": 6,
+        "nombre": "Matrices y determinantes",
+        "horas": 16.0
+      }
+    ]
+  },
+  {
+    "clave": "1121",
+    "nombre": "CÁLCULO Y GEOMETRÍA ANALÍTICA",
+    "semestre": 1,
+    "creditos": 12,
+    "division": "CIENCIAS BÁSICAS",
+    "departamento": "COORDINACIÓN DE MATEMÁTICAS",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico",
+    "horas_semana": {
+      "teoricas": 6.0,
+      "practicas": 0.0,
+      "total": 6.0
+    },
+    "seriacion": {
+      "antecedente": "Ninguna",
+      "consecuente": "Cálculo Integral, Mecánica"
+    },
+    "objetivo": "El alumno analizará los conceptos fundamentales del cálculo diferencial de funciones reales de variable real y del álgebra vectorial, y los aplicará en la resolución de problemas físicos y geométricos.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Secciones cónicas",
+        "horas": 8.0
+      },
+      {
+        "num": 2,
+        "nombre": "Funciones",
+        "horas": 16.0
+      },
+      {
+        "num": 3,
+        "nombre": "Límites y continuidad",
+        "horas": 12.0
+      },
+      {
+        "num": 4,
+        "nombre": "La derivada y aplicaciones",
+        "horas": 20.0
+      },
+      {
+        "num": 5,
+        "nombre": "Variación de funciones",
+        "horas": 8.0
+      },
+      {
+        "num": 6,
+        "nombre": "Álgebra vectorial",
+        "horas": 16.0
+      },
+      {
+        "num": 7,
+        "nombre": "Recta y plano",
+        "horas": 16.0
+      }
+    ]
+  },
+  {
+    "clave": "1130",
+    "nombre": "FUNDAMENTOS DE FÍSICA",
+    "semestre": 1,
+    "creditos": 6,
+    "division": "CIENCIAS BÁSICAS",
+    "departamento": "COORDINACIÓN DE FÍSICA Y QUÍMICA",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico-práctico",
+    "horas_semana": {
+      "teoricas": 2.0,
+      "practicas": 2.0,
+      "total": 4.0
+    },
+    "seriacion": {
+      "antecedente": "Ninguna",
+      "consecuente": "Ninguna"
+    },
+    "objetivo": "El alumno obtendrá y analizará modelos matemáticos de los fenómenos físicos a través del trabajo colaborativo, desarrollando una actitud científica experimental. Comprenderá la importancia de la física en su formación como ingeniero.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Física e ingeniería",
+        "horas": 10.0
+      },
+      {
+        "num": 2,
+        "nombre": "Gradiente de presión",
+        "horas": 8.0
+      },
+      {
+        "num": 3,
+        "nombre": "Capacidades térmicas específicas",
+        "horas": 8.0
+      },
+      {
+        "num": 4,
+        "nombre": "Movimiento ondulatorio",
+        "horas": 6.0
+      }
+    ]
+  },
+  {
+    "clave": "1122",
+    "nombre": "FUNDAMENTOS DE PROGRAMACIÓN",
+    "semestre": 1,
+    "creditos": 10,
+    "division": "INGENIERÍA ELÉCTRICA",
+    "departamento": "INGENIERÍA EN COMPUTACIÓN",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico-práctico",
+    "horas_semana": {
+      "teoricas": 4.0,
+      "practicas": 2.0,
+      "total": 6.0
+    },
+    "seriacion": {
+      "antecedente": "Ninguna",
+      "consecuente": "Estructura de Datos y Algoritmos I"
+    },
+    "objetivo": "El alumno resolverá problemas aplicando los fundamentos de programación para diseñar programas en el lenguaje estructurado C, apoyándose en metodologías para la solución de problemas.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Panorama general",
+        "horas": 2.0
+      },
+      {
+        "num": 2,
+        "nombre": "Resolución de problemas",
+        "horas": 20.0
+      },
+      {
+        "num": 3,
+        "nombre": "Fundamentos para la construcción de código a partir del algoritmo",
+        "horas": 24.0
+      },
+      {
+        "num": 4,
+        "nombre": "Paradigmas de programación",
+        "horas": 10.0
+      },
+      {
+        "num": 5,
+        "nombre": "Cómputo aplicado a diferentes áreas de la ingeniería y otras disciplinas",
+        "horas": 8.0
+      }
+    ]
+  },
+  {
+    "clave": "1123",
+    "nombre": "QUÍMICA",
+    "semestre": 1,
+    "creditos": 10,
+    "division": "CIENCIAS BÁSICAS",
+    "departamento": "COORDINACIÓN DE FÍSICA Y QUÍMICA",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico-práctico",
+    "horas_semana": {
+      "teoricas": 4.0,
+      "practicas": 2.0,
+      "total": 6.0
+    },
+    "seriacion": {
+      "antecedente": "Ninguna",
+      "consecuente": "Ninguna"
+    },
+    "objetivo": "El alumno aplicará los conceptos básicos para relacionar las propiedades de las sustancias en la resolución de ejercicios; desarrollará sus capacidades de observación y de manejo de instrumentos.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Estructura atómica",
+        "horas": 16.0
+      },
+      {
+        "num": 2,
+        "nombre": "Periodicidad química",
+        "horas": 4.0
+      },
+      {
+        "num": 3,
+        "nombre": "Enlaces químicos y fuerzas intermoleculares",
+        "horas": 12.0
+      },
+      {
+        "num": 4,
+        "nombre": "Teoría del orbital molecular y cristaloquímica",
+        "horas": 6.0
+      },
+      {
+        "num": 5,
+        "nombre": "Estequiometria",
+        "horas": 10.0
+      },
+      {
+        "num": 6,
+        "nombre": "Termoquímica y equilibrio químico",
+        "horas": 6.0
+      },
+      {
+        "num": 7,
+        "nombre": "Electroquímica",
+        "horas": 10.0
+      }
+    ]
+  }
+]
