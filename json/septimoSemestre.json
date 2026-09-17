@@ -1,0 +1,309 @@
+[
+  {
+    "clave": "0434",
+    "nombre": "COMPILADORES",
+    "semestre": 7,
+    "creditos": 8,
+    "division": "INGENIERÍA ELÉCTRICA",
+    "departamento": "INGENIERÍA EN COMPUTACIÓN",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico",
+    "horas_semana": {
+      "teoricas": 4.0,
+      "practicas": 0.0,
+      "total": 4.0
+    },
+    "seriacion": {
+      "antecedente": "Lenguajes Formales y Autómatas",
+      "consecuente": "Ninguna"
+    },
+    "objetivo": "El alumno diseñará los traductores como herramientas de uso y desarrollo de sistemas de software; como también diferenciará traductores existentes para elaborar software eficiente y adecuado al tipo de problema por resolver.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Panorama general",
+        "horas": 10.0
+      },
+      {
+        "num": 2,
+        "nombre": "Análisis léxico",
+        "horas": 8.0
+      },
+      {
+        "num": 3,
+        "nombre": "Análisis sintáctico",
+        "horas": 4.0
+      },
+      {
+        "num": 4,
+        "nombre": "Análisis sintáctico descendente",
+        "horas": 8.0
+      },
+      {
+        "num": 5,
+        "nombre": "Análisis sintáctico ascendente",
+        "horas": 10.0
+      },
+      {
+        "num": 6,
+        "nombre": "Traducción dirigida por sintaxis",
+        "horas": 8.0
+      },
+      {
+        "num": 7,
+        "nombre": "Organización de memoria en tiempo de corrida",
+        "horas": 4.0
+      },
+      {
+        "num": 8,
+        "nombre": "Generación de código intermedio y análisis semántico",
+        "horas": 8.0
+      },
+      {
+        "num": 9,
+        "nombre": "Optimización y generación de código",
+        "horas": 4.0
+      }
+    ]
+  },
+  {
+    "clave": "1535",
+    "nombre": "DISEÑO DIGITAL VLSI",
+    "semestre": 7,
+    "creditos": 8,
+    "division": "INGENIERÍA ELÉCTRICA",
+    "departamento": "INGENIERÍA EN COMPUTACIÓN",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico-práctico",
+    "horas_semana": {
+      "teoricas": 3.0,
+      "practicas": 2.0,
+      "total": 5.0
+    },
+    "seriacion": {
+      "antecedente": "Diseño Digital Moderno",
+      "consecuente": "Microcomputadoras"
+    },
+    "objetivo": "El alumno modificará sistemas digitales de muy alta escala de integración empleando tecnologías modernas basadas en arquitecturas de dispositivos lógicos programables (FPGAs y CPLDs), en lenguajes de descripción y modelado de hardware (VHDL, Verilog, SystemVerilog) y en ambientes integrados de desarrollo (herramientas CAD-EDA).",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Sistemas digitales y VLSI",
+        "horas": 3.0
+      },
+      {
+        "num": 2,
+        "nombre": "Diseño e implementación de máquinas de estado finito (FSM )",
+        "horas": 11.0
+      },
+      {
+        "num": 3,
+        "nombre": "Arquitecturas de dispositivos lógicos programables",
+        "horas": 8.0
+      },
+      {
+        "num": 4,
+        "nombre": "Diseño digital VLSI con lenguajes de descripción de hardware",
+        "horas": 16.0
+      },
+      {
+        "num": 5,
+        "nombre": "Implementación de sistemas digitales con ambientes de desarrollo CAD - EDA",
+        "horas": 10.0
+      }
+    ]
+  },
+  {
+    "clave": "1537",
+    "nombre": "FINANZAS EN LA INGENIERÍA EN COMPUTACIÓN",
+    "semestre": 7,
+    "creditos": 6,
+    "division": "INGENIERÍA ELÉCTRICA",
+    "departamento": "INGENIERÍA EN COMPUTACIÓN",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico",
+    "horas_semana": {
+      "teoricas": 3.0,
+      "practicas": 0.0,
+      "total": 3.0
+    },
+    "seriacion": {
+      "antecedente": "Ninguna",
+      "consecuente": "Ninguna"
+    },
+    "objetivo": "El alumno decidirá, considerando los objetivos y las limitaciones comerciales pertinentes, la mitigación de riesgos, las consideraciones fiscales y la estrategia de negocio adecuado, para conocer la inversión adecuada, manejar el flujo de caja y dónde conseguir el financiamiento y medir el desempeño financiero para así tomar las acciones correctivas.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Fundamentos de la Economía en Ingeniería en Computación",
+        "horas": 6.0
+      },
+      {
+        "num": 2,
+        "nombre": "El ciclo de vida de la Economía",
+        "horas": 12.0
+      },
+      {
+        "num": 3,
+        "nombre": "Riesgo e incertidumbre",
+        "horas": 12.0
+      },
+      {
+        "num": 4,
+        "nombre": "Métodos para el análisis económico",
+        "horas": 10.0
+      },
+      {
+        "num": 5,
+        "nombre": "Consideraciones prácticas",
+        "horas": 8.0
+      }
+    ]
+  },
+  {
+    "clave": "0406",
+    "nombre": "INTELIGENCIA ARTIFICIAL",
+    "semestre": 7,
+    "creditos": 8,
+    "division": "INGENIERÍA ELÉCTRICA",
+    "departamento": "INGENIERÍA EN COMPUTACIÓN",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico",
+    "horas_semana": {
+      "teoricas": 4.0,
+      "practicas": 0.0,
+      "total": 4.0
+    },
+    "seriacion": {
+      "antecedente": "Lenguajes Formales y Autómatas",
+      "consecuente": "Ninguna"
+    },
+    "objetivo": "El alumno formulará problemas teóricos y prácticos en áreas significativas de la inteligencia artificial para resolver problemas en el área de la computación.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Introducción a la inteligencia artificial",
+        "horas": 4.0
+      },
+      {
+        "num": 2,
+        "nombre": "Agentes inteligentes y ambientes",
+        "horas": 4.0
+      },
+      {
+        "num": 3,
+        "nombre": "Representación de problemas y búsqueda de soluciones",
+        "horas": 8.0
+      },
+      {
+        "num": 4,
+        "nombre": "Razonamiento",
+        "horas": 16.0
+      },
+      {
+        "num": 5,
+        "nombre": "Modelos de IA",
+        "horas": 24.0
+      },
+      {
+        "num": 6,
+        "nombre": "Aplicaciones",
+        "horas": 8.0
+      }
+    ]
+  },
+  {
+    "clave": "1777",
+    "nombre": "INTRODUCCIÓN A LA ECONOMÍA",
+    "semestre": 7,
+    "creditos": 8,
+    "division": "CIENCIAS SOCIALES Y HUMANIDADES",
+    "departamento": "ASIGNATURAS SOCIOHUMANISTICAS",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico",
+    "horas_semana": {
+      "teoricas": 4.0,
+      "practicas": 0.0,
+      "total": 4.0
+    },
+    "seriacion": {
+      "antecedente": "Ninguna",
+      "consecuente": "Ninguna"
+    },
+    "objetivo": "El alumno comprenderá los conceptos fundamentales de la teoría económica contemporánea y las principales variables macro y microeconómicas para interpretar el funcionamiento de la economía y su impacto en la ingeniería.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Introducción y conceptos básicos de economía",
+        "horas": 8.0
+      },
+      {
+        "num": 2,
+        "nombre": "Microeconomía: Teoría del consumidor y de la empresa",
+        "horas": 20.0
+      },
+      {
+        "num": 3,
+        "nombre": "Estructuras de mercado",
+        "horas": 12.0
+      },
+      {
+        "num": 4,
+        "nombre": "Macroeconomía: Cuentas nacionales y variables agregadas",
+        "horas": 16.0
+      },
+      {
+        "num": 5,
+        "nombre": "Política económica y comercio internacional",
+        "horas": 8.0
+      }
+    ]
+  },
+  {
+    "clave": "1720",
+    "nombre": "SISTEMAS DE COMUNICACIONES",
+    "semestre": 7,
+    "creditos": 8,
+    "division": "INGENIERÍA ELÉCTRICA",
+    "departamento": "TELECOMUNICACIONES",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico-práctico",
+    "horas_semana": {
+      "teoricas": 3.0,
+      "practicas": 2.0,
+      "total": 5.0
+    },
+    "seriacion": {
+      "antecedente": "Señales y Sistemas",
+      "consecuente": "Redes de Datos Seguras"
+    },
+    "objetivo": "El alumno analizará los principios de modulación, transmisión y recepción de señales analógicas y digitales, así como el efecto del ruido en los sistemas de comunicaciones modernos.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Elementos de un sistema de comunicaciones",
+        "horas": 6.0
+      },
+      {
+        "num": 2,
+        "nombre": "Modulación de amplitud (AM)",
+        "horas": 10.0
+      },
+      {
+        "num": 3,
+        "nombre": "Modulación angular (FM y PM)",
+        "horas": 10.0
+      },
+      {
+        "num": 4,
+        "nombre": "Modulación por pulsos y transmisión digital",
+        "horas": 12.0
+      },
+      {
+        "num": 5,
+        "nombre": "Efectos del ruido en sistemas de comunicación",
+        "horas": 10.0
+      }
+    ]
+  }
+]
