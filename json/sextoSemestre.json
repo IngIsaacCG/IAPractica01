@@ -1,0 +1,222 @@
+[
+  {
+    "clave": "1637",
+    "nombre": "ADMINISTRACIÓN DE PROYECTOS DE SOFTWARE",
+    "semestre": 6,
+    "creditos": 8,
+    "division": "INGENIERÍA ELÉCTRICA",
+    "departamento": "INGENIERÍA EN COMPUTACIÓN",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico-práctico",
+    "horas_semana": {
+      "teoricas": 3.0,
+      "practicas": 2.0,
+      "total": 5.0
+    },
+    "seriacion": {
+      "antecedente": "Ingeniería de Software",
+      "consecuente": "Finanzas en la Ingeniería en Computación"
+    },
+    "objetivo": "El alumno aplicará técnicas, herramientas y marcos de trabajo (ágiles y tradicionales) para la planificación, estimación de costos, gestión de riesgos, control de calidad y dirección de proyectos de desarrollo de software.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Introducción a la administración de proyectos y marcos de trabajo (PMBOK, Scrum)",
+        "horas": 9.0
+      },
+      {
+        "num": 2,
+        "nombre": "Planificación, alcance y estimación de esfuerzo/costos",
+        "horas": 12.0
+      },
+      {
+        "num": 3,
+        "nombre": "Gestión de riesgos, recursos humanos y comunicación",
+        "horas": 12.0
+      },
+      {
+        "num": 4,
+        "nombre": "Seguimiento, control de calidad, métricas y cierre del proyecto",
+        "horas": 15.0
+      }
+    ]
+  },
+  {
+    "clave": "1638",
+    "nombre": "BASES DE DATOS",
+    "semestre": 6,
+    "creditos": 10,
+    "division": "INGENIERÍA ELÉCTRICA",
+    "departamento": "INGENIERÍA EN COMPUTACIÓN",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico-práctico",
+    "horas_semana": {
+      "teoricas": 4.0,
+      "practicas": 2.0,
+      "total": 6.0
+    },
+    "seriacion": {
+      "antecedente": "Estructura de Datos y Algoritmos II",
+      "consecuente": "Sistemas Distribuidos"
+    },
+    "objetivo": "El alumno diseñará e implementará bases de datos relacionales mediante el modelado Entidad-Relación, normalización y consultas estructuradas en SQL, garantizando la integridad, seguridad y optimización de transacciones.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Sistemas de bases de datos y arquitectura de tres niveles",
+        "horas": 8.0
+      },
+      {
+        "num": 2,
+        "nombre": "Modelado de datos: Modelo Entidad-Relación y ER Extendido",
+        "horas": 14.0
+      },
+      {
+        "num": 3,
+        "nombre": "Modelo Relacional, Álgebra Relacional y Normalización (1FN a BCNF)",
+        "horas": 18.0
+      },
+      {
+        "num": 4,
+        "nombre": "Lenguaje de Consulta Estructurado (SQL) y programación en BD (PL/SQL, disparadores)",
+        "horas": 18.0
+      },
+      {
+        "num": 5,
+        "nombre": "Procesamiento de transacciones, concurrencia y seguridad",
+        "horas": 6.0
+      }
+    ]
+  },
+  {
+    "clave": "1639",
+    "nombre": "CIRCUITOS ELÉCTRICOS",
+    "semestre": 6,
+    "creditos": 8,
+    "division": "INGENIERÍA ELÉCTRICA",
+    "departamento": "INGENIERÍA EN COMPUTACIÓN",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico-práctico",
+    "horas_semana": {
+      "teoricas": 3.0,
+      "practicas": 2.0,
+      "total": 5.0
+    },
+    "seriacion": {
+      "antecedente": "Dispositivos Electrónicos",
+      "consecuente": "Sistemas de Comunicaciones"
+    },
+    "objetivo": "El alumno analizará circuitos eléctricos en régimen permanente y transitorio, aplicando leyes fundamentales, teoremas de red, análisis fasorial y potencia en corriente alterna.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Conceptos fundamentales y elementos de circuitos eléctricos",
+        "horas": 9.0
+      },
+      {
+        "num": 2,
+        "nombre": "Métodos analíticos (Nodos y Mallas) y Teoremas de red (Thévenin, Norton, Superposición)",
+        "horas": 15.0
+      },
+      {
+        "num": 3,
+        "nombre": "Respuesta en régimen transitorio de circuitos de primer y segundo orden (RL, RC, RLC)",
+        "horas": 12.0
+      },
+      {
+        "num": 4,
+        "nombre": "Análisis senoidal permanente, fasores y potencia en Corriente Alterna",
+        "horas": 12.0
+      }
+    ]
+  },
+  {
+    "clave": "1640",
+    "nombre": "DISEÑO DIGITAL MODERNO",
+    "semestre": 6,
+    "creditos": 8,
+    "division": "INGENIERÍA ELÉCTRICA",
+    "departamento": "INGENIERÍA EN COMPUTACIÓN",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico-práctico",
+    "horas_semana": {
+      "teoricas": 3.0,
+      "practicas": 2.0,
+      "total": 5.0
+    },
+    "seriacion": {
+      "antecedente": "Estructura y Programación de Computadoras",
+      "consecuente": "Diseño Digital VLSI, Microcomputadoras"
+    },
+    "objetivo": "El alumno diseñará sistemas digitales combinacionales y secuenciales estructurados utilizando lenguajes de descripción de hardware (VHDL/Verilog) y lógica programable (FPGAs/CPLDs).",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Fundamentos de diseño digital y lenguajes de descripción de hardware (HDL)",
+        "horas": 9.0
+      },
+      {
+        "num": 2,
+        "nombre": "Diseño y optimización de módulos combinacionales en HDL",
+        "horas": 12.0
+      },
+      {
+        "num": 3,
+        "nombre": "Sistemas secuenciales sincrónicos y máquinas de estados finitos (FSM)",
+        "horas": 15.0
+      },
+      {
+        "num": 4,
+        "nombre": "Arquitectura e implementación en dispositivos lógicos programables (FPGAs)",
+        "horas": 12.0
+      }
+    ]
+  },
+  {
+    "clave": "1641",
+    "nombre": "SISTEMAS OPERATIVOS",
+    "semestre": 6,
+    "creditos": 8,
+    "division": "INGENIERÍA ELÉCTRICA",
+    "departamento": "INGENIERÍA EN COMPUTACIÓN",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico-práctico",
+    "horas_semana": {
+      "teoricas": 3.0,
+      "practicas": 2.0,
+      "total": 5.0
+    },
+    "seriacion": {
+      "antecedente": "Estructura y Programación de Computadoras",
+      "consecuente": "Redes de Datos Seguras, Sistemas Distribuidos"
+    },
+    "objetivo": "El alumno comprenderá las funciones principales de un sistema operativo: administración de procesos, hilos, concurrencia, gestión de memoria virtual, sistemas de archivos e interfaces de entrada/salida.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Estructura y llamadas al sistema (System Calls)",
+        "horas": 6.0
+      },
+      {
+        "num": 2,
+        "nombre": "Gestión de procesos, hilos y planificación del CPU",
+        "horas": 12.0
+      },
+      {
+        "num": 3,
+        "nombre": "Concurrencia: Sincronización, exclusión mutua y interbloqueos (Deadlocks)",
+        "horas": 12.0
+      },
+      {
+        "num": 4,
+        "nombre": "Administración de memoria real y memoria virtual (Paginación y Segmentación)",
+        "horas": 12.0
+      },
+      {
+        "num": 5,
+        "nombre": "Sistemas de archivos y administración de Entrada/Salida",
+        "horas": 6.0
+      }
+    ]
+  }
+]
