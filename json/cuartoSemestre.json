@@ -1,0 +1,242 @@
+[
+  {
+    "clave": "1433",
+    "nombre": "ANÁLISIS NUMÉRICO",
+    "semestre": 4,
+    "creditos": 8,
+    "division": "CIENCIAS BÁSICAS",
+    "departamento": "COORDINACIÓN DE CIENCIAS APLICADAS",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico",
+    "horas_semana": {
+      "teoricas": 4.0,
+      "practicas": 0.0,
+      "total": 4.0
+    },
+    "seriacion": {
+      "antecedente": "Ecuaciones Diferenciales",
+      "consecuente": "Ninguna"
+    },
+    "objetivo": "El alumno utilizará métodos numéricos para obtener soluciones aproximadas de modelos matemáticos. Elegirá el método que le proporcione mínimo error y utilizará equipo de cómputo como herramienta para desarrollar programas.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Aproximación numérica y errores",
+        "horas": 5.0
+      },
+      {
+        "num": 2,
+        "nombre": "Solución numérica de ecuaciones algebraicas y trascendentes",
+        "horas": 10.0
+      },
+      {
+        "num": 3,
+        "nombre": "Solución numérica de sistemas de ecuaciones lineales",
+        "horas": 12.0
+      },
+      {
+        "num": 4,
+        "nombre": "Interpolación, derivación e integración numéricas",
+        "horas": 14.0
+      },
+      {
+        "num": 5,
+        "nombre": "Solución numérica de ecuaciones y sistemas de ecuaciones diferenciales",
+        "horas": 13.0
+      },
+      {
+        "num": 6,
+        "nombre": "Solución numérica de ecuaciones en derivadas parciales",
+        "horas": 10.0
+      }
+    ]
+  },
+  {
+    "clave": "1414",
+    "nombre": "ELECTRICIDAD Y MAGNETISMO",
+    "semestre": 4,
+    "creditos": 10,
+    "division": "CIENCIAS BÁSICAS",
+    "departamento": "COORDINACIÓN DE FÍSICA Y QUÍMICA",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico-práctico",
+    "horas_semana": {
+      "teoricas": 4.0,
+      "practicas": 2.0,
+      "total": 6.0
+    },
+    "seriacion": {
+      "antecedente": "Cálculo Vectorial",
+      "consecuente": "Ninguna"
+    },
+    "objetivo": "El alumno analizará los conceptos, principios y leyes fundamentales del electromagnetismo. Desarrollará su capacidad de observación y manejo de instrumentos experimentales a través del aprendizaje cooperativo.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Campo y potencial eléctricos",
+        "horas": 14.0
+      },
+      {
+        "num": 2,
+        "nombre": "Capacitancia y dieléctricos",
+        "horas": 8.0
+      },
+      {
+        "num": 3,
+        "nombre": "Introducción a los circuitos eléctricos",
+        "horas": 12.0
+      },
+      {
+        "num": 4,
+        "nombre": "Magnetostática",
+        "horas": 12.0
+      },
+      {
+        "num": 5,
+        "nombre": "Inducción electromagnética",
+        "horas": 12.0
+      },
+      {
+        "num": 6,
+        "nombre": "Fundamentos de las propiedades magnéticas de la materia",
+        "horas": 6.0
+      }
+    ]
+  },
+  {
+    "clave": "0119",
+    "nombre": "ESTRUCTURAS DISCRETAS",
+    "semestre": 4,
+    "creditos": 8,
+    "division": "INGENIERÍA ELÉCTRICA",
+    "departamento": "INGENIERÍA EN COMPUTACIÓN",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico",
+    "horas_semana": {
+      "teoricas": 4.0,
+      "practicas": 0.0,
+      "total": 4.0
+    },
+    "seriacion": {
+      "antecedente": "Estructura de Datos y Algoritmos II",
+      "consecuente": "Ninguna"
+    },
+    "objetivo": "El alumno inferirá los conceptos matemáticos mediante la computación en la solución de problemas relacionados con el procesamiento de la información, el diseño de computadoras y de programas.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Lógica proposicional y cálculo de predicados",
+        "horas": 16.0
+      },
+      {
+        "num": 2,
+        "nombre": "Conjuntos, relaciones y pruebas matemáticas",
+        "horas": 16.0
+      },
+      {
+        "num": 3,
+        "nombre": "Sistemas algebraicos",
+        "horas": 12.0
+      },
+      {
+        "num": 4,
+        "nombre": "Teoría de gráficas",
+        "horas": 10.0
+      },
+      {
+        "num": 5,
+        "nombre": "Teoría de la computabilidad",
+        "horas": 10.0
+      }
+    ]
+  },
+  {
+    "clave": "1445",
+    "nombre": "FUNDAMENTOS DE ESTADÍSTICA",
+    "semestre": 4,
+    "creditos": 8,
+    "division": "CIENCIAS BÁSICAS",
+    "departamento": "COORDINACIÓN DE CIENCIAS APLICADAS",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico",
+    "horas_semana": {
+      "teoricas": 4.0,
+      "practicas": 0.0,
+      "total": 4.0
+    },
+    "seriacion": {
+      "antecedente": "Probabilidad",
+      "consecuente": "Ninguna"
+    },
+    "objetivo": "El alumno aplicará los conceptos de la teoría, metodología y las técnicas estadísticas; modelará y resolverá problemas de ingeniería relacionados con el muestreo, representación de datos e inferencia estadística para la toma de decisiones.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Estadística descriptiva",
+        "horas": 12.0
+      },
+      {
+        "num": 2,
+        "nombre": "Conceptos básicos de inferencia estadística",
+        "horas": 8.0
+      },
+      {
+        "num": 3,
+        "nombre": "Estimación de parámetros",
+        "horas": 12.0
+      },
+      {
+        "num": 4,
+        "nombre": "Pruebas de hipótesis estadísticas",
+        "horas": 12.0
+      },
+      {
+        "num": 5,
+        "nombre": "Introducción a la regresión lineal simple",
+        "horas": 10.0
+      },
+      {
+        "num": 6,
+        "nombre": "Procesos estocásticos",
+        "horas": 10.0
+      }
+    ]
+  },
+  {
+    "clave": "1424",
+    "nombre": "MATEMÁTICAS AVANZADAS",
+    "semestre": 4,
+    "creditos": 8,
+    "division": "CIENCIAS BÁSICAS",
+    "departamento": "COORDINACIÓN DE CIENCIAS APLICADAS",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico",
+    "horas_semana": {
+      "teoricas": 4.0,
+      "practicas": 0.0,
+      "total": 4.0
+    },
+    "seriacion": {
+      "antecedente": "Ninguna",
+      "consecuente": "Sistemas y Señales"
+    },
+    "objetivo": "El alumno manejará los conceptos fundamentales relacionados con las funciones de variable compleja y el análisis de Fourier, para la resolución de problemas de ingeniería.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Variable compleja",
+        "horas": 24.0
+      },
+      {
+        "num": 2,
+        "nombre": "Análisis de Fourier. (Series de Fourier)",
+        "horas": 12.0
+      },
+      {
+        "num": 3,
+        "nombre": "Análisis de Fourier. (Transformada de Fourier)",
+        "horas": 28.0
+      }
+    ]
+  }
+]
