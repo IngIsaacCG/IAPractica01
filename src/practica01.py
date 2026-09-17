@@ -15,7 +15,7 @@ reglas = [
     ('MISC', r'.'),            
 ]
 
-def rutaJson(semestrePeticion):
+def rutaJson(semestrePeticion)
     peticion = semestrePeticion
     rutaPrograma = Path(__file__).resolve().parent.parent
     RUTA_JSON = rutaPrograma / "json" / "quintoSemestre.json"
