@@ -1,0 +1,237 @@
+[
+  {
+    "clave": "1220",
+    "nombre": "ÁLGEBRA LINEAL",
+    "semestre": 2,
+    "creditos": 8,
+    "division": "CIENCIAS BÁSICAS",
+    "departamento": "COORDINACIÓN DE MATEMÁTICAS",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico",
+    "horas_semana": {
+      "teoricas": 4.0,
+      "practicas": 0.0,
+      "total": 4.0
+    },
+    "seriacion": {
+      "antecedente": "Álgebra",
+      "consecuente": "Probabilidad"
+    },
+    "objetivo": "El alumno analizará los conceptos básicos del álgebra lineal, ejemplificándolos mediante sistemas algebraicos ya conocidos, haciendo énfasis en el carácter general de los resultados, a efecto de que adquiera elementos que le permitan fundamentar diversos métodos empleados en la resolución de problemas de ingeniería.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Grupos y campos",
+        "horas": 6.0
+      },
+      {
+        "num": 2,
+        "nombre": "Espacios vectoriales",
+        "horas": 16.0
+      },
+      {
+        "num": 3,
+        "nombre": "Transformaciones lineales",
+        "horas": 19.0
+      },
+      {
+        "num": 4,
+        "nombre": "Espacios con producto interno",
+        "horas": 14.0
+      },
+      {
+        "num": 5,
+        "nombre": "Operadores lineales en espacios con producto interno",
+        "horas": 9.0
+      }
+    ]
+  },
+  {
+    "clave": "1221",
+    "nombre": "CÁLCULO INTEGRAL",
+    "semestre": 2,
+    "creditos": 8,
+    "division": "CIENCIAS BÁSICAS",
+    "departamento": "COORDINACIÓN DE MATEMÁTICAS",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico",
+    "horas_semana": {
+      "teoricas": 4.0,
+      "practicas": 0.0,
+      "total": 4.0
+    },
+    "seriacion": {
+      "antecedente": "Cálculo y Geometría Analítica",
+      "consecuente": "Ecuaciones Diferenciales, Cálculo Vectorial"
+    },
+    "objetivo": "El alumno utilizará conceptos del cálculo integral para funciones reales de variable real y las variaciones de funciones escalares de variable vectorial respecto a cada una de sus variables, para resolver problemas físicos y geométricos.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Sucesiones y series",
+        "horas": 18.0
+      },
+      {
+        "num": 2,
+        "nombre": "Las integrales definida e indefinida",
+        "horas": 11.5
+      },
+      {
+        "num": 3,
+        "nombre": "Métodos de integración",
+        "horas": 16.0
+      },
+      {
+        "num": 4,
+        "nombre": "Derivación y diferenciación de funciones escalares de varias variables",
+        "horas": 18.5
+      }
+    ]
+  },
+  {
+    "clave": "1227",
+    "nombre": "ESTRUCTURA DE DATOS Y ALGORITMOS I",
+    "semestre": 2,
+    "creditos": 10,
+    "division": "INGENIERÍA ELÉCTRICA",
+    "departamento": "INGENIERÍA EN COMPUTACIÓN",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico-práctico",
+    "horas_semana": {
+      "teoricas": 4.0,
+      "practicas": 2.0,
+      "total": 6.0
+    },
+    "seriacion": {
+      "antecedente": "Fundamentos de Programación",
+      "consecuente": "Programación Orientada a Objetos, Estructura de Datos y Algoritmos II"
+    },
+    "objetivo": "El alumno analizará problemas de almacenamiento, recuperación y ordenamiento de datos y algoritmos, utilizando las estructuras para representarlos en código y las técnicas de operación más eficientes.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Estructura de datos",
+        "horas": 34.0
+      },
+      {
+        "num": 2,
+        "nombre": "Estrategia para construir algoritmos",
+        "horas": 18.0
+      },
+      {
+        "num": 3,
+        "nombre": "Análisis básico de algoritmos",
+        "horas": 12.0
+      }
+    ]
+  },
+  {
+    "clave": "1228",
+    "nombre": "MECÁNICA",
+    "semestre": 2,
+    "creditos": 12,
+    "division": "CIENCIAS BÁSICAS",
+    "departamento": "COORDINACIÓN DE CIENCIAS APLICADAS",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico",
+    "horas_semana": {
+      "teoricas": 6.0,
+      "practicas": 0.0,
+      "total": 6.0
+    },
+    "seriacion": {
+      "antecedente": "Cálculo y Geometría Analítica",
+      "consecuente": "Ninguna"
+    },
+    "objetivo": "El alumno describirá los elementos y principios fundamentales de la mecánica clásica newtoniana; analizará y resolverá problemas de equilibrio y de dinámica de partículas.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Conceptos básicos y fundamentos de la mecánica newtoniana",
+        "horas": 18.0
+      },
+      {
+        "num": 2,
+        "nombre": "Representación y modelado de los sistemas de fuerzas",
+        "horas": 16.0
+      },
+      {
+        "num": 3,
+        "nombre": "Determinación experimental del centroide de un cuerpo",
+        "horas": 6.0
+      },
+      {
+        "num": 4,
+        "nombre": "Introducción a la dinámica de la partícula",
+        "horas": 20.0
+      },
+      {
+        "num": 5,
+        "nombre": "Impulso y cantidad de movimiento de la partícula",
+        "horas": 12.0
+      },
+      {
+        "num": 6,
+        "nombre": "Trabajo y energía de la partícula",
+        "horas": 16.0
+      },
+      {
+        "num": 7,
+        "nombre": "Métodos combinados para la resolución de problemas",
+        "horas": 8.0
+      }
+    ]
+  },
+  {
+    "clave": "1224",
+    "nombre": "REDACCIÓN Y EXPOSICIÓN DE TEMAS DE INGENIERÍA",
+    "semestre": 2,
+    "creditos": 6,
+    "division": "CIENCIAS SOCIALES Y HUMANIDADES",
+    "departamento": "ASIGNATURAS SOCIOHUMANISTICAS",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico-práctico",
+    "horas_semana": {
+      "teoricas": 2.0,
+      "practicas": 2.0,
+      "total": 4.0
+    },
+    "seriacion": {
+      "antecedente": "Ninguna",
+      "consecuente": "Ninguna"
+    },
+    "objetivo": "El alumno mejorará su competencia en el uso de la lengua a través del desarrollo de capacidades de comunicación en forma oral y escrita. Valorará también la importancia de la expresión oral y de la redacción en la vida escolar y en la práctica profesional. Al final del curso, habrá ejercitado habilidades de estructuración y desarrollo de exposiciones orales y de redacción de textos sobre temas de ingeniería.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Comunicación y lenguaje",
+        "horas": 8.0
+      },
+      {
+        "num": 2,
+        "nombre": "Estructura del texto escrito",
+        "horas": 10.0
+      },
+      {
+        "num": 3,
+        "nombre": "La redacción",
+        "horas": 10.0
+      },
+      {
+        "num": 4,
+        "nombre": "La exposición oral",
+        "horas": 8.0
+      },
+      {
+        "num": 5,
+        "nombre": "Ejercicios de redacción de escritos técnicos sobre ingeniería",
+        "horas": 14.0
+      },
+      {
+        "num": 6,
+        "nombre": "Ejercicios de exposición oral de temas de ingeniería",
+        "horas": 14.0
+      }
+    ]
+  }
+]
