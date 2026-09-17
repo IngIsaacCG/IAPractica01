@@ -1,0 +1,185 @@
+[
+  {
+    "clave": "1806",
+    "nombre": "COMPUTACIÓN GRÁFICA E INTERACCIÓN HUMANO-COMPUTADORA",
+    "semestre": 8,
+    "creditos": 8,
+    "division": "INGENIERÍA ELÉCTRICA",
+    "departamento": "INGENIERÍA EN COMPUTACIÓN",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico-práctico",
+    "horas_semana": {
+      "teoricas": 3.0,
+      "practicas": 2.0,
+      "total": 5.0
+    },
+    "seriacion": {
+      "antecedente": "Ninguna",
+      "consecuente": "Ninguna"
+    },
+    "objetivo": "El alumno diseñará sistemas gráficos interactivos 2D y 3D aplicando técnicas de renderizado, transformaciones geométricas, iluminación y sombreado, integrando principios de interacción humano-computadora para evaluar y optimizar la usabilidad y experiencia de usuario.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Fundamentos de graficación por computadora y modelos de color",
+        "horas": 6.0
+      },
+      {
+        "num": 2,
+        "nombre": "Transformaciones geométricas bidimensionales y tridimensionales",
+        "horas": 9.0
+      },
+      {
+        "num": 3,
+        "nombre": "Técnicas de modelado, iluminación y sombreado 3D",
+        "horas": 12.0
+      },
+      {
+        "num": 4,
+        "nombre": "Principios de diseño e Interacción Humano-Computadora (HCI)",
+        "horas": 9.0
+      },
+      {
+        "num": 5,
+        "nombre": "Evaluación heurística, usabilidad y pruebas con usuarios",
+        "horas": 12.0
+      }
+    ]
+  },
+  {
+    "clave": "1807",
+    "nombre": "ÉTICA PROFESIONAL",
+    "semestre": 8,
+    "creditos": 6,
+    "division": "CIENCIAS SOCIALES Y HUMANIDADES",
+    "departamento": "ASIGNATURAS SOCIOHUMANISTICAS",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico",
+    "horas_semana": {
+      "teoricas": 3.0,
+      "practicas": 0.0,
+      "total": 3.0
+    },
+    "seriacion": {
+      "antecedente": "Ninguna",
+      "consecuente": "Ninguna"
+    },
+    "objetivo": "El alumno analizará dilemas morales y éticos derivados de la práctica profesional de la ingeniería, aplicando códigos de conducta, marcos deontológicos y criterios de responsabilidad social para fundamentar la toma de decisiones profesionales con integridad.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Fundamentos de la ética y moral en el ejercicio profesional",
+        "horas": 9.0
+      },
+      {
+        "num": 2,
+        "nombre": "Códigos de ética profesional y legislación en las tecnologías de la información",
+        "horas": 12.0
+      },
+      {
+        "num": 3,
+        "nombre": "Responsabilidad social, desarrollo sustentable y dilemas bioéticos",
+        "horas": 15.0
+      },
+      {
+        "num": 4,
+        "nombre": "Propiedad intelectual, privacidad de datos y ética en la inteligencia artificial",
+        "horas": 12.0
+      }
+    ]
+  },
+  {
+    "clave": "1808",
+    "nombre": "MICROCOMPUTADORAS",
+    "semestre": 8,
+    "creditos": 8,
+    "division": "INGENIERÍA ELÉCTRICA",
+    "departamento": "INGENIERÍA EN COMPUTACIÓN",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico-práctico",
+    "horas_semana": {
+      "teoricas": 3.0,
+      "practicas": 2.0,
+      "total": 5.0
+    },
+    "seriacion": {
+      "antecedente": "Diseño Digital VLSI",
+      "consecuente": "Ninguna"
+    },
+    "objetivo": "El alumno diseñará e implementará sistemas basados en microcontroladores y microprocesadores embebidos, programando en bajo y alto nivel para el control de periféricos, manejo de temporizadores e interrupciones en tiempo real.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Arquitectura de microcontroladores y organización del hardware",
+        "horas": 9.0
+      },
+      {
+        "num": 2,
+        "nombre": "Programación de puertos de entrada/salida y temporizadores",
+        "horas": 12.0
+      },
+      {
+        "num": 3,
+        "nombre": "Manejo de interrupciones de hardware y módulos de captura/comparación/PWM",
+        "horas": 12.0
+      },
+      {
+        "num": 4,
+        "nombre": "Interfaces y protocolos de comunicación serie (UART, SPI, I2C)",
+        "horas": 9.0
+      },
+      {
+        "num": 5,
+        "nombre": "Conversión analógica-digital (ADC) e integración de actuadores",
+        "horas": 6.0
+      }
+    ]
+  },
+  {
+    "clave": "1809",
+    "nombre": "REDES DE DATOS SEGURAS",
+    "semestre": 8,
+    "creditos": 8,
+    "division": "INGENIERÍA ELÉCTRICA",
+    "departamento": "TELECOMUNICACIONES",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico-práctico",
+    "horas_semana": {
+      "teoricas": 3.0,
+      "practicas": 2.0,
+      "total": 5.0
+    },
+    "seriacion": {
+      "antecedente": "Sistemas de Comunicaciones",
+      "consecuente": "Ninguna"
+    },
+    "objetivo": "El alumno analizará la arquitectura de redes IP, diseñará esquemas de enrutamiento y conmutación y aplicará técnicas de seguridad perimetral, criptografía aplicada y listas de control de acceso para mitigar riesgos en la transmisión de datos.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Modelos de red y conmutación de paquetes (VLANs, STP)",
+        "horas": 9.0
+      },
+      {
+        "num": 2,
+        "nombre": "Protocolos de enrutamiento estático y dinámico (OSPF, RIP)",
+        "horas": 12.0
+      },
+      {
+        "num": 3,
+        "nombre": "Mecanismos de seguridad perimetral, firewalls y listas de control de acceso (ACL)",
+        "horas": 12.0
+      },
+      {
+        "num": 4,
+        "nombre": "Criptografía en redes, túneles seguros y protocolos VPN (IPSec, SSL/TLS)",
+        "horas": 9.0
+      },
+      {
+        "num": 5,
+        "nombre": "Detección y prevención de intrusiones (IDS/IPS) y análisis de tráfico",
+        "horas": 6.0
+      }
+    ]
+  }
+]
