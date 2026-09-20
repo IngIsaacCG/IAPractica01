@@ -22,22 +22,55 @@
       {
         "num": 1,
         "nombre": "Máximos y mínimos de funciones de dos o más variables",
-        "horas": 11.0
+        "horas": 11.0,
+        "subtemas": [
+          "1.1 Máximos y mínimos, relativos y absolutos para funciones de dos y tres variables independientes. Puntos críticos. Establecimiento de la condición necesaria para que un punto sea extremo relativo o punto silla.",
+          "1.2 Deducción del criterio de la segunda derivada para funciones de dos y tres variables. Conceptos de matriz y determinantes hessianos. Resolución de problemas.",
+          "1.3 Formulación de problemas de máximos y mínimos relativos con restricciones. Establecimiento de la ecuación de Lagrange. Resolución de problemas de máximos y mínimos relacionados con la ingeniería."
+        ]
       },
       {
         "num": 2,
         "nombre": "Funciones vectoriales",
-        "horas": 22.5
+        "horas": 22.5,
+        "subtemas": [
+          "2.1 Definición de función vectorial de variable escalar y de función vectorial de variable vectorial. Ejemplos físicos y geométricos y su representación gráfica para los casos de una, dos o tres variables independientes. Concepto de campo vectorial.",
+          "2.2 Definición, interpretación geométrica y cálculo de la derivada de funciones vectoriales de variable escalar y de las derivadas parciales de funciones vectoriales de variable vectorial. Propiedades de la derivada de funciones vectoriales.",
+          "2.3 Ecuación vectorial de una curva. Análisis de curvas a través de la longitud de arco como parámetro. Deducción del triedro móvil y de las fórmulas de Frenet-Serret. Aplicaciones a la mecánica.",
+          "2.4 Vector normal a una superficie a partir de su ecuación vectorial, aplicaciones.",
+          "2.5 La diferencial de funciones vectoriales de variable escalar y de variable vectorial.",
+          "2.6 Concepto de coordenadas curvilíneas. Ecuaciones de transformación. Coordenadas curvilíneas ortogonales. Factores de escala, vectores base y Jacobiano de la transformación. Definición e interpretación de puntos singulares. Condición para que exista la transformación inversa.",
+          "2.7 Coordenadas polares. Ecuaciones de transformación. Curvas en coordenadas polares: circunferencias, cardioides, lemniscatas y rosas de n pétalos.",
+          "2.8 Coordenadas cilíndricas circulares y coordenadas esféricas. Ecuaciones de transformación, factores de escala, vectores base y Jacobiano.",
+          "2.9 Generalización del concepto de gradiente. Definiciones de divergencia y rotacional, interpretaciones físicas. Campos irrotacional y solenoidal, aplicaciones. Concepto y aplicaciones del laplaciano. Función armónica. Propiedades del operador nabla aplicado a funciones vectoriales.",
+          "2.10 Cálculo del gradiente, divergencia, laplaciano y rotacional en coordenadas curvilíneas ortogonales."
+        ]
       },
       {
         "num": 3,
         "nombre": "Integrales de línea",
-        "horas": 9.5
+        "horas": 9.5,
+        "subtemas": [
+          "3.1 Definición y propiedades de la integral de línea. Cálculo de integrales de línea a lo largo de curvas abiertas y cerradas.",
+          "3.2 La integral de línea como modelo matemático del trabajo y sus representaciones vectorial, paramétrica y diferencial. Conceptos físico y matemático de campo conservativo.",
+          "3.3 Concepto de función potencial. Integración de la diferencial exacta. Obtención de la función potencial en coordenadas polares, cilíndricas y esféricas. Relación entre la independencia de la trayectoria, la diferencial exacta y el campo conservativo.",
+          "3.4 Cálculo de integrales de línea en coordenadas polares, cilíndricas y esféricas."
+        ]
       },
       {
         "num": 4,
         "nombre": "Integrales múltiples",
-        "horas": 21.0
+        "horas": 21.0,
+        "subtemas": [
+          "4.1 Definición e interpretación geométrica de la integral doble.",
+          "4.2 Concepto de integral reiterada. Cálculo de la integral doble mediante la reiterada. Concepto y representación gráfica de regiones. Cálculo de integrales dobles en regiones regulares.",
+          "4.3 Superficies. Ecuación cartesiana, ecuaciones paramétricas y ecuación vectorial de superficies cuádricas.",
+          "4.4 Aplicaciones de la integral doble en el cálculo de áreas, volúmenes y momentos de inercia. Cálculo de integrales dobles con cambio a otros sistemas de coordenadas curvilíneas ortogonales.",
+          "4.5 Teorema de Green, aplicaciones.",
+          "4.6 Integral de superficie, aplicaciones. Cálculo del área de superficies alabeadas en coordenadas cartesianas y cuando están dadas en forma vectorial.",
+          "4.7 Concepto e interpretación geométrica de la integral triple. Integral reiterada en tres dimensiones. Cálculo de la integral triple en regiones regulares. Cálculo de volúmenes. Integrales triples en coordenadas cilíndricas, esféricas y en algún otro sistema de coordenadas curvilíneas.",
+          "4.8 Teorema de Stokes. Teorema de Gauss."
+        ]
       }
     ]
   },
@@ -47,7 +80,7 @@
     "semestre": 3,
     "creditos": 2,
     "division": "CIENCIAS SOCIALES Y HUMANIDADES",
-    "departamento": "ASIGNATURAS SOCIOHUMANISTICAS",
+    "departamento": "ASIGNATURAS SOCIOHUMANÍSTICAS",
     "tipo": "Obligatoria",
     "modalidad": "Curso práctico",
     "horas_semana": {
@@ -64,17 +97,26 @@
       {
         "num": 1,
         "nombre": "La cultura como expresión del pensamiento humano",
-        "horas": 10.0
+        "horas": 10.0,
+        "subtemas": [
+          "1.1 Concepto de cultura.",
+          "1.2 Dimensión social e individual de los procesos culturales.",
+          "1.3 Propósitos de la difusión cultural y principales medios de expresión.",
+          "1.4 Proceso y tipos de lectura. Competencias necesarias.",
+          "1.5 La reseña crítica de manifestaciones culturales: definición, funciones y estructura.",
+          "1.6 Ejercicios de lectura de comprensión y de redacción."
+        ]
       },
       {
         "num": 2,
         "nombre": "Acercamiento a las manifestaciones culturales universitarias",
-        "horas": 6.0
-      },
-      {
-        "num": 3,
-        "nombre": "Asistencia a actividades en recintos culturales universitarios (arquitectura, música, teatro, danza, cine, artes plásticas, etc.) y presentaciones y reseñas críticas sobre las mismas.",
-        "horas": 16.0
+        "horas": 6.0,
+        "subtemas": [
+          "2.1 Arte y cultura en México: breve recorrido histórico.",
+          "2.2 Ciudad Universitaria, patrimonio cultural de la humanidad.",
+          "2.3 Recintos culturales universitarios.",
+          "2.4 Patrimonio cultural y artístico de la Facultad de Ingeniería."
+        ]
       }
     ]
   },
@@ -101,22 +143,50 @@
       {
         "num": 1,
         "nombre": "Ecuaciones diferenciales de primer orden lineales y no lineales",
-        "horas": 15.0
+        "horas": 15.0,
+        "subtemas": [
+          "1.1 Definición de ecuación diferencial. Ecuación diferencial ordinaria. Definición de orden de una ecuación diferencial.",
+          "1.2 Solución de la ecuación diferencial: general y particular. Definición de solución singular.",
+          "1.3 Problema de valor inicial.",
+          "1.4 Teorema de existencia y unicidad para un problema de valores iniciales.",
+          "1.5 Ecuaciones diferenciales de variables separables.",
+          "1.6 Ecuaciones diferenciales homogéneas.",
+          "1.7 Ecuaciones diferenciales exactas. Factor integrante.",
+          "1.8 Ecuación diferencial lineal de primer orden. Solución de la ecuación diferencial homogénea asociada. Solución general de la ecuación diferencial lineal de primer orden."
+        ]
       },
       {
         "num": 2,
         "nombre": "Ecuaciones diferenciales lineales de orden superior",
-        "horas": 15.0
+        "horas": 15.0,
+        "subtemas": [
+          "2.1 La ecuación diferencial lineal de orden n. Operador diferencial. Polinomios diferenciales. Igualdad entre polinomios diferenciales. Operaciones y propiedades de polinomios diferenciales.",
+          "2.2 Funciones linealmente independientes y wronskiano.",
+          "2.3 La ecuación diferencial lineal de orden n homogénea de coeficientes constantes y su solución. Ecuación auxiliar. Raíces reales diferentes, reales iguales y complejas.",
+          "2.4 Solución de la ecuación diferencial lineal de orden n no homogénea. Método de coeficientes indeterminados. Método de variación de parámetros."
+        ]
       },
       {
         "num": 3,
         "nombre": "Transformada de Laplace y sistemas de ecuaciones diferenciales lineales",
-        "horas": 20.5
+        "horas": 20.5,
+        "subtemas": [
+          "3.1 Definición de la transformada de Laplace. Condición suficiente para la existencia de la transformada de Laplace. La transformada de Laplace como un operador lineal. Teorema de traslación en el dominio de s (primer teorema de traslación). Transformada de la enésima derivada de una función. Derivada de la transformada de una función. Transformada de la integral de una función. Definición de las funciones: rampa, escalón e impulso unitarios, así como sus respectivas transformadas de Laplace. Teorema de traslación en el dominio de t (segundo teorema de traslación).",
+          "3.2 Transformada inversa de Laplace. La no unicidad de la transformada inversa. Linealidad de la transformada inversa. Definición de convolución de funciones. Uso del teorema de convolución para obtener algunas transformadas inversas de Laplace.",
+          "3.3 Condiciones de frontera.",
+          "3.4 Sistemas de ecuaciones diferenciales de primer orden. Representación matricial. Transformación de una ecuación diferencial de orden n a un sistema de n ecuaciones de primer orden. Resolución de ecuaciones y sistemas de ecuaciones diferenciales lineales aplicando la transformada de Laplace."
+        ]
       },
       {
         "num": 4,
         "nombre": "Introducción a las ecuaciones diferenciales en derivadas parciales",
-        "horas": 13.5
+        "horas": 13.5,
+        "subtemas": [
+          "4.1 Definición de ecuación diferencial en derivadas parciales. Orden de una ecuación diferencial en derivadas parciales. Ecuación diferencial en derivadas parciales lineal y no lineal. Solución de la ecuación diferencial en derivadas parciales: completa, general y particular.",
+          "4.2 El método de separación de variables.",
+          "4.3 Serie trigonométrica de Fourier. Serie seno de Fourier. Serie coseno de Fourier. Cálculo de los coeficientes de la serie trigonométrica de Fourier.",
+          "4.4 Ecuación de onda, de calor y de Laplace con dos variables independientes. Resolución de una de estas ecuaciones."
+        ]
       }
     ]
   },
@@ -143,32 +213,92 @@
       {
         "num": 1,
         "nombre": "Algoritmos de ordenamiento",
-        "horas": 12.0
+        "horas": 12.0,
+        "subtemas": [
+          "1.1 Ordenamiento.",
+          "1.1.1 Bubble Sort.",
+          "1.1.2 Heapsort.",
+          "1.1.3 QuickSort.",
+          "1.1.4 Countig Sort.",
+          "1.1.5 Radix Sort.",
+          "1.1.6 Merge Sort."
+        ]
       },
       {
         "num": 2,
         "nombre": "Algoritmos de búsqueda",
-        "horas": 8.0
+        "horas": 8.0,
+        "subtemas": [
+          "2.1 Generalidades.",
+          "2.2 Definición de la operación de búsqueda.",
+          "2.3 Búsqueda por comparación de llaves.",
+          "2.3.1 Lineal.",
+          "2.3.2 Binaria.",
+          "2.4 Búsqueda por transformación de llaves.",
+          "2.4.1 Funciones de hash.",
+          "2.4.2 Colisiones."
+        ]
       },
       {
         "num": 3,
         "nombre": "Algoritmos de grafos",
-        "horas": 6.0
+        "horas": 6.0,
+        "subtemas": [
+          "3.1 Representación de grafos.",
+          "3.2 Búsqueda por expansión.",
+          "3.3 Búsqueda por profundidad."
+        ]
       },
       {
         "num": 4,
         "nombre": "Árboles",
-        "horas": 6.0
+        "horas": 6.0,
+        "subtemas": [
+          "4.1 Notaciones: infija, prefija, sufija.",
+          "4.2 Árboles binarios.",
+          "4.2.1 Definiciones y operaciones.",
+          "4.2.2 Transformación de árboles a árboles binarios.",
+          "4.2.3 Recorrido de árboles.",
+          "4.2.4 Representación en la computadora.",
+          "4.3 Árboles B.",
+          "4.3.1 Árboles B.",
+          "4.3.2 Árboles B+, algoritmos.",
+          "4.3.3 Árboles B+ prefijos simples, algoritmos."
+        ]
       },
       {
         "num": 5,
         "nombre": "Archivos",
-        "horas": 8.0
+        "horas": 8.0,
+        "subtemas": [
+          "5.1 Generalidades.",
+          "5.2 Definición y operaciones.",
+          "5.3 Organización de archivos.",
+          "5.3.1 Organización lógica.",
+          "5.3.2 Organización física.",
+          "5.4 Acceso a archivos.",
+          "5.4.1 Acceso lógico.",
+          "5.4.2 Acceso físico.",
+          "5.5 Sistema de archivos."
+        ]
       },
       {
         "num": 6,
         "nombre": "Introducción a los algoritmos paralelos",
-        "horas": 24.0
+        "horas": 24.0,
+        "subtemas": [
+          "6.1 Niveles de paralelismo. Granularidad.",
+          "6.2 Algoritmos con memoria compartida.",
+          "6.2.1 Carrera de datos.",
+          "6.2.2 Inconsistencia de datos.",
+          "6.2.3 Modelo PRAM.",
+          "6.3 Técnicas de desarrollo de algoritmos.",
+          "6.3.1 Rediseño de estructuras de datos.",
+          "6.3.2 Rediseño de algoritmos.",
+          "6.4 Análisis de desempeño de algoritmos paralelos.",
+          "6.4.1 Trabajo y profundidad.",
+          "6.4.2 Ejemplos clásicos."
+        ]
       }
     ]
   },
@@ -195,27 +325,65 @@
       {
         "num": 1,
         "nombre": "Teoría de la probabilidad",
-        "horas": 14.0
+        "horas": 14.0,
+        "subtemas": [
+          "1.1 Concepto de probabilidad.",
+          "1.2 Principio fundamental de conteo, análisis combinatorio, teoría de conjuntos.",
+          "1.3 Experimento aleatorio y determinista.",
+          "1.4 Espacio muestral.",
+          "1.5 Eventos y su clasificación.",
+          "1.6 Enfoques, interpretaciones, escuelas de la probabilidad.",
+          "1.7 Axiomas y teoremas básicos.",
+          "1.8 Probabilidad condicional.",
+          "1.9 Probabilidad de eventos independientes.",
+          "1.10 Probabilidad total.",
+          "1.11 Teorema de Bayes."
+        ]
       },
       {
         "num": 2,
         "nombre": "Variables aleatorias",
-        "horas": 12.0
+        "horas": 12.0,
+        "subtemas": [
+          "2.1 Concepto de variable aleatoria.",
+          "2.2 Variable aleatoria discreta, función de probabilidad y sus propiedades. Función de distribución acumulativa y sus propiedades.",
+          "2.3 Variable aleatoria continua, función de densidad de probabilidad y sus propiedades. Función de distribución acumulativa y sus propiedades.",
+          "2.4 Valor esperado y sus propiedades.",
+          "2.5 Momentos con respecto al origen y a la media, variancia como segundo momento con respecto a la media e interpretación, propiedades de la variancia, función generadora de momentos.",
+          "2.6 Parámetros de las distribuciones de las variables aleatorias discretas y continuas. Medidas de tendencia central: media, mediana y moda. Medidas de dispersión: rango, desviación media, variancia, desviación estándar y coeficiente de variación. Medidas de forma: sesgo y curtosis."
+        ]
       },
       {
         "num": 3,
         "nombre": "Variables aleatorias conjuntas",
-        "horas": 14.0
+        "horas": 14.0,
+        "subtemas": [
+          "3.1 Variables aleatorias conjuntas discretas, función de probabilidad conjunta, su definición y propiedades, funciones marginales de probabilidad y funciones condicionales de probabilidad.",
+          "3.2 Variables aleatorias conjuntas continuas, función de densidad conjunta, su definición y propiedades. Funciones marginales de densidad y funciones condicionales de densidad.",
+          "3.3 Valor esperado de una función de dos o más variables aleatorias sus propiedades y su valor esperado condicional.",
+          "3.4 Variables aleatorias independientes, covariancia, correlación y sus propiedades, variancia de una suma de dos o más variables aleatorias."
+        ]
       },
       {
         "num": 4,
         "nombre": "Modelos probabilísticos de fenómenos aleatorios discretos",
-        "horas": 12.0
+        "horas": 12.0,
+        "subtemas": [
+          "4.1 Ensayo de Bernoulli, distribución de Bernoulli, cálculo de su media y varianza.",
+          "4.2 Proceso de Bernoulli, distribución binomial, cálculo de su media y variancia, distribución geométrica, cálculo de su media y varianza, distribución binomial negativa su media y varianza, distribución hipergeométrica.",
+          "4.3 Proceso de Poisson, distribución de Poisson, cálculo de su media y varianza, aproximación entre las distribuciones binomial y Poisson."
+        ]
       },
       {
         "num": 5,
         "nombre": "Modelos probabilísticos de fenómenos aleatorios continuos",
-        "horas": 12.0
+        "horas": 12.0,
+        "subtemas": [
+          "5.1 Distribuciones continuas, distribución uniforme continua, cálculo de su media y varianza, generación de números aleatorios y el uso de paquetería de cómputo para la generación de números aleatorios con distribución discreta o continua, utilizando el método de la transformación inversa.",
+          "5.2 Distribución Gamma, sus parámetros, momentos y funciones generatrices, distribución exponencial, sus parámetros, momentos y funciones generatrices.",
+          "5.3 Distribuciones normal y normal estándar, uso de tablas de distribución normal estándar, la aproximación de la distribución binomial a la distribución normal.",
+          "5.4 Distribuciones Chi-Cuadrada, T de Student, F de Fisher, Weibull y distribución Lognormal, como modelos teóricos para la estadística aplicada, sus parámetros, momentos y funciones generatrices."
+        ]
       }
     ]
   },
@@ -242,42 +410,132 @@
       {
         "num": 1,
         "nombre": "El paradigma orientado a objetos",
-        "horas": 4.0
+        "horas": 4.0,
+        "subtemas": [
+          "1.1 Elementos básicos del paradigma orientado a objetos.",
+          "1.1.1 Tipos de datos primitivos y abstractos.",
+          "1.1.2 Objetos.",
+          "1.2 Propiedades básicas del paradigma orientado a objetos.",
+          "1.2.1 Abstracción.",
+          "1.2.2 Cohesión.",
+          "1.2.3 Encapsulamiento.",
+          "1.2.4 Modularidad.",
+          "1.2.5 Herencia.",
+          "1.2.6 Polimorfismo.",
+          "1.2.7 Acoplamiento.",
+          "1.2.8 Jerarquía de clases."
+        ]
       },
       {
         "num": 2,
         "nombre": "UML",
-        "horas": 12.0
+        "horas": 12.0,
+        "subtemas": [
+          "2.1 Diseño estático.",
+          "2.2 Diseño dinámico."
+        ]
       },
       {
         "num": 3,
         "nombre": "Tipos, expresiones y control de flujo",
-        "horas": 10.0
+        "horas": 10.0,
+        "subtemas": [
+          "3.1 Generalidades.",
+          "3.1.1 Identificadores.",
+          "3.1.2 Palabras reservadas.",
+          "3.1.3 Comentarios.",
+          "3.1.4 Descripción de una clase.",
+          "3.1.5 Descripción de un objeto.",
+          "3.2 Tipos de datos.",
+          "3.2.1 Primitivos y su jerarquía.",
+          "3.2.2 Referencias o instancias.",
+          "3.2.3 Conversiones entre tipos primitivos (moldeado o casting).",
+          "3.2.4 Operadores aritméticos.",
+          "3.2.5 Operadores de asignación.",
+          "3.2.6 Operadores relacionales.",
+          "3.2.7 Operadores especiales (in/decremento (post o pre), concatenación, acceso a variables y métodos y de agrupación).",
+          "3.2.8 Operadores a nivel de bits.",
+          "3.2.9 Operadores lógicos.",
+          "3.3 Arreglos.",
+          "3.4 Tipos y ámbito de las variables.",
+          "3.4.1 Elementos estáticos.",
+          "3.4.2 Elementos constantes.",
+          "3.5 Tipos de clases (públicas, sin modificador, abstractas, finales e internas).",
+          "3.6 Estructuras de selección.",
+          "3.6.1 Estructura if-else.",
+          "3.6.2 Estructura switch-case.",
+          "3.6.3 Estructura ternaria.",
+          "3.7 Estructuras de selección",
+          "3.7.1 Estructura while.",
+          "3.7.2 Estructura do-while.",
+          "3.7.3 Estructura for."
+        ]
       },
       {
         "num": 4,
         "nombre": "Herencia y polimorfismo",
-        "horas": 8.0
+        "horas": 8.0,
+        "subtemas": [
+          "4.1 Herencia.",
+          "4.2 Método constructor.",
+          "4.3 Polimorfismo (moldeado o casting entre tipos referencia o instancias).",
+          "4.4 Referencias a this y a la clase base.",
+          "4.5 Modificadores de acceso (encapsulamiento).",
+          "4.6 Tipos de clases: abstractas, comunes y finales.",
+          "4.7 Interfaces.",
+          "4.8 Paquetes y documentación."
+        ]
       },
       {
         "num": 5,
         "nombre": "Manejo de excepciones y errores",
-        "horas": 8.0
+        "horas": 8.0,
+        "subtemas": [
+          "5.1 Definición y diferencia entre error y excepción.",
+          "5.2 Jerarquía de clases de errores.",
+          "5.3 Estructura try-catch-finally.",
+          "5.4 Manejo de errores y excepciones."
+        ]
       },
       {
         "num": 6,
         "nombre": "Flujo de entrada y salida",
-        "horas": 8.0
+        "horas": 8.0,
+        "subtemas": [
+          "6.1 Fundamentos de entrada y salida.",
+          "6.2 Jerarquía de clases de los flujos de datos.",
+          "6.3 Manipulación de archivos y carpetas.",
+          "6.4 Flujos de entrada de datos.",
+          "6.4.1 Lectura de archivo.",
+          "6.4.2 Lectura de teclado.",
+          "6.5 Flujos de salida de datos (escritura de archivo).",
+          "6.6 Procesamiento del flujo."
+        ]
       },
       {
         "num": 7,
         "nombre": "Programación de hilos",
-        "horas": 4.0
+        "horas": 4.0,
+        "subtemas": [
+          "7.1 Definición de hilo.",
+          "7.2 Ciclo de vida del hilo.",
+          "7.3 Control básico del hilo.",
+          "7.4 Clases para el manejo de hilos.",
+          "7.5 Planificador y prioridad.",
+          "7.6 Métodos sincronizados."
+        ]
       },
       {
         "num": 8,
         "nombre": "Introducción a patrones",
-        "horas": 10.0
+        "horas": 10.0,
+        "subtemas": [
+          "8.1 Definición de patrón de diseño.",
+          "8.2 Diseñando problemas.",
+          "8.3 Patrones de creación.",
+          "8.4 Patrones estructurales.",
+          "8.5 Patrones de comportamiento."
+        ]
       }
     ]
   }
