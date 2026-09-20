@@ -1,137 +1,398 @@
 [
   {
-    "clave": "1537",
+    "clave": "0138",
     "nombre": "DISPOSITIVOS ELECTRÓNICOS",
     "semestre": 5,
-    "creditos": 8,
+    "creditos": 10,
     "division": "INGENIERÍA ELÉCTRICA",
-    "departamento": "ELECTRÓNICA",
+    "departamento": "INGENIERÍA ELECTRÓNICA",
     "tipo": "Obligatoria",
     "modalidad": "Curso teórico-práctico",
     "horas_semana": {
-      "teoricas": 3.0,
+      "teoricas": 4.0,
       "practicas": 2.0,
-      "total": 5.0
+      "total": 6.0
     },
     "seriacion": {
       "antecedente": "Electricidad y Magnetismo",
-      "consecuente": "Circuitos Eléctricos"
+      "consecuente": "Ninguna"
     },
-    "objetivo": "El alumno analizará el funcionamiento físico y el comportamiento eléctrico de los principales dispositivos semiconductores (diodos, transistores BJT y MOSFET), aplicándolos en el diseño y análisis de circuitos electrónicos básicos de polarización y amplificación.",
+    "objetivo": "El alumno analizará circuitos electrónicos básicos, considerando el modelado y las limitaciones de los dispositivos, e interpretará el funcionamiento de los sistemas electrónicos y sus aplicaciones.",
     "temario": [
       {
         "num": 1,
-        "nombre": "Fundamentos de semiconductores y el diodo de unión P-N",
-        "horas": 9.0
+        "nombre": "Introducción",
+        "horas": 2.0,
+        "subtemas": [
+          "1.1 Conceptos básicos: señal, transducción, señal analógica, señal digital, amplificación y ejemplos de sistemas analógicos y digitales",
+          "1.2 Bosquejo histórico de la electrónica",
+          "1.3 Aplicaciones"
+        ]
       },
       {
         "num": 2,
-        "nombre": "Circuitos con diodos y aplicaciones de rectificación",
-        "horas": 9.0
+        "nombre": "Conceptos de física de semiconductores",
+        "horas": 6.0,
+        "subtemas": [
+          "2.1 Modelo de bandas",
+          "2.2 Semiconductores intrínsecos y extrínsecos",
+          "2.3 Conducción eléctrica en semiconductores",
+          "2.4 Unión pn y características asociadas, densidad de carga, campo eléctrico, potencial electroestático, capacitancia y relación i-v"
+        ]
       },
       {
         "num": 3,
-        "nombre": "El transistor de unión bipolar (BJT): Polarización y modelos",
-        "horas": 12.0
+        "nombre": "El diodo semiconductor y modelos",
+        "horas": 10.0,
+        "subtemas": [
+          "3.1 Modelos de señal grande",
+          "3.2 Aplicaciones de los diodos semiconductores",
+          "3.3 Modelo de señal pequeña y sus aplicaciones",
+          "3.4 Especificaciones del fabricante",
+          "3.5 Análisis y diseño de circuitos con diodos asistido por computadora"
+        ]
       },
       {
         "num": 4,
-        "nombre": "El transistor de efecto de campo (MOSFET): Funcionamiento y polarización",
-        "horas": 12.0
+        "nombre": "El transistor bipolar de juntura (TBJ)",
+        "horas": 14.0,
+        "subtemas": [
+          "4.1 Estructura, funcionamiento y curvas características",
+          "4.2 Polarización",
+          "4.3 Análisis del transistor bipolar de juntura en señal pequeña",
+          "4.4 Análisis del transistor bipolar de juntura en señal grande",
+          "4.5 Especificaciones del fabricante",
+          "4.6 Análisis y diseño de amplificadores con TBJ asistido por computadora"
+        ]
       },
       {
         "num": 5,
-        "nombre": "Amplificadores de señal con BJT y MOSFET",
-        "horas": 6.0
+        "nombre": "El amplificador operacional",
+        "horas": 8.0,
+        "subtemas": [
+          "5.1 Estructura, funcionamiento y curvas características del MOSFET",
+          "5.2 Polarización del MOSFET",
+          "5.3 Análisis del MOSFET en señal pequeña",
+          "5.4 Análisis del MOSFET en señal grande",
+          "5.5 El transistor de efecto de campo de juntura (JFET)",
+          "5.6 Especificaciones del fabricante",
+          "5.7 Análisis y diseño de amplificadores con MOSFET y JFET, asistidos por computadora"
+        ]
+      },
+      {
+        "num": 6,
+        "nombre": "El transistor de efecto de campo (FET)",
+        "horas": 12.0,
+        "subtemas": [
+          "6.1 Modelo ideal",
+          "6.2 Análisis de circuitos lineales: inversor, no inversor, sumador, diferenciador, integrador, derivador, convertidores de voltaje a corriente y de corriente a voltaje. Amplificadores operacionales en cascada"
+        ]
+      },
+      {
+        "num": 7,
+        "nombre": "Introducción a los reguladores de tensión",
+        "horas": 6.0,
+        "subtemas": [
+          "7.1 Diodo Zener",
+          "7.2 Reguladores de tensión serie paralelo usando transistores",
+          "7.3 Reguladores integrados y especificaciones del fabricante",
+          "7.4 Fuentes de potencia lineales",
+          "7.5 Análisis y diseño de reguladores de tensión, asistidos por computadora",
+          "7.6 Diseño de fuentes de potencia lineales"
+        ]
+      },
+      {
+        "num": 8,
+        "nombre": "Dispositivos ópticos y de potencia",
+        "horas": 6.0,
+        "subtemas": [
+          "8.1 Diodos emisores de luz",
+          "8.2 Fotodiodos y fototransistores",
+          "8.3 Optoacopladores",
+          "8.4 TRIAC y SCR"
+        ]
       }
     ]
   },
   {
-    "clave": "1538",
+    "clave": "1503",
     "nombre": "ESTRUCTURA Y PROGRAMACIÓN DE COMPUTADORAS",
     "semestre": 5,
     "creditos": 8,
     "division": "INGENIERÍA ELÉCTRICA",
     "departamento": "INGENIERÍA EN COMPUTACIÓN",
     "tipo": "Obligatoria",
-    "modalidad": "Curso teórico-práctico",
+    "modalidad": "Curso teórico",
     "horas_semana": {
-      "teoricas": 3.0,
-      "practicas": 2.0,
-      "total": 5.0
+      "teoricas": 4.0,
+      "practicas": 0.0,
+      "total": 4.0
     },
     "seriacion": {
-      "antecedente": "Estructura de Datos y Algoritmos II",
-      "consecuente": "Diseño Digital Moderno, Sistemas Operativos"
+      "antecedente": "Ninguna",
+      "consecuente": "Sistemas Operativos"
     },
-    "objetivo": "El alumno comprenderá la arquitectura interna de un procesador, el ciclo de instrucción y la organización de memoria y buses, desarrollando programas en lenguaje ensamblador para manipular recursos a bajo nivel.",
+    "objetivo": "El alumno explicará los conceptos fundamentales de organización y programación de una computadora, que le permitan llevar a cabo el análisis, diseño y desarrollo de programas del sistema, mismos que le facilitarán interactuar de una manera más eficiente con el equipo.",
     "temario": [
       {
         "num": 1,
-        "nombre": "Organización del procesador y arquitectura del conjunto de instrucciones (ISA)",
-        "horas": 9.0
+        "nombre": "Estructura de la máquina",
+        "horas": 8.0,
+        "subtemas": [
+          "1.1 Bloques funcionales de una computadora: memoria, procesador central, dispositivos de entrada/salida.",
+          "1.2 Bloques funcionales de un procesador: unidad de control, unidad aritmética y lógica, decodificador, registro de direcciones, registro de datos, apuntador a la pila, contador del programa, registro de instrucción, registro de banderas, registros de propósito general y mecanismo de interrupción.",
+          "1.3 Funcionamiento de una computadora: ciclos de obtención, interpretación y ejecución de una instrucción.",
+          "1.4 Esquemas de direccionamiento: máquinas de '3+1', '3', '2', '1' y '0' direcciones."
+        ]
       },
       {
         "num": 2,
-        "nombre": "Modos de direccionamiento y repertorio de instrucciones",
-        "horas": 12.0
+        "nombre": "Presentación de un caso real",
+        "horas": 26.0,
+        "subtemas": [
+          "2.1 Arquitectura del procesador.",
+          "2.2 Modos de direccionamiento.",
+          "2.3 Conjunto de instrucciones.",
+          "2.4 Programación en lenguaje ensamblador.",
+          "2.5 Depuración de programas."
+        ]
       },
       {
         "num": 3,
-        "nombre": "Programación en lenguaje ensamblador y subrutinas",
-        "horas": 15.0
+        "nombre": "Ensambladores y macroensambladores",
+        "horas": 12.0,
+        "subtemas": [
+          "3.1 El lenguaje de máquina y el lenguaje humano: Necesidad de un traductor.",
+          "3.2 Características de un lenguaje simbólico.",
+          "3.3 Funciones y características de un ensamblador. Ensambladores de una, una y media y dos pasadas.",
+          "3.4 Diseño de un ensamblador: contador de localidades, instrucciones, código objeto, tabla de símbolos, directivas, etc.",
+          "3.5 Diseño de un macroensamblador: definición de una macroinstrucción, concatenación de símbolos, macroinstrucciones anidadas, expansión condicional de código, generación de etiquetas."
+        ]
       },
       {
         "num": 4,
-        "nombre": "Manejo de pilas, interrupciones y periféricos de entrada/salida",
-        "horas": 12.0
+        "nombre": "Encadenadores y cargadores",
+        "horas": 6.0,
+        "subtemas": [
+          "4.1 El problema de la carga inicial.",
+          "4.2 Funciones y características de un encadenador y un cargador.",
+          "4.3 Cargadores de traducción-ejecución.",
+          "4.4 Cargadores: absoluto y relocalizable, algoritmos.",
+          "4.5 Encadenadores, algoritmos.",
+          "4.6 Otros tipos de encadenadores y cargadores."
+        ]
+      },
+      {
+        "num": 5,
+        "nombre": "Asignación de memoria",
+        "horas": 6.0,
+        "subtemas": [
+          "5.1 Memoria continua.",
+          "5.2 Memoria particionada: particiones estáticas, dinámicas y relocalizables.",
+          "5.3 Memoria virtual: paginación y segmentación."
+        ]
+      },
+      {
+        "num": 6,
+        "nombre": "Programación de entrada/salida",
+        "horas": 6.0,
+        "subtemas": [
+          "6.1 Entrada/salida programada.",
+          "6.2 Interrupciones.",
+          "6.3 Acceso directo a memoria."
+        ]
       }
     ]
   },
   {
-    "clave": "1539",
+    "clave": "1531",
     "nombre": "INGENIERÍA DE SOFTWARE",
     "semestre": 5,
     "creditos": 8,
     "division": "INGENIERÍA ELÉCTRICA",
     "departamento": "INGENIERÍA EN COMPUTACIÓN",
     "tipo": "Obligatoria",
-    "modalidad": "Curso teórico-práctico",
+    "modalidad": "Curso teórico",
     "horas_semana": {
-      "teoricas": 3.0,
-      "practicas": 2.0,
-      "total": 5.0
+      "teoricas": 4.0,
+      "practicas": 0.0,
+      "total": 4.0
     },
     "seriacion": {
-      "antecedente": "Programación Orientada a Objetos",
+      "antecedente": "Ninguna",
       "consecuente": "Administración de Proyectos de Software"
     },
-    "objetivo": "El alumno aplicará principios, metodologías y modelado Orientado a Objetos (UML) para la ingeniería de requerimientos, diseño de arquitectura, verificación y mantenimiento de sistemas de software de calidad.",
+    "objetivo": "El alumno organizará con un enfoque sistemático los requerimientos, el desarrollo, la operación y la creación del software, como también el mantenimiento y su documentación.",
     "temario": [
       {
         "num": 1,
-        "nombre": "Introducción a la Ingeniería de Software y ciclo de vida",
-        "horas": 6.0
+        "nombre": "Introducción a la ingeniería de software",
+        "horas": 6.0,
+        "subtemas": [
+          "1.1 Definición de ingeniería de software.",
+          "1.2 Antecedentes de la ingeniería del software.",
+          "1.2.1 Crisis del software.",
+          "1.2.2 Ciclos básicos de desarrollo y de vida de software.",
+          "1.2.3 Tipos de software.",
+          "1.3 Estándares básicos.",
+          "1.3.1 Introducción y aplicación del SWEBOK. Software Engineering Body of Knowledge.",
+          "1.3.2 Introducción al modelo CMMI-DEV e IPPD.",
+          "1.3.3 Introducción al modelo SPICE.",
+          "1.4 Fundamentos para la calidad del software.",
+          "1.4.1 Cultura y ética en la ingeniería de software.",
+          "1.4.2 Valor y costos teóricos de la calidad.",
+          "1.4.3 Modelos y características de la calidad."
+        ]
       },
       {
         "num": 2,
-        "nombre": "Ingeniería de requerimientos y modelado conceptual",
-        "horas": 12.0
+        "nombre": "Requerimientos del software",
+        "horas": 13.0,
+        "subtemas": [
+          "2.1 Fundamentos para los requerimientos del software.",
+          "2.1.1 Definición de un requerimiento de software.",
+          "2.1.2 Procesos y técnicas para la obtención de requerimientos.",
+          "2.1.3 Requerimientos básicos del sistema.",
+          "2.1.4 Requerimientos necesarios de software y hardware.",
+          "2.1.5 Técnicas para obtener requerimientos.",
+          "2.2 Toma y análisis de requerimientos.",
+          "2.2.1 Clasificación de requerimientos.",
+          "2.2.2 Análisis de requerimientos y procesos.",
+          "2.2.3 Documentación de requerimientos y procesos.",
+          "2.2.4 Gestión de la toma de requerimientos.",
+          "2.3 Validación y verificación de requerimientos.",
+          "2.3.1 Técnicas de validación y validación de requerimientos.",
+          "2.3.2 Prototipos.",
+          "2.3.3 Administración del cambio de los requerimientos.",
+          "2.3.4 Negociación de los requerimientos.",
+          "2.3.5 Verificación de requerimientos.",
+          "2.3.6 Generación de cronogramas basados en los requerimientos.",
+          "2.4 Especificación de requerimientos.",
+          "2.4.1 Generación de acuerdo de trabajo."
+        ]
       },
       {
         "num": 3,
-        "nombre": "Diseño de la arquitectura y modelado UML",
-        "horas": 15.0
+        "nombre": "Diseño del software",
+        "horas": 12.0,
+        "subtemas": [
+          "3.1 Fundamentos para el diseño de software.",
+          "3.1.1 Conceptos generales del diseño.",
+          "3.1.2 El contexto del diseño del software.",
+          "3.1.3 El proceso del diseño del software.",
+          "3.1.4 Técnicas para ejecutar el diseño de software.",
+          "3.2 Conceptos básicos para el diseño de software",
+          "3.2.1 Concurrencia.",
+          "3.2.2 Iteraciones.",
+          "3.2.3 Eventos.",
+          "3.2.4 Componentes.",
+          "3.2.5 Manejo de errores, excepciones y tolerancia a fallas.",
+          "3.2.6 Persistencia de datos.",
+          "3.3 Estructura y arquitectura de software.",
+          "3.3.1 Estructura de la arquitectura y puntos de vista.",
+          "3.3.2 Estructura general: capas, etapas, filtros y cajas negras.",
+          "3.3.3 Sistemas distribuidos, cliente/servidor, multicapa, proxy.",
+          "3.3.4 Sistemas interactivos: modelo vista-controlador, presentación-abstracción-control.",
+          "3.3.5 Sistemas adaptables: micro núcleos, reflexión.",
+          "3.3.6 Estilos arquitectónicos (patrones de macro arquitectura).",
+          "3.4 Diseño de patrones (patrones de micro arquitectura).",
+          "3.4.1 Creación de patrones ( fábrica, singleton, prototipo y factoria).",
+          "3.4.2 Estructura de patrones.",
+          "3.4.3 Patrones de comportamiento.",
+          "3.4.4 Familias de programas y frameworks.",
+          "3.5 Análisis y evaluación con calidad en el diseño del software.",
+          "3.5.1 Atributos de calidad.",
+          "3.5.2 Análisis de calidad y técnicas de evaluación.",
+          "3.5.3 Mediciones.",
+          "3.6 Notación para el diseño del software.",
+          "3.6.1 Descripciones estructurales (vistas estáticas).",
+          "3.6.2 Descripciones de comportamiento (vistas dinámicas).",
+          "3.7 Métodos y Estrategias para el diseño del software.",
+          "3.7.1 Estrategias generales.",
+          "3.7.2 Diseño orientado a funciones (estructurado).",
+          "3.7.3 Diseño orientado a objetos.",
+          "3.7.4 Diseño centrado en estructura de datos.",
+          "3.7.5 Diseño orientado a componentes.",
+          "3.7.6 Otros métodos.",
+          "3.8 Herramientas para el diseño del software."
+        ]
       },
       {
         "num": 4,
-        "nombre": "Pruebas, verificación, validación y mantenimiento del software",
-        "horas": 15.0
+        "nombre": "Construcción del software",
+        "horas": 13.0,
+        "subtemas": [
+          "4.1 Fundamentos para la construcción del software.",
+          "4.1.1 Minimizando la complejidad.",
+          "4.1.2 Integración de componentes.",
+          "4.2 Metodologías de desarrollo de software.",
+          "4.2.1 Ágiles.",
+          "4.2.2 Tradicionales.",
+          "4.3 Construcción para verificación.",
+          "4.4 Estándares para la construcción.",
+          "4.5 Planeación y riesgos de la integración.",
+          "4.5.1 Líneas base.",
+          "4.5.2 Modelar la construcción.",
+          "4.5.3 Planear la construcción.",
+          "4.6 Mediciones a la construcción.",
+          "4.7 Lenguajes para la construcción.",
+          "4.7.1 Codificación.",
+          "4.7.2 Reúso.",
+          "4.8 Herramientas para la construcción del software."
+        ]
+      },
+      {
+        "num": 5,
+        "nombre": "Pruebas en el software",
+        "horas": 12.0,
+        "subtemas": [
+          "5.1 Fundamentos para las pruebas del software.",
+          "5.1.1 Terminología (fallos, fallas, incidentes).",
+          "5.2 Objetivo y alcance de las pruebas.",
+          "5.3 Niveles de prueba.",
+          "5.3.1 Pruebas unitarias.",
+          "5.3.2 Pruebas globales.",
+          "5.3.3 Pruebas de integración.",
+          "5.3.4 Pruebas de usabilidad.",
+          "5.3.5 Pruebas de caja blanca y caja negra.",
+          "5.3.6 Pruebas de regresión.",
+          "5.4 Plan de pruebas.",
+          "5.4.1 Realización de pruebas.",
+          "5.4.2 Reporte de pruebas.",
+          "5.4.3 Análisis de los resultados de las pruebas.",
+          "5.5 Herramientas para la ejecución de pruebas."
+        ]
+      },
+      {
+        "num": 6,
+        "nombre": "Mantenimiento y documentación del software",
+        "horas": 8.0,
+        "subtemas": [
+          "6.1 Fundamento del mantenimiento del software.",
+          "6.1.1 Definiciones y terminologías.",
+          "6.1.2 Importancia del mantenimiento.",
+          "6.1.3 Tipos de mantenimiento.",
+          "6.1.4 Aspectos organizacionales del mantenimiento.",
+          "6.1.5 Actividades y roles del mantenimiento.",
+          "6.1.6 Sistemas heredados y rehúso de software.",
+          "6.2 Aspectos clave del mantenimiento del software.",
+          "6.2.1 Asuntos técnicos.",
+          "6.2.2 Administración de problemas.",
+          "6.2.3 Planeación del mantenimiento.",
+          "6.2.4 Estimación de costos para el mantenimiento.",
+          "6.2.5 Gestión del mantenimiento.",
+          "6.3 Proceso de mantenimiento de software.",
+          "6.3.1 Técnicas.",
+          "6.3.2 Herramientas para el mantenimiento.",
+          "6.4 Medición del mantenimiento del software.",
+          "6.4.1 Métricas del mantenimiento.",
+          "6.4.2 Outsourcing del mantenimiento."
+        ]
       }
     ]
   },
   {
-    "clave": "1540",
+    "clave": "0442",
     "nombre": "LENGUAJES FORMALES Y AUTÓMATAS",
     "semestre": 5,
     "creditos": 8,
@@ -145,72 +406,202 @@
       "total": 4.0
     },
     "seriacion": {
-      "antecedente": "Estructuras Discretas",
-      "consecuente": "Compiladores"
+      "antecedente": "Ninguna",
+      "consecuente": "Compiladores, Inteligencia Artificial"
     },
-    "objetivo": "El alumno analizará la jerarquía de Chomsky, los modelos teóricos de autómatas finitos, autómatas con pila y Máquinas de Turing para formalizar los procesos de reconocimiento de lenguajes y computabilidad.",
+    "objetivo": "El alumno combinará la teoría y la técnica para el diseño de lenguajes de computadora, así como los aspectos formales de la teoría de los lenguajes.",
     "temario": [
       {
         "num": 1,
-        "nombre": "Alfabetos, cadenas, lenguajes y la jerarquía de Chomsky",
-        "horas": 8.0
+        "nombre": "Introducción",
+        "horas": 4.0,
+        "subtemas": [
+          "1.1 Conceptos básicos y notación.",
+          "1.2 Pruebas formales.",
+          "1.3 Definición de operaciones con lenguajes.",
+          "1.4 Jerarquía de Chomsky.",
+          "1.5 Propiedades de cerradura.",
+          "1.6 Gramáticas y lenguajes."
+        ]
       },
       {
         "num": 2,
-        "nombre": "Autómatas Finitos (DFA, NFA) y Expresiones Regulares",
-        "horas": 18.0
+        "nombre": "Expresiones regulares y lenguajes",
+        "horas": 6.0,
+        "subtemas": [
+          "2.1 Definición y conceptos.",
+          "2.2 Operaciones con expresiones regulares.",
+          "2.3 Propiedades.",
+          "2.4 Expresiones regulares para autómatas finitos."
+        ]
       },
       {
         "num": 3,
-        "nombre": "Gramáticas Libres de Contexto y Autómatas con Pila",
-        "horas": 18.0
+        "nombre": "Gramáticas regulares y autómatas de estado finito",
+        "horas": 14.0,
+        "subtemas": [
+          "3.1 Introducción a las gramáticas regulares.",
+          "3.2 Autómata finito determinístico.",
+          "3.3 Autómata finito no-determinístico.",
+          "3.4 Autómata finito con movimientos ε.",
+          "3.5 Equivalencia y minimización de autómatas finitos.",
+          "3.6 Gramática regular a partir de un autómata finito."
+        ]
       },
       {
         "num": 4,
-        "nombre": "Máquinas de Turing, computabilidad y decidibilidad",
-        "horas": 20.0
+        "nombre": "Gramáticas de contexto libre y autómatas tipo push-down",
+        "horas": 16.0,
+        "subtemas": [
+          "4.1 Introducción a las gramáticas de contexto libre.",
+          "4.2 Analizador sintáctico.",
+          "4.3 Lema de bombeo y gramática de contexto libre.",
+          "4.4 Simplificación de gramáticas de contexto libre.",
+          "4.5 Programas, lenguajes y parsing.",
+          "4.6 Introducción a los autómatas tipo push-down.",
+          "4.7 Relación entre autómatas tipo push-down y lenguajes de contexto libre."
+        ]
+      },
+      {
+        "num": 5,
+        "nombre": "Gramáticas de contexto sensitivo y autómatas lineales con frontera",
+        "horas": 8.0,
+        "subtemas": [
+          "5.1 Introducción a las gramáticas de contexto sensitivo.",
+          "5.2 Formas normales de Kuroda.",
+          "5.3 Autómata tipo push-down doble.",
+          "5.4 Autómatas lineales con frontera."
+        ]
+      },
+      {
+        "num": 6,
+        "nombre": "Gramáticas de estructura de frase y máquina de Turing",
+        "horas": 10.0,
+        "subtemas": [
+          "6.1 Introducción a las gramáticas de estructura de frase.",
+          "6.2 El modelo de máquina de Turing.",
+          "6.3 Lenguajes computables.",
+          "6.4 Máquina de Turing Universal.",
+          "6.5 Variaciones de la máquina de Turing."
+        ]
+      },
+      {
+        "num": 7,
+        "nombre": "Indecidibilidad",
+        "horas": 6.0,
+        "subtemas": [
+          "7.1 Indecidibilidad.",
+          "7.2 Lenguajes recursivos y recursivos enumerables.",
+          "7.3 Tesis de Church-Turing y problemas indecidibles.",
+          "7.4 Teorema de Rice y problemas indecidibles.",
+          "7.5 Problema de correspondencia de post e indecidibilidad.",
+          "7.6 Halting problem e indecidibilidad."
+        ]
       }
     ]
   },
   {
-    "clave": "1541",
+    "clave": "1473",
     "nombre": "SEÑALES Y SISTEMAS",
     "semestre": 5,
     "creditos": 8,
     "division": "INGENIERÍA ELÉCTRICA",
-    "departamento": "TELECOMUNICACIONES",
+    "departamento": "INGENIERÍA DE CONTROL",
     "tipo": "Obligatoria",
-    "modalidad": "Curso teórico",
+    "modalidad": "Curso teórico-práctico",
     "horas_semana": {
-      "teoricas": 4.0,
-      "practicas": 0.0,
-      "total": 4.0
+      "teoricas": 3.0,
+      "practicas": 2.0,
+      "total": 5.0
     },
     "seriacion": {
       "antecedente": "Matemáticas Avanzadas",
-      "consecuente": "Sistemas de Comunicaciones"
+      "consecuente": "Circuitos Eléctricos, Sistemas de Comunicaciones"
     },
-    "objetivo": "El alumno analizará y caracterizará señales continuas y discretas en el dominio del tiempo y de la frecuencia utilizando las transformadas de Fourier, Laplace y Z en sistemas lineales e invariantes en el tiempo (LTI).",
+    "objetivo": "El alumno integrará las técnicas fundamentales que facilitan la comprensión y el análisis de los sistemas lineales que se encuentran en el campo de las comunicaciones, el procesamiento de datos y el control.",
     "temario": [
       {
         "num": 1,
-        "nombre": "Clasificación y representación de señales y sistemas LTI",
-        "horas": 12.0
+        "nombre": "Señales y sistemas",
+        "horas": 8.0,
+        "subtemas": [
+          "1.1 Señales continuas, discretas y digitales.",
+          "1.2 Señales periódicas y aperiódicas.",
+          "1.3 Señales de energía y de potencia finitas.",
+          "1.4 Suma y producto de señales.",
+          "1.5 Integral y derivada de una señal continua.",
+          "1.6 Sumatoria y diferencia hacia delante y hacia atrás de una señal discreta.",
+          "1.7 Escalamiento en la amplitud y en el tiempo.",
+          "1.8 Desplazamiento o traslación en el tiempo.",
+          "1.9 Trasposición.",
+          "1.10 Exponenciales reales y complejas en tiempo continuo y discreto.",
+          "1.11 Senoidales en tiempo continuo y discreto.",
+          "1.12 Pulso unitario.",
+          "1.13 Funciones singulares en tiempo continuo y discreto: impulso escalón y rampa.",
+          "1.14 Propiedades de los sistemas: linealidad, invariancia en el tiempo, causalidad y estabilidad externa.",
+          "1.15 Sistemas lineales, invariantes en el tiempo y causales."
+        ]
       },
       {
         "num": 2,
-        "nombre": "Análisis de Fourier para señales continuas y discretas",
-        "horas": 18.0
+        "nombre": "Sistemas lineales e invariantes en el tiempo (SLI)",
+        "horas": 6.0,
+        "subtemas": [
+          "2.1 Respuesta de sistemas lineales e invariantes.",
+          "2.2 Respuestas libre, forzada, total, transitoria y permanente.",
+          "2.3 Suma/Integral de convolución, en formas analítica y gráfica y sus propiedades.",
+          "2.4 Concepto de respuesta al impulso.",
+          "2.5 Causalidad en términos de la respuesta al impulso.",
+          "2.6 Sistemas discretos de respuesta al impulso de duración finita y de duración infinita.",
+          "2.7 La estabilidad entrada/salida en términos de la respuesta al impulso."
+        ]
       },
       {
         "num": 3,
-        "nombre": "Transformada de Laplace y respuesta en frecuencia de sistemas",
-        "horas": 18.0
+        "nombre": "Análisis de sistemas lineales e invariantes (SLI), continuos y discretos, mediante las transformaciones de Laplace y Z",
+        "horas": 8.0,
+        "subtemas": [
+          "3.1 La representación de los sistemas lineales e invariantes en tiempo continuo (SCLI) mediante la transformada de Laplace, a partir de la forma general de la ecuación diferencial lineal.",
+          "3.2 Función de transferencia de sistemas de tiempo continuo",
+          "3.3 La transformada Z: propiedades y transformadas comunes.",
+          "3.4 La representación de los sistemas lineales e invariantes de tiempo discreto (SDLI) mediante la transformada Z, a partir de la forma general de la ecuación en diferencias lineales.",
+          "3.5 Función de transferencia de sistemas en tiempo discreto",
+          "3.6 Polos y ceros de la función de transferencia y estabilidad entrada-salida."
+        ]
       },
       {
         "num": 4,
-        "nombre": "Transformada Z y muestreo de señales continuas",
-        "horas": 16.0
+        "nombre": "Fundamentos de modelado de sistemas físicos",
+        "horas": 10.0,
+        "subtemas": [
+          "4.1 Concepto de modelado.",
+          "4.2 Modelado de sistemas eléctricos.",
+          "4.3 Modelado de sistemas mecánicos.",
+          "4.4 Modelado de sistemas híbridos.",
+          "4.5 Introducción a la simulación de modelos de sistemas físicos."
+        ]
+      },
+      {
+        "num": 5,
+        "nombre": "Características dinámicas de los sistemas continuos y discretos",
+        "horas": 10.0,
+        "subtemas": [
+          "5.1 Sistemas de primer orden.",
+          "5.2 Sistemas de segundo orden.",
+          "5.3 Sistemas de orden superior.",
+          "5.4 Medidas de desempeño y los polos dominantes.",
+          "5.5 Obtención de respuestas mediante simulación."
+        ]
+      },
+      {
+        "num": 6,
+        "nombre": "Respuesta en frecuencia",
+        "horas": 6.0,
+        "subtemas": [
+          "6.1 Respuesta en estado senoidal permanente y concepto de la respuesta en frecuencia.",
+          "6.2 Representación de gráficas mediante las trazas logarítmicas de Bode y la traza polar de Nyquist.",
+          "6.3 Cálculo de la respuesta en frecuencia mediante simulación digital."
+        ]
       }
     ]
   }
