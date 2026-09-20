@@ -1,11 +1,288 @@
 [
   {
-    "clave": "1637",
+    "clave": "1643",
     "nombre": "ADMINISTRACIÓN DE PROYECTOS DE SOFTWARE",
     "semestre": 6,
     "creditos": 8,
     "division": "INGENIERÍA ELÉCTRICA",
     "departamento": "INGENIERÍA EN COMPUTACIÓN",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico",
+    "horas_semana": {
+      "teoricas": 4.0,
+      "practicas": 0.0,
+      "total": 4.0
+    },
+    "seriacion": {
+      "antecedente": "Ingeniería de Software",
+      "consecuente": "Ninguna"
+    },
+    "objetivo": "El alumno organizará con un enfoque sistemático y disciplinado la administración de procesos y costeo de la ingeniería de software.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Administración de la configuración del software",
+        "horas": 12.0,
+        "subtemas": [
+          "1.1 Introducción.",
+          "1.1.1 Concepto de administración de la configuración (AC).",
+          "1.1.2 Guías y limitación en el proceso de AC.",
+          "1.1.3 Recursos y perfiles de la AC.",
+          "1.1.4 Definición de estructuras para la AC.",
+          "1.2 Planeación de la AC.",
+          "1.2.1 Calendarización y plan de la AC.",
+          "1.2.2 Administración de liberaciones.",
+          "1.2.3 Auditoria de la AC.",
+          "1.2.4 Documentación de la AC.",
+          "1.3 Herramientas para la AC.",
+          "1.3.1 Versionamiento.",
+          "1.4 Líneas base.",
+          "1.4.1 Creación detallada de líneas base.",
+          "1.4.2 Contenido mínimo de una línea base.",
+          "1.4.3 Periodicidad de la línea base.",
+          "1.4.4 Validación de respaldos de líneas base.",
+          "1.5 Procesos de equipos de trabajo.",
+          "1.5.1 Interacción de personal en los procesos.",
+          "1.5.2 AC de software y su interacción con los stakeholders.",
+          "1.5.3 PCMM."
+        ]
+      },
+      {
+        "num": 2,
+        "nombre": "Administración básica de proyectos de software",
+        "horas": 16.0,
+        "subtemas": [
+          "2.1 Medición de la administración del software.",
+          "2.1.1 Definición de métricas de estimación del desarrollo, procesos.",
+          "2.1.2 Definición y análisis de la matriz de riesgo.",
+          "2.1.3 Definición y análisis de desvíos y ajustes.",
+          "2.1.4 Evaluación de mediciones.",
+          "2.1.5 Creación de reportes de métricas de administración de software.",
+          "2.1.6 Inicio y definición del alcance.",
+          "2.2 Ejecución y control de los requerimientos.",
+          "2.2.1 Planificación del proyecto del software.",
+          "2.2.2 Planeación de los procesos y entregas.",
+          "2.2.3 Técnicas para determinar la calendarización, costo y esfuerzo de la estimación.",
+          "2.2.4 Administración de recursos, riesgo, calidad y configuración.",
+          "2.3 Seguimiento del acuerdo de trabajo.",
+          "2.3.1 Administración de los recursos.",
+          "2.3.2 Implementación de los planes.",
+          "2.3.3 Administración de proveedores.",
+          "2.3.4 Monitoreo y control de procesos.",
+          "2.3.5 Reportes de proceso.",
+          "2.4 Cierre de proyectos.",
+          "2.4.1 Actividades durante el cierre.",
+          "2.4.2 Evaluación y reporte de la métrica global del proyecto."
+        ]
+      },
+      {
+        "num": 3,
+        "nombre": "Procesos de ingeniería de software",
+        "horas": 20.0,
+        "subtemas": [
+          "3.1 Definición de procesos.",
+          "3.1.1 Modelos para el ciclo de vida del software.",
+          "3.1.2 Procesos para el ciclo de vida del software.",
+          "3.1.3 Notaciones para las definiciones de los procesos.",
+          "3.1.4 Adaptación y automatización de procesos.",
+          "3.1.5 Técnicas de medición de procesos.",
+          "3.1.6 Herramientas para procesos de ingeniería de software.",
+          "3.2 Métodos para la ingeniería de software.",
+          "3.2.1 Métodos formales.",
+          "3.2.2 Métodos heurísticos.",
+          "3.3 Proceso de documentación de arquitecturas de software.",
+          "3.3.1 Documentación de arquitecturas de software: orientadas a servicio, cliente-servidor, multi-capas.",
+          "3.3.2 Documentación de vistas, estilos y tipos de vista.",
+          "3.3.3 Refinamiento, diagramas de contexto, documentación de interfaces.",
+          "3.4 Roles y equipos de desarrollo de software.",
+          "3.4.1 Procesos y desarrollo de software en general.",
+          "3.4.2 Procesos y desarrollo de software para fábricas de software.",
+          "3.5 Administración de la calidad del software.",
+          "3.5.1 Aseguramiento de la calidad en el software.",
+          "3.5.2 Administración de procesos para la calidad del software.",
+          "3.5.3 Caracterización de los defectos.",
+          "3.5.4 Revisiones y auditorias.",
+          "3.5.5 Técnicas para la administración de software de calidad.",
+          "3.5.6 Mediciones de la calidad en el software.",
+          "3.5.7 Consideraciones prácticas.",
+          "3.6 Documentación de software.",
+          "3.6.1 Tipos de básicos documentación.",
+          "3.6.2 Documentación durante el ciclo de desarrollo de software.",
+          "3.6.3 Estándares de documentación.",
+          "3.6.4 Usabilidad de la documentación.",
+          "3.6.5 Distribución de la documentación."
+        ]
+      },
+      {
+        "num": 4,
+        "nombre": "Evolución y tendencias",
+        "horas": 16.0,
+        "subtemas": [
+          "4.1 Sistemas heredados.",
+          "4.1.1 Estructura y componentes del sistema.",
+          "4.1.2 Categorías.",
+          "4.2 Evolución del software.",
+          "4.3 Tendencias del software.",
+          "4.3.1 En la industria.",
+          "4.3.2 En la investigación y academia.",
+          "4.3.3 Resumen y aplicación del CMMI-DEV.",
+          "4.3.4 Resumen y aplicación del MoProSoft."
+        ]
+      }
+    ]
+  },
+  {
+    "clave": "1644",
+    "nombre": "BASES DE DATOS",
+    "semestre": 6,
+    "creditos": 14,
+    "division": "INGENIERÍA ELÉCTRICA",
+    "departamento": "INGENIERÍA EN COMPUTACIÓN",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico-práctico",
+    "horas_semana": {
+      "teoricas": 6.0,
+      "practicas": 2.0,
+      "total": 8.0
+    },
+    "seriacion": {
+      "antecedente": "Ninguna",
+      "consecuente": "Ninguna"
+    },
+    "objetivo": "El alumno analizará los conceptos y principios en los que se fundamenta la teoría de bases de datos, los cuales le permitirán diseñar, usar e implementar sistemas de bases de datos relacionales.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Introducción a las bases de datos",
+        "horas": 6.0,
+        "subtemas": [
+          "1.1 Sistemas de archivos y modelos de información.",
+          "1.1.1 Seguridad de la información.",
+          "1.2 Definición de una base de datos.",
+          "1.3 Características de las bases de datos.",
+          "1.3.1 Integridad.",
+          "1.3.2 Redundancia.",
+          "1.3.3 Consistencia.",
+          "1.4 Ventajas y desventajas.",
+          "1.5 Conceptos de un sistema manejador de bases de datos.",
+          "1.5.1 Arquitectura de tres capas ANSI.",
+          "1.5.2 Propiedades ACID.",
+          "1.5.3 Concurrencia.",
+          "1.5.4 Seguridad.",
+          "1.5.5 Lenguaje de definición de datos.",
+          "1.5.6 Lenguaje de manipulación de datos.",
+          "1.5.7 Lenguaje de control de datos.",
+          "1.5.8 Administración de la base de datos.",
+          "1.5.9 Definición y características del diccionario de datos.",
+          "1.6 Modelos de datos.",
+          "1.6.1 Características de un modelo de datos.",
+          "1.6.2 Modelo jerárquico.",
+          "1.6.3 Modelo de red.",
+          "1.6.4 Modelo orientado a objetos.",
+          "1.6.5 Modelo entidad-relación.",
+          "1.6.6 Modelo relacional."
+        ]
+      },
+      {
+        "num": 2,
+        "nombre": "Modelo relacional",
+        "horas": 12.0,
+        "subtemas": [
+          "2.1 Lenguaje de definición de datos.",
+          "2.1.1 Integridad de dominio.",
+          "2.1.2 Integridad referencial.",
+          "2.1.3 Integridad de valores y reglas de negocio.",
+          "2.2 Lenguajes de consulta de datos.",
+          "2.2.1 Álgebra relacional.",
+          "2.2.2 Introducción a SQL."
+        ]
+      },
+      {
+        "num": 3,
+        "nombre": "Análisis de requerimientos y diseño conceptual",
+        "horas": 18.0,
+        "subtemas": [
+          "3.1 Análisis de requerimientos.",
+          "3.2 Diseño conceptual.",
+          "3.2.1 Análisis y síntesis de entidades y atributos.",
+          "3.2.2 Generación de modelo entidad-relación."
+        ]
+      },
+      {
+        "num": 4,
+        "nombre": "Diseño lógico",
+        "horas": 18.0,
+        "subtemas": [
+          "4.1 Generación de modelo relacional.",
+          "4.2 Dependencias funcionales.",
+          "4.3 Normalización.",
+          "4.3.1 Anomalías de base de datos.",
+          "4.3.2 Primera forma normal (1FN)",
+          "4.3.3 Segunda forma normal (2FN).",
+          "4.3.4 Tercera forma normal (3FN).",
+          "4.3.5 Cuarta forma normal (4FN).",
+          "4.3.6 Forma normal Boyce Codd (FNBC).",
+          "4.3.7 Quinta forma normal (5FN)."
+        ]
+      },
+      {
+        "num": 5,
+        "nombre": "Diseño físico",
+        "horas": 12.0,
+        "subtemas": [
+          "5.1 Lenguaje de definición de datos.",
+          "5.1.1 Creación de objetos de bases de datos.",
+          "5.2 Lenguaje de manipulación de datos.",
+          "5.2.1 Altas, bajas y cambios en bases de datos.",
+          "5.2.2 Consultas y subconsultas.",
+          "5.2.3 Tipos de joins.",
+          "5.2.4 Ordenamientos, agrupaciones, existencia, negación.",
+          "5.2.5 Funciones agregadas.",
+          "5.3 Lenguaje de control de datos.",
+          "5.3.1 Creación y administración de usuarios y perfiles de permisos.",
+          "5.4 Consultas en lenguaje procedural.",
+          "5.4.1 Sentencias de control de flujo.",
+          "5.4.2 Procedimientos.",
+          "5.4.3 Cursores.",
+          "5.4.4 Disparadores.",
+          "5.4.5 Vistas.",
+          "5.5 Extensiones al SQL (objetos, XML, etc.)."
+        ]
+      },
+      {
+        "num": 6,
+        "nombre": "Organización física de la base de datos",
+        "horas": 18.0,
+        "subtemas": [
+          "6.1 Archivos indexados.",
+          "6.2 Archivos con dispersión.",
+          "6.3 Archivos de autentificación.",
+          "6.4 Árboles B."
+        ]
+      },
+      {
+        "num": 7,
+        "nombre": "Temas complementarios de base de datos",
+        "horas": 12.0,
+        "subtemas": [
+          "7.1 Administración de la base de datos (respaldo y recuperación de bases de datos).",
+          "7.2 Optimización de consultas y evaluación de costos.",
+          "7.3 Bases de datos distribuidas.",
+          "7.4 Bases de datos orientadas a objetos.",
+          "7.5 Bases de datos móviles.",
+          "7.6 Bases de datos XML.",
+          "7.7 Aplicaciones avanzadas (depósitos de datos, minería de datos, internet, etc.)."
+        ]
+      }
+    ]
+  },
+  {
+    "clave": "1562",
+    "nombre": "CIRCUITOS ELÉCTRICOS",
+    "semestre": 6,
+    "creditos": 8,
+    "division": "INGENIERÍA ELÉCTRICA",
+    "departamento": "INGENIERÍA DE CONTROL",
     "tipo": "Obligatoria",
     "modalidad": "Curso teórico-práctico",
     "horas_semana": {
@@ -14,36 +291,79 @@
       "total": 5.0
     },
     "seriacion": {
-      "antecedente": "Ingeniería de Software",
-      "consecuente": "Finanzas en la Ingeniería en Computación"
+      "antecedente": "Señales y Sistemas",
+      "consecuente": "Ninguna"
     },
-    "objetivo": "El alumno aplicará técnicas, herramientas y marcos de trabajo (ágiles y tradicionales) para la planificación, estimación de costos, gestión de riesgos, control de calidad y dirección de proyectos de desarrollo de software.",
+    "objetivo": "El alumno analizará las principales técnicas de análisis de circuitos eléctricos de parámetros concentrados, así como su resolución de redes eléctricas mediante fundamentos matemáticos de los elementos eléctricos que los constituyen.",
     "temario": [
       {
         "num": 1,
-        "nombre": "Introducción a la administración de proyectos y marcos de trabajo (PMBOK, Scrum)",
-        "horas": 9.0
+        "nombre": "Sistemas eléctricos",
+        "horas": 10.0,
+        "subtemas": [
+          "1.1 Elementos de circuitos eléctricos.",
+          "1.2 Leyes de Kirchhoff y circuitos de parámetros concentrados.",
+          "1.3 Representación de circuitos lineales e invariantes en el tiempo, mediante ecuaciones diferenciales.",
+          "1.4 Conceptos de impedancia y admitancia en el dominio de Laplace."
+        ]
       },
       {
         "num": 2,
-        "nombre": "Planificación, alcance y estimación de esfuerzo/costos",
-        "horas": 12.0
+        "nombre": "Análisis de circuitos en estado senoidal permanente",
+        "horas": 6.0,
+        "subtemas": [
+          "2.1 Concepto de respuesta en estado senoidal permanente.",
+          "2.2 Resonancia."
+        ]
       },
       {
         "num": 3,
-        "nombre": "Gestión de riesgos, recursos humanos y comunicación",
-        "horas": 12.0
+        "nombre": "Potencia y circuitos eléctricos trifásicos",
+        "horas": 6.0,
+        "subtemas": [
+          "3.1 Potencia en circuitos eléctricos.",
+          "3.2 Circuitos trifásicos."
+        ]
       },
       {
         "num": 4,
-        "nombre": "Seguimiento, control de calidad, métricas y cierre del proyecto",
-        "horas": 15.0
+        "nombre": "Métodos generales de análisis de redes eléctricas",
+        "horas": 6.0,
+        "subtemas": [
+          "4.1 Análisis por el método de nodos y el método de mallas.",
+          "4.2 Escalamiento en impedancia y en frecuencia."
+        ]
+      },
+      {
+        "num": 5,
+        "nombre": "Teorema de redes eléctricas",
+        "horas": 9.0,
+        "subtemas": [
+          "5.1 Teorema de sustitución.",
+          "5.2 Teorema de superposición.",
+          "5.3 Teorema de reciprocidad.",
+          "5.4 Teorema de la red equivalente de Thévenin y Norton.",
+          "5.5 Teorema de máxima transferencia de potencia."
+        ]
+      },
+      {
+        "num": 6,
+        "nombre": "Bipuertos",
+        "horas": 11.0,
+        "subtemas": [
+          "6.1 Matriz de de impedancias de circuito abierto.",
+          "6.2 Matriz de admitancias de circuito cerrado.",
+          "6.3 Matrices de parámetros híbridos.",
+          "6.4 Matrices de trasmisión.",
+          "6.5 Conexiones de bipuertos.",
+          "6.6 Aplicaciones."
+        ]
       }
     ]
   },
   {
-    "clave": "1638",
-    "nombre": "BASES DE DATOS",
+    "clave": "1645",
+    "nombre": "DISEÑO DIGITAL MODERNO",
     "semestre": 6,
     "creditos": 10,
     "division": "INGENIERÍA ELÉCTRICA",
@@ -56,166 +376,234 @@
       "total": 6.0
     },
     "seriacion": {
-      "antecedente": "Estructura de Datos y Algoritmos II",
-      "consecuente": "Sistemas Distribuidos"
+      "antecedente": "Ninguna",
+      "consecuente": "Diseño Digital Vlsi"
     },
-    "objetivo": "El alumno diseñará e implementará bases de datos relacionales mediante el modelado Entidad-Relación, normalización y consultas estructuradas en SQL, garantizando la integridad, seguridad y optimización de transacciones.",
+    "objetivo": "El alumno diseñará sistemas digitales combinacionales y secuenciales con circuitos integrados.",
     "temario": [
       {
         "num": 1,
-        "nombre": "Sistemas de bases de datos y arquitectura de tres niveles",
-        "horas": 8.0
+        "nombre": "Introducción",
+        "horas": 5.0,
+        "subtemas": [
+          "1.1 Concepto de sistema digital.",
+          "1.2 Aplicaciones de los sistemas digitales.",
+          "1.3 Celdas básicas.",
+          "1.4 Partición de un sistema digital.",
+          "1.5 Lenguajes de descripción de hardware.",
+          "1.6 Herramientas modernas para el diseño de sistemas digitales."
+        ]
       },
       {
         "num": 2,
-        "nombre": "Modelado de datos: Modelo Entidad-Relación y ER Extendido",
-        "horas": 14.0
+        "nombre": "Sistemas numéricos y códigos",
+        "horas": 4.0,
+        "subtemas": [
+          "2.1 Bases numéricas.",
+          "2.1.1 Bases decimal, octal y hexadecimal.",
+          "2.1.2 Conversión entre bases.",
+          "2.2 Aritmética.",
+          "2.2.1 Aritmética binaria no signada.",
+          "2.2.2 Aritmética binaria signada.",
+          "2.3 Códigos.",
+          "2.3.1 Códigos binarios para números decimales.",
+          "2.3.2 Código Gray y códigos con distancia.",
+          "2.3.3 Código para detección y corrección de errores."
+        ]
       },
       {
         "num": 3,
-        "nombre": "Modelo Relacional, Álgebra Relacional y Normalización (1FN a BCNF)",
-        "horas": 18.0
+        "nombre": "Álgebra booleana y compuertas lógicas",
+        "horas": 4.0,
+        "subtemas": [
+          "3.1 Álgebra booleana.",
+          "3.1.1 Teoremas y postulados.",
+          "3.1.2 Funciones algebraicas, suma de productos y productos de sumas.",
+          "3.2 Compuertas.",
+          "3.2.1 And, or, not.",
+          "3.2.2 Familias lógicas.",
+          "3.2.3 Circuitos integrados digitales y sus parámetros eléctricos fundamentales."
+        ]
       },
       {
         "num": 4,
-        "nombre": "Lenguaje de Consulta Estructurado (SQL) y programación en BD (PL/SQL, disparadores)",
-        "horas": 18.0
+        "nombre": "Circuitos combinacionales",
+        "horas": 24.0,
+        "subtemas": [
+          "4.1 Análisis y procedimiento de diseño de circuitos combinacionales.",
+          "4.1.1 Expresiones verbales y tablas de verdad.",
+          "4.2 Optimización de circuitos combinacionales.",
+          "4.2.1 Mapas de Karnaugh.",
+          "4.2.2 Mapas de Karnaugh con variables de entrada al mapa.",
+          "4.2.3 Método de Quine McClusky.",
+          "4.3 Implementación de circuitos combinacionales con circuitos integrados de diferentes escalas de integración.",
+          "4.3.1 Codificadores, decodificadores, multiplexores, demultiplexores, comparadores y sumadores.",
+          "4.3.2 Riesgo por alcance de señales en circuitos lógicos combinacionales.",
+          "4.3.3 Memorias de lectura únicamente (ROM).",
+          "4.3.4 Implementación práctica en el laboratorio.",
+          "4.4 Modelado, simulación e implementación de circuitos combinacionales, usando algún lenguaje de descripción de hardware (VHDL, Verilog, System Verilog, etc.).",
+          "4.4.1 Funciones booleanas, codificadores, decodificadores, multiplexores, demultiplexores, comparadores, sumadores, multiplicadores, tablas de verdad, ROM.",
+          "4.4.2 Implementación práctica en el laboratorio."
+        ]
       },
       {
         "num": 5,
-        "nombre": "Procesamiento de transacciones, concurrencia y seguridad",
-        "horas": 6.0
+        "nombre": "Circuitos secuenciales",
+        "horas": 27.0,
+        "subtemas": [
+          "5.1 Modelo de máquina de estado, Mealy y Moore.",
+          "5.2 Circuitos secuenciales Latch y flip-flops.",
+          "5.2.1 Latch y flip-flops T, D, SR y JK.",
+          "5.3 Análisis de circuitos secuenciales.",
+          "5.3.1 Tablas de estado.",
+          "5.3.2 Cartas ASM.",
+          "5.4 Concepto de máquinas síncronas y asíncronas.",
+          "5.5 Diseño de máquinas secuenciales síncronas y diagramas de tiempo.",
+          "5.6 Registros y contadores.",
+          "5.7 Memorias de lectura / escritura (RAM estáticas y dinámicas).",
+          "5.8 Riesgo por alcance de señales en circuitos lógicos secuenciales.",
+          "5.9 Implementación práctica en el laboratorio de circuitos secuenciales de diferentes escalas de integración.",
+          "5.9.1 Flip-Flops T, D, SR y JK; registros, contadores y cartas ASM.",
+          "5.10 Modelado, simulación e implementación de circuitos secuenciales, usando algún lenguaje de descripción de hardware (VHDL, Verilog, System Verilog, etc.).",
+          "5.10.1 Flip-Flops T, D, SR y JK; registros, contadores, tablas de estado, cartas ASM y RAM.",
+          "5.10.2 Implementación práctica en el laboratorio."
+        ]
       }
     ]
   },
   {
-    "clave": "1639",
-    "nombre": "CIRCUITOS ELÉCTRICOS",
-    "semestre": 6,
-    "creditos": 8,
-    "division": "INGENIERÍA ELÉCTRICA",
-    "departamento": "INGENIERÍA EN COMPUTACIÓN",
-    "tipo": "Obligatoria",
-    "modalidad": "Curso teórico-práctico",
-    "horas_semana": {
-      "teoricas": 3.0,
-      "practicas": 2.0,
-      "total": 5.0
-    },
-    "seriacion": {
-      "antecedente": "Dispositivos Electrónicos",
-      "consecuente": "Sistemas de Comunicaciones"
-    },
-    "objetivo": "El alumno analizará circuitos eléctricos en régimen permanente y transitorio, aplicando leyes fundamentales, teoremas de red, análisis fasorial y potencia en corriente alterna.",
-    "temario": [
-      {
-        "num": 1,
-        "nombre": "Conceptos fundamentales y elementos de circuitos eléctricos",
-        "horas": 9.0
-      },
-      {
-        "num": 2,
-        "nombre": "Métodos analíticos (Nodos y Mallas) y Teoremas de red (Thévenin, Norton, Superposición)",
-        "horas": 15.0
-      },
-      {
-        "num": 3,
-        "nombre": "Respuesta en régimen transitorio de circuitos de primer y segundo orden (RL, RC, RLC)",
-        "horas": 12.0
-      },
-      {
-        "num": 4,
-        "nombre": "Análisis senoidal permanente, fasores y potencia en Corriente Alterna",
-        "horas": 12.0
-      }
-    ]
-  },
-  {
-    "clave": "1640",
-    "nombre": "DISEÑO DIGITAL MODERNO",
-    "semestre": 6,
-    "creditos": 8,
-    "division": "INGENIERÍA ELÉCTRICA",
-    "departamento": "INGENIERÍA EN COMPUTACIÓN",
-    "tipo": "Obligatoria",
-    "modalidad": "Curso teórico-práctico",
-    "horas_semana": {
-      "teoricas": 3.0,
-      "practicas": 2.0,
-      "total": 5.0
-    },
-    "seriacion": {
-      "antecedente": "Estructura y Programación de Computadoras",
-      "consecuente": "Diseño Digital VLSI, Microcomputadoras"
-    },
-    "objetivo": "El alumno diseñará sistemas digitales combinacionales y secuenciales estructurados utilizando lenguajes de descripción de hardware (VHDL/Verilog) y lógica programable (FPGAs/CPLDs).",
-    "temario": [
-      {
-        "num": 1,
-        "nombre": "Fundamentos de diseño digital y lenguajes de descripción de hardware (HDL)",
-        "horas": 9.0
-      },
-      {
-        "num": 2,
-        "nombre": "Diseño y optimización de módulos combinacionales en HDL",
-        "horas": 12.0
-      },
-      {
-        "num": 3,
-        "nombre": "Sistemas secuenciales sincrónicos y máquinas de estados finitos (FSM)",
-        "horas": 15.0
-      },
-      {
-        "num": 4,
-        "nombre": "Arquitectura e implementación en dispositivos lógicos programables (FPGAs)",
-        "horas": 12.0
-      }
-    ]
-  },
-  {
-    "clave": "1641",
+    "clave": "0840",
     "nombre": "SISTEMAS OPERATIVOS",
     "semestre": 6,
     "creditos": 8,
     "division": "INGENIERÍA ELÉCTRICA",
     "departamento": "INGENIERÍA EN COMPUTACIÓN",
     "tipo": "Obligatoria",
-    "modalidad": "Curso teórico-práctico",
+    "modalidad": "Curso teórico",
     "horas_semana": {
-      "teoricas": 3.0,
-      "practicas": 2.0,
-      "total": 5.0
+      "teoricas": 4.0,
+      "practicas": 0.0,
+      "total": 4.0
     },
     "seriacion": {
       "antecedente": "Estructura y Programación de Computadoras",
-      "consecuente": "Redes de Datos Seguras, Sistemas Distribuidos"
+      "consecuente": "Ninguna"
     },
-    "objetivo": "El alumno comprenderá las funciones principales de un sistema operativo: administración de procesos, hilos, concurrencia, gestión de memoria virtual, sistemas de archivos e interfaces de entrada/salida.",
+    "objetivo": "El alumno identificará al sistema operativo como un elemento clave en la administración de los recursos de un equipo de cómputo para mejorar el desempeño de cualquier recurso del sistema.",
     "temario": [
       {
         "num": 1,
-        "nombre": "Estructura y llamadas al sistema (System Calls)",
-        "horas": 6.0
+        "nombre": "Introducción a los sistemas operativos",
+        "horas": 6.0,
+        "subtemas": [
+          "1.1 Concepto y propósito de los sistemas operativos.",
+          "1.2 Evolución de los sistemas operativos.",
+          "1.3 Estructuras de los sistemas operativos: monolítico, cliente-servidor, de capas, máquina virtual, etc.",
+          "1.4 Componentes de un sistema operativo actual.",
+          "1.5 Consideraciones de diseño de un sistema operativo. Usuario único, multiusuario, una tarea, multitarea, por lotes, en línea, en tiempo real, entornos de ejecución."
+        ]
       },
       {
         "num": 2,
-        "nombre": "Gestión de procesos, hilos y planificación del CPU",
-        "horas": 12.0
+        "nombre": "Administración de procesos",
+        "horas": 10.0,
+        "subtemas": [
+          "2.1 Procesos. Concepto y estructura.",
+          "2.2 Hilos. Concepto y estructura.",
+          "2.3 Estados de un proceso-hilo. Multitarea, cambio de contexto.",
+          "2.4 Interrupciones y suspensiones.",
+          "2.5 Concurrencia.",
+          "2.5.1 Exclusión mutua y sincronización.",
+          "2.5.2 Bloqueos mutuos.",
+          "2.5.3 Multiprocesamiento. Multinúcleos."
+        ]
       },
       {
         "num": 3,
-        "nombre": "Concurrencia: Sincronización, exclusión mutua y interbloqueos (Deadlocks)",
-        "horas": 12.0
+        "nombre": "Administración de memoria",
+        "horas": 8.0,
+        "subtemas": [
+          "3.1 Funciones y operaciones del administrador de memoria.",
+          "3.1.1 Jerarquía y organización de memoria física.",
+          "3.1.2 Operaciones sobre la memoria: Conceptos de obtención, asignación y reemplazo.",
+          "3.2 Asignación de memoria contigua.",
+          "3.2.1 Partición de la memoria.",
+          "3.2.2 Paginación.",
+          "3.2.3 Segmentación.",
+          "3.3 Memoria virtual.",
+          "3.3.1 Concepto.",
+          "3.3.2 Paginación.",
+          "3.3.3 Segmentación.",
+          "3.3.4 Segmentación con paginación.",
+          "3.3.5 Reemplazo de páginas.",
+          "3.4 Hiper-paginación y conjuntos de trabajo.",
+          "3.5 Obtención. Paginación por demanda y anticipada.",
+          "3.6 Almacenamiento en memoria caché."
+        ]
       },
       {
         "num": 4,
-        "nombre": "Administración de memoria real y memoria virtual (Paginación y Segmentación)",
-        "horas": 12.0
+        "nombre": "Planificación de procesos",
+        "horas": 8.0,
+        "subtemas": [
+          "4.1 Niveles de planificación.",
+          "4.2 Algoritmos de despacho de procesos.",
+          "4.2.1 Tipos de despacho de procesos con y sin apropiación.",
+          "4.2.2 Políticas de algoritmos de despacho de procesos. Prioridad, round robin, mayor tasa, etc.",
+          "4.3 Planificación de multiprocesadores y en tiempo real.",
+          "4.4 Planificación de hilos."
+        ]
       },
       {
         "num": 5,
-        "nombre": "Sistemas de archivos y administración de Entrada/Salida",
-        "horas": 6.0
+        "nombre": "Sistema de archivos",
+        "horas": 8.0,
+        "subtemas": [
+          "5.1 Concepto y tipos de archivos.",
+          "5.2 Organización y acceso a archivos.",
+          "5.3 Estructura de los directorios.",
+          "5.4 Estructura de los sistemas de archivos.",
+          "5.5 Métodos de asignación.",
+          "5.6 Administración del espacio libre."
+        ]
+      },
+      {
+        "num": 6,
+        "nombre": "Sistemas de entrada/salida",
+        "horas": 8.0,
+        "subtemas": [
+          "6.1 Dispositivos de entrada/salida.",
+          "6.2 Organización de las funciones de E/S.",
+          "6.3 Almacenamiento intermedio de la E/S.",
+          "6.4 Planificación de discos."
+        ]
+      },
+      {
+        "num": 7,
+        "nombre": "Sistemas distribuidos",
+        "horas": 10.0,
+        "subtemas": [
+          "7.1 Gestión distribuida de procesos.",
+          "7.1.1 Migración de procesos.",
+          "7.1.2 Estados globales distribuidos.",
+          "7.1.3 Exclusión mutua distribuida.",
+          "7.1.4 Bloqueo mutuo distribuido.",
+          "7.2 Sistema de archivos distribuidos."
+        ]
+      },
+      {
+        "num": 8,
+        "nombre": "Seguridad y medidas de desempeño",
+        "horas": 6.0,
+        "subtemas": [
+          "8.1 Amenazas a la seguridad.",
+          "8.2 Limitaciones de seguridad en un sistema operativo.",
+          "8.3 Protección, control de acceso.",
+          "8.4 Intrusos.",
+          "8.5 Software maligno.",
+          "8.6 Desempeño, coprocesadores, RISC y flujo de datos.",
+          "8.7 Modelado analítico."
+        ]
       }
     ]
   }
