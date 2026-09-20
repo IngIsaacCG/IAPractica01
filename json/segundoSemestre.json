@@ -22,27 +22,63 @@
       {
         "num": 1,
         "nombre": "Grupos y campos",
-        "horas": 6.0
+        "horas": 6.0,
+        "subtemas": [
+          "1.1 Operación binaria.",
+          "1.2 Estructuras de grupo y de grupo abeliano.",
+          "1.3 Estructura de campo."
+        ]
       },
       {
         "num": 2,
         "nombre": "Espacios vectoriales",
-        "horas": 16.0
+        "horas": 16.0,
+        "subtemas": [
+          "2.1 Definición de espacio vectorial. Propiedades elementales de los espacios vectoriales. Subespacios.",
+          "2.2 Isomorfismos entre espacios vectoriales.",
+          "2.3 Combinación lineal. Dependencia lineal. Conjunto generador de un espacio vectorial. Base y dimensión de un espacio vectorial. Coordenadas de un vector respecto a una base ordenada. Matriz de transición.",
+          "2.4 Espacio renglón, espacio columna y rango de una matriz.",
+          "2.5 El espacio vectorial de las funciones reales de variable real. Subespacios de dimensión finita. Dependencia lineal de funciones."
+        ]
       },
       {
         "num": 3,
         "nombre": "Transformaciones lineales",
-        "horas": 19.0
+        "horas": 19.0,
+        "subtemas": [
+          "3.1 Definición de transformación. Dominio y codominio de una transformación.",
+          "3.2 Definición de transformación lineal. Los subespacios núcleo y recorrido de una transformación lineal. Caso de dimensión finita: relación entre las dimensiones del dominio, recorrido y núcleo de una transformación lineal.",
+          "3.3 Matriz asociada a una transformación lineal con dominio y codominio de dimensión finita.",
+          "3.4 Álgebra de las transformaciones lineales: definición y propiedades de la adición, la multiplicación por un escalar y la composición de transformaciones.",
+          "3.5 La inversa de una transformación lineal.",
+          "3.6 Efectos geométricos de las transformaciones lineales.",
+          "3.7 Definición de operador lineal. Definición y propiedades de valores y vectores propios de un operador lineal. Definición de espacios característicos. Caso de dimensión finita: polinomio característico, obtención de valores y vectores propios.",
+          "3.8 Matrices similares y sus propiedades. Diagonalización de la matriz asociada a un operador lineal."
+        ]
       },
       {
         "num": 4,
         "nombre": "Espacios con producto interno",
-        "horas": 14.0
+        "horas": 14.0,
+        "subtemas": [
+          "4.1 Definición de producto interno y sus propiedades elementales.",
+          "4.2 Definición de norma de un vector y sus propiedades, vectores unitarios. Definición de distancia entre vectores y sus propiedades. Definición de ángulo entre vectores. Vectores ortogonales.",
+          "4.3 Conjuntos ortogonales y ortonormales. Independencia lineal de un conjunto ortogonal de vectores no nulos. Coordenadas de un vector respecto a una base ortogonal y respecto a una base ortonormal. Proceso de ortogonalización de Gram-Schmidt.",
+          "4.4 Complemento ortogonal. Proyección de un vector sobre un subespacio. El teorema de proyección.",
+          "4.5 Mínimos cuadrados."
+        ]
       },
       {
         "num": 5,
         "nombre": "Operadores lineales en espacios con producto interno",
-        "horas": 9.0
+        "horas": 9.0,
+        "subtemas": [
+          "5.1 Definición y propiedades elementales del adjunto de un operador.",
+          "5.2 Definición y propiedades elementales de operador normal.",
+          "5.3 Definición y propiedades elementales de operadores simétricos, hermitianos, antisimétricos, antihermitianos, ortogonales y unitarios, y su representación matricial.",
+          "5.4 Teorema espectral.",
+          "5.5 Formas cuádricas. Aplicación de los valores propios y los vectores propios de matrices simétricas a las formas cuádricas."
+        ]
       }
     ]
   },
@@ -69,22 +105,57 @@
       {
         "num": 1,
         "nombre": "Sucesiones y series",
-        "horas": 18.0
+        "horas": 18.0,
+        "subtemas": [
+          "1.1 Definición de sucesión. Límite y convergencia de una sucesión. Sucesiones monótonas y acotadas.",
+          "1.2 Definición de serie. Convergencia de una serie. Propiedades y condiciones para la convergencia.",
+          "1.3 Serie geométrica y serie p.",
+          "1.4 Series de términos positivos. Criterios de comparación y del cociente o de D'Alembert.",
+          "1.5 Series de signos alternados. Criterio de Leibniz.",
+          "1.6 Series de potencias.",
+          "1.7 Desarrollo de funciones en series de potencias. Serie de Maclaurin, de Taylor y desarrollo de funciones trigonométricas."
+        ]
       },
       {
         "num": 2,
         "nombre": "Las integrales definida e indefinida",
-        "horas": 11.5
+        "horas": 11.5,
+        "subtemas": [
+          "2.1 Concepto de sumas de Riemann. Concepto de integral definida. Interpretación geométrica y propiedades.",
+          "2.2 Enunciado e interpretación geométrica del teorema del valor medio del cálculo integral.",
+          "2.3 Definición de la integral indefinida a partir de la integral definida con el extremo superior variable. Enunciado y demostración del teorema fundamental de cálculo.",
+          "2.4 Determinación de integrales indefinidas inmediatas. Cambio de variable.",
+          "2.5 Integrales de funciones cuyo resultado involucra a la función logaritmo natural.",
+          "2.6 Regla de L'Hôpital y sus aplicaciones a formas indeterminadas en límites de funciones.",
+          "2.7 La integral impropia."
+        ]
       },
       {
         "num": 3,
         "nombre": "Métodos de integración",
-        "horas": 16.0
+        "horas": 16.0,
+        "subtemas": [
+          "3.1 Integración por partes.",
+          "3.2 Integrales de expresiones trigonométricas e integración por sustitución trigonométrica.",
+          "3.3 Integración por descomposición en fracciones racionales.",
+          "3.4 Aplicaciones de la integral definida al cálculo de: área en coordenadas cartesianas, longitud de arco en coordenadas cartesianas y polares, y volúmenes de sólidos de revolución."
+        ]
       },
       {
         "num": 4,
         "nombre": "Derivación y diferenciación de funciones escalares de varias variables",
-        "horas": 18.5
+        "horas": 18.5,
+        "subtemas": [
+          "4.1 Definición de funciones escalares de variable vectorial. Región de definición.",
+          "4.2 Representación gráfica para el caso de funciones de dos variables independientes. Curvas de nivel.",
+          "4.3 Conceptos de límites y continuidad para funciones escalares de variable vectorial de dos variables independientes.",
+          "4.4 Derivadas parciales e interpretación geométrica para el caso de dos variables independientes. Vector normal a una superficie. Ecuaciones del plano tangente y de la recta normal.",
+          "4.5 Derivadas parciales sucesivas. Teorema de derivadas parciales mixtas.",
+          "4.6 Función diferenciable. Diferencial total.",
+          "4.7 Función de función. Regla de la cadena.",
+          "4.8 Función implícita. Derivación implícita en sistemas de ecuaciones.",
+          "4.9 Concepto de gradiente. Operador nabla. Definición de derivada direccional. Interpretación geométrica y aplicaciones."
+        ]
       }
     ]
   },
@@ -111,17 +182,55 @@
       {
         "num": 1,
         "nombre": "Estructura de datos",
-        "horas": 34.0
+        "horas": 34.0,
+        "subtemas": [
+          "1.1 Representación de datos en memoria.",
+          "1.1.1 Tipos primitivos.",
+          "1.1.2 Arreglos.",
+          "1.2 Estructura de datos compuestos.",
+          "1.2.1 Apuntadores.",
+          "1.2.2 Pila: almacenamiento contiguo y ligado, y operaciones.",
+          "1.2.3 Cola: almacenamiento contiguo y ligado, y operaciones.",
+          "1.2.4 Cola doble: almacenamiento contiguo y ligado, y operaciones.",
+          "1.2.5 Listas circular: almacenamiento contiguo y ligado, y operaciones.",
+          "1.2.6 Listas doblemente ligadas: almacenamiento contiguo y ligado, y operaciones.",
+          "1.2.7 Tipo de dato abstracto.",
+          "1.3 Administración del almacenamiento en tiempo de ejecución."
+        ]
       },
       {
         "num": 2,
         "nombre": "Estrategia para construir algoritmos",
-        "horas": 18.0
+        "horas": 18.0,
+        "subtemas": [
+          "2.1 Algoritmos de búsqueda exhaustiva y fuerza bruta.",
+          "2.2 Top-down y botton-up.",
+          "2.3 Algoritmos ávidos",
+          "2.4 Divide y vencerás.",
+          "2.5 Recursividad.",
+          "2.5.1 El concepto de recursividad.",
+          "2.5.2 Funciones matemáticas de recursividad.",
+          "2.5.3 Uso de relaciones de recurrencia para analizar algoritmos recursivos.",
+          "2.5.4 Retroceso recursivo.",
+          "2.5.5 Implementación de la recursividad.",
+          "2.6 Backtrack."
+        ]
       },
       {
         "num": 3,
         "nombre": "Análisis básico de algoritmos",
-        "horas": 12.0
+        "horas": 12.0,
+        "subtemas": [
+          "3.1 Fundamentos de algorítmica.",
+          "3.2 Análisis asintótico de los límites superior y media.",
+          "3.3 Notación O, omega y teta.",
+          "3.4 Medidas empíricas de rendimiento.",
+          "3.5 Compensación espacio y tiempo en los algoritmos.",
+          "3.6 Complejidad.",
+          "3.6.1 P.",
+          "3.6.2 NP.",
+          "3.6.3 NP completos."
+        ]
       }
     ]
   },
@@ -148,37 +257,95 @@
       {
         "num": 1,
         "nombre": "Conceptos básicos y fundamentos de la mecánica newtoniana",
-        "horas": 18.0
+        "horas": 18.0,
+        "subtemas": [
+          "1.1 Resumen histórico y descripción de la mecánica clásica.",
+          "1.2 Conceptos fundamentales: espacio, tiempo, masa y fuerza.",
+          "1.3 Cantidades físicas escalares y vectoriales.",
+          "1.4 Concepto de fuerza y propiedades de los modelos de cuerpos que se emplean en la mecánica clásica.",
+          "1.5 Principios de adición de sistemas de fuerzas en equilibrio, de Stevin y de transmisibilidad.",
+          "1.6 Ley de la gravitación universal, conceptos de peso y masa de un cuerpo.",
+          "1.7 Aplicaciones de las leyes de Newton y de la gravitación universal.",
+          "1.8 El Sistema Internacional de Unidades (SI) en la mecánica newtoniana.",
+          "1.9 La elaboración de diagrama de cuerpo libre (dcl) para el modelo de cuerpo de una partícula.",
+          "1.10 Fundamentación de la construcción del dcl a partir de las leyes de la gravitación universal y de la acción y la reacción.",
+          "1.11 Fricción seca y fluida, naturaleza de este fenómeno, las leyes de Coulomb-Morin.",
+          "1.12 Descripción de la metodología experimental que fundamenta las leyes de Coulomb-Morin, obtención del coeficiente de fricción estática."
+        ]
       },
       {
         "num": 2,
         "nombre": "Representación y modelado de los sistemas de fuerzas",
-        "horas": 16.0
+        "horas": 16.0,
+        "subtemas": [
+          "2.1 Clasificación de las fuerzas.",
+          "2.2 Representación vectorial del modelo de una fuerza puntual.",
+          "2.3 Procesos de composición y descomposición de fuerzas en el plano y en el espacio, aplicación del concepto de cambio de base vectorial.",
+          "2.4 Momentos de una fuerza con respecto a un punto y a un eje.",
+          "2.5 Definición de sistemas equivalentes de fuerzas.",
+          "2.6 Par de fuerzas y sus propiedades, descripción de modelos experimentales para generar un par sobre un cuerpo, estudio de sus propiedades.",
+          "2.7 Par de transporte.",
+          "2.8 Sistema general de fuerzas y su sistema fuerza-par equivalente.",
+          "2.9 Obtención del modelo vectorial del sistema equivalente más simple: una fuerza y un par no coplanos. Casos particulares de simplificación: una fuerza, un par, equilibrio."
+        ]
       },
       {
         "num": 3,
         "nombre": "Determinación experimental del centroide de un cuerpo",
-        "horas": 6.0
+        "horas": 6.0,
+        "subtemas": [
+          "3.1 El modelo de cuerpo rígido, homogéneo y no homogéneo, concepto de simetría plana.",
+          "3.2 Conceptos del centros de gravedad, de masa y geométrico (centroide) de un cuerpo, sus diferencias desde la perspectiva de los sistemas de fuerzas.",
+          "3.3 Determinación experimental de centros de gravedad de un cuerpo con simetría plana.",
+          "3.4 Estudio del equilibrio de un cuerpo rígido sujeto a la acción de un sistema de fuerzas localizado en su plano de simetría."
+        ]
       },
       {
         "num": 4,
         "nombre": "Introducción a la dinámica de la partícula",
-        "horas": 20.0
+        "horas": 20.0,
+        "subtemas": [
+          "4.1 Elementos básicos de la cinemática: conceptos de trayectoria, posición, velocidad, rapidez y aceleración lineales de una partícula en movimiento.",
+          "4.2 Sistema de referencia normal y tangencial para el movimiento curvilíneo de una partícula en el plano. Aceleración normal y aceleración tangencial, curvatura y radio de curvatura. Interpretaciones físicas y geométricas de estas propiedades asociadas a los movimientos rectilíneos y a los curvilíneos.",
+          "4.3 El modelo matemático vectorial de la segunda ley de Newton, su interpretación geométrica desde la perspectiva de la dependencia lineal de vectores. La explicación de la relación causa efecto asociado al concepto de la fuerza resultante de un conjunto de fuerzas.",
+          "4.4 El modelo matemático vectorial de la segunda ley de Newton, para los movimientos rectilíneos y curvilíneos en el plano. Características de la aceleración en estos dos tipos de movimientos en función de las componentes de la fuerza resultante. La explicación de la trayectoria descrita por la partícula a partir de la naturaleza de las fuerzas que actúan en ella. Planteamiento escalar de la segunda ley de Newton.",
+          "4.5 Estudio de la dinámica de los movimientos de una partícula sujeta a una fuerza resultante constante: El tiro vertical y el tiro parabólico. Explicación de la aceleración constante a partir de la formulación newtoniana del movimiento. Características cinemáticas de posición, velocidad y aceleración para ambos movimientos. Obtención de las aceleraciones tangencial y normal y del radio de curvatura para el caso del tiro parabólico.",
+          "4.6 Dinámica de movimientos en planos horizontales e inclinados para partículas conectadas. Características de los elementos de sujeción ideales, tales como cuerdas y poleas, asociadas a propiedades cinemáticas y dinámicas. Determinación de las relaciones cinemáticas para el movimiento de partículas conectadas.",
+          "4.7 Propiedades cinemáticas lineales y angulares para movimientos curvilíneos en rampas circunferenciales. El péndulo simple."
+        ]
       },
       {
         "num": 5,
         "nombre": "Impulso y cantidad de movimiento de la partícula",
-        "horas": 12.0
+        "horas": 12.0,
+        "subtemas": [
+          "5.1 Obtención del modelo matemático vectorial del impulso y cantidad de movimiento a partir de la segunda ley de Newton.",
+          "5.2 Descripción de los elementos que componen el modelo. El concepto de área bajo la curva asociado al impulso de una fuerza. La conservación de la cantidad de movimiento. Ventajas y limitaciones de su empleo en función de las características de las fuerzas que actúan sobre el cuerpo y de la trayectoria descrita.",
+          "5.3 Solución de problemas dinámicos de la partícula mediante el empleo de este método para fuerzas constantes y en función del tiempo. Partículas conectadas y movimientos rectilíneos."
+        ]
       },
       {
         "num": 6,
         "nombre": "Trabajo y energía de la partícula",
-        "horas": 16.0
+        "horas": 16.0,
+        "subtemas": [
+          "6.1 Obtención, a partir de la segunda ley de Newton, del modelo matemático escalar que relaciona el trabajo de la resultante de fuerzas sobre una partícula y la variación de su energía cinética producida.",
+          "6.2 Características de la integral de línea de una fuerza constante como la del peso de un cuerpo, y de una dependiente de la posición, como la de un resorte que determina la ley de Hooke.",
+          "6.3 El teorema fundamental que relaciona el trabajo de la resultante con la suma de los trabajos de cada una de las fuerzas que la componen. Obtención de los trabajos del peso de un cuerpo, de la fuerza de fricción en una trayectoria rectilínea y de un resorte lineal. Características de los resultados de la integración de línea, para estos trabajos, con respecto a la trayectoria seguida.",
+          "6.4 Resolución de problemas por medio de este método donde se involucren fuerzas constantes y producidas por resortes lineales para trayectorias rectilíneas y curvilíneas planas. Ventajas de este método para la solución de problemas de partículas conectadas.",
+          "6.5 Características de una fuerza conservativa con relación al resultado de la integral de trabajo, determinación de la energía potencial asociada a una fuerza constante y a una dependiente de la posición. Energía potencial gravitatoria y energía potencial elástica.",
+          "6.6 Obtención del modelo que relaciona el trabajo de las fuerzas conservativas y no conservativas con la variación de la energía cinética. Definición de sistema mecánico conservativo."
+        ]
       },
       {
         "num": 7,
         "nombre": "Métodos combinados para la resolución de problemas",
-        "horas": 8.0
+        "horas": 8.0,
+        "subtemas": [
+          "7.1 Resolución de problemas que involucren trayectorias curvilíneas lisas y fuerzas y aceleraciones normales. Obtención del modelo matemático del péndulo simple. Ley de Newton y de trabajo y energía.",
+          "7.2 Resolución de problemas donde intervengan la variable tiempo y el trabajo de fuerzas. Problemas combinados de los métodos de impulso y trabajo y energía.",
+          "7.3 Resolución de problemas de partículas conectadas donde se involucren aceleraciones. Manejo de la segunda ley con el método de trabajo y energía. Relación matemática entre la energía cinética y la aceleración en función de la posición."
+        ]
       }
     ]
   },
@@ -188,7 +355,7 @@
     "semestre": 2,
     "creditos": 6,
     "division": "CIENCIAS SOCIALES Y HUMANIDADES",
-    "departamento": "ASIGNATURAS SOCIOHUMANISTICAS",
+    "departamento": "ASIGNATURAS SOCIOHUMANÍSTICAS",
     "tipo": "Obligatoria",
     "modalidad": "Curso teórico-práctico",
     "horas_semana": {
@@ -205,32 +372,78 @@
       {
         "num": 1,
         "nombre": "Comunicación y lenguaje",
-        "horas": 8.0
+        "horas": 8.0,
+        "subtemas": [
+          "1.1 Proceso de comunicación: características, componentes y funciones.",
+          "1.2 Lenguaje: definición, tipos y características.",
+          "1.3 Relación entre lenguaje, lengua y habla.",
+          "1.4 Diferencia entre lengua oral y lengua escrita.",
+          "1.5 Estructura y función gramatical de palabras y oraciones.",
+          "1.6 Ejercicios de comunicación lingüística."
+        ]
       },
       {
         "num": 2,
         "nombre": "Estructura del texto escrito",
-        "horas": 10.0
+        "horas": 10.0,
+        "subtemas": [
+          "2.1 Texto: estructura y propiedades (adecuación, coherencia y cohesión). Marcadores discursivos.",
+          "2.2 Párrafo: características y clasificación.",
+          "2.3 Tipos de textos descriptivos-argumentativos: informe técnico, artículo científico, ensayo y tesis.",
+          "2.4 Ejercicios de análisis de estructura de textos."
+        ]
       },
       {
         "num": 3,
         "nombre": "La redacción",
-        "horas": 10.0
+        "horas": 10.0,
+        "subtemas": [
+          "3.1 Características de una buena redacción: claridad, precisión, estilo.",
+          "3.2 Operaciones básicas para la configuración de textos: descripción, narración, exposición y argumentación.",
+          "3.3 Errores y deficiencias comunes en la redacción.",
+          "3.4 Reglas básicas de ortografía. Ortografía técnica, especializada y tipográfica.",
+          "3.5 Ejercicios prácticos de redacción."
+        ]
       },
       {
         "num": 4,
         "nombre": "La exposición oral",
-        "horas": 8.0
+        "horas": 8.0,
+        "subtemas": [
+          "4.1 Preparación del tema.",
+          "4.2 Esquemas conceptuales y estructuras expositivas.",
+          "4.3 Técnicas expositivas.",
+          "4.4 Problemas comunes de expresión oral (articulación deficiente, muletillas, repeticiones, repertorio léxico).",
+          "4.5 Material de apoyo.",
+          "4.6 Ejercicios prácticos de exposición oral."
+        ]
       },
       {
         "num": 5,
         "nombre": "Ejercicios de redacción de escritos técnicos sobre ingeniería",
-        "horas": 14.0
+        "horas": 14.0,
+        "subtemas": [
+          "5.1 Planeación del escrito.",
+          "5.2 Acopio y organización de la información.",
+          "5.3 Generación y jerarquización de ideas y argumentos. Mapas conceptuales.",
+          "5.4 Estructuración y producción del texto.",
+          "5.5 Aparato crítico: citas, sistemas de referencia y bibliografía.",
+          "5.6 Revisión y corrección del escrito.",
+          "5.7 Versión final del trabajo escrito."
+        ]
       },
       {
         "num": 6,
         "nombre": "Ejercicios de exposición oral de temas de ingeniería",
-        "horas": 14.0
+        "horas": 14.0,
+        "subtemas": [
+          "6.1 Planeación de la exposición.",
+          "6.2 Acopio y organización de la información.",
+          "6.3 Generación y jerarquización de ideas y argumentos. Mapas conceptuales.",
+          "6.4 Estructuración del discurso.",
+          "6.5 Utilización de apoyos visuales y otros recursos.",
+          "6.6 Presentación pública del tema."
+        ]
       }
     ]
   }
