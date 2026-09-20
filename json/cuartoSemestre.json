@@ -22,32 +22,70 @@
       {
         "num": 1,
         "nombre": "Aproximación numérica y errores",
-        "horas": 5.0
+        "horas": 5.0,
+        "subtemas": [
+          "1.1 Introducción histórica de los métodos numéricos.",
+          "1.2 Necesidad de la aplicación de los métodos numéricos en la ingeniería.",
+          "1.3 Conceptos de aproximación numérica y error.",
+          "1.4 Tipos de error: Inherentes, de redondeo y por truncamiento. Errores absoluto y relativo.",
+          "1.5 Conceptos de estabilidad y convergencia de un método numérico.",
+          "1.6 Aproximación de funciones por medio de polinomios."
+        ]
       },
       {
         "num": 2,
         "nombre": "Solución numérica de ecuaciones algebraicas y trascendentes",
-        "horas": 10.0
+        "horas": 10.0,
+        "subtemas": [
+          "2.1 Métodos cerrados. Método de bisección y de interpolación lineal (regla falsa). Interpretaciones geométricas de los métodos.",
+          "2.2 Métodos abiertos. Método de aproximaciones sucesivas y método de Newton-Raphson. Interpretaciones geométricas de los métodos y criterios de convergencia.",
+          "2.3 Método de factores cuadráticos."
+        ]
       },
       {
         "num": 3,
         "nombre": "Solución numérica de sistemas de ecuaciones lineales",
-        "horas": 12.0
+        "horas": 12.0,
+        "subtemas": [
+          "3.1 Reducción de los errores que se presentan en el método de Gauss-Jordan. Estrategias de pivoteo.",
+          "3.2 Métodos de descomposición LU. Crout y Doolittle.",
+          "3.3 Métodos iterativos de Jacobi y Gauss-Seidel. Criterio de convergencia.",
+          "3.4 Método de Krylov para obtener los valores y vectores característicos de una matriz y método de las potencias."
+        ]
       },
       {
         "num": 4,
         "nombre": "Interpolación, derivación e integración numéricas",
-        "horas": 14.0
+        "horas": 14.0,
+        "subtemas": [
+          "4.1 Interpolación con incrementos variables (polinomio de Lagrange).",
+          "4.2 Tablas de diferencias finitas. Interpolación con incrementos constantes (polinomios interpolantes). Diagrama de rombos.",
+          "4.3 Derivación numérica. Deducción de esquemas de derivación. Extrapolación de Richardson.",
+          "4.4 Integración numérica. Fórmulas de integración trapecial y de Simpson. Cuadratura gaussiana."
+        ]
       },
       {
         "num": 5,
         "nombre": "Solución numérica de ecuaciones y sistemas de ecuaciones diferenciales",
-        "horas": 13.0
+        "horas": 13.0,
+        "subtemas": [
+          "5.1 Método de la serie de Taylor.",
+          "5.2 Método de Euler modificado.",
+          "5.3 Método de Runge-Kuta de 2º y 4º orden.",
+          "5.4 Solución aproximada de sistemas de ecuaciones diferenciales.",
+          "5.5 Solución de ecuaciones diferenciales de orden superior por el método de diferencias finitas.",
+          "5.6 El problema de valores en la frontera."
+        ]
       },
       {
         "num": 6,
         "nombre": "Solución numérica de ecuaciones en derivadas parciales",
-        "horas": 10.0
+        "horas": 10.0,
+        "subtemas": [
+          "6.1 Clasificación de las ecuaciones en derivadas parciales.",
+          "6.2 Aproximación de derivadas parciales a través de diferencias finitas.",
+          "6.3 Solución de ecuaciones en derivadas parciales utilizando el método de diferencias finitas."
+        ]
       }
     ]
   },
@@ -74,32 +112,94 @@
       {
         "num": 1,
         "nombre": "Campo y potencial eléctricos",
-        "horas": 14.0
+        "horas": 14.0,
+        "subtemas": [
+          "1.1 Concepto de carga eléctrica y distribuciones continuas de carga (lineal y superficial).",
+          "1.2 Ley de Coulomb. Fuerza eléctrica en forma vectorial. Principio de superposición.",
+          "1.3 Campo eléctrico como campo vectorial. Esquemas de campo eléctrico.",
+          "1.4 Obtención de campos eléctricos en forma vectorial originados por distribuciones discretas y continuas de carga (carga puntual, línea infinita y superficie infinita).",
+          "1.5 Concepto y definición de flujo eléctrico.",
+          "1.6 Ley de Gauss en forma integral y sus aplicaciones.",
+          "1.7 El campo electrostático y el concepto de campo conservativo.",
+          "1.8 Energía potencial eléctrica. Diferencia de potencial y potencial eléctricos.",
+          "1.9 Cálculo de diferencias de potencial (carga puntual, línea infinita, superficie infinita y placas planas y paralelas).",
+          "1.10 Gradiente de potencial eléctrico."
+        ]
       },
       {
         "num": 2,
         "nombre": "Capacitancia y dieléctricos",
-        "horas": 8.0
+        "horas": 8.0,
+        "subtemas": [
+          "2.1 Concepto de capacitor y definición de capacitancia.",
+          "2.2 Cálculo de la capacitancia de un capacitor de placas planas y paralelas con aire como dieléctrico.",
+          "2.3 Cálculo de la energía almacenada en un capacitor.",
+          "2.4 Conexiones de capacitores en serie y en paralelo; capacitor equivalente.",
+          "2.5 Polarización de la materia.",
+          "2.6 Susceptibilidad, permitividad, permitividad relativa y campo eléctrico de ruptura.",
+          "2.7 Vectores eléctricos. Capacitor de placas planas y paralelas con dieléctricos."
+        ]
       },
       {
         "num": 3,
         "nombre": "Introducción a los circuitos eléctricos",
-        "horas": 12.0
+        "horas": 12.0,
+        "subtemas": [
+          "3.1 Conceptos y definiciones de: corriente eléctrica, velocidad media de los portadores de carga libres y densidad de corriente eléctrica.",
+          "3.2 Ley de Ohm, conductividad y resistividad.",
+          "3.3 Potencia eléctrica. Ley de Joule.",
+          "3.4 Conexiones de resistores en serie y en paralelo, resistor equivalente.",
+          "3.5 Concepto y definición de fuerza electromotriz. Fuentes de fuerza electromotriz: ideales y reales.",
+          "3.6 Nomenclatura básica empleada en circuitos eléctricos.",
+          "3.7 Leyes de Kirchhoff y su aplicación en circuitos resistivos con fuentes de voltaje continuo.",
+          "3.8 Introducción a los circuitos RC en serie con voltaje continuo."
+        ]
       },
       {
         "num": 4,
         "nombre": "Magnetostática",
-        "horas": 12.0
+        "horas": 12.0,
+        "subtemas": [
+          "4.1 Descripción de los imanes y experimento de Oersted",
+          "4.2 Fuerza magnética, como vector, sobre cargas en movimiento.",
+          "4.3 Definición de campo magnético (B).",
+          "4.4 Obtención de la expresión de Lorentz para determinar la fuerza electromagnética, como vector.",
+          "4.5 Ley de Biot-Savart y sus aplicaciones. Cálculo del campo magnético de un segmento de conductor recto, espira en forma de circunferencia, espira cuadrada, bobina y solenoide.",
+          "4.6 Ley de Ampere.",
+          "4.7 Concepto y definición de flujo magnético. Flujo magnético debido a un conductor recto y largo, a un solenoide largo y a un toroide.",
+          "4.8 Ley de Gauss en forma integral para el magnetismo.",
+          "4.9 Fuerza magnética entre conductores, momento dipolar magnético.",
+          "4.10 Principio de operación del motor de corriente directa."
+        ]
       },
       {
         "num": 5,
         "nombre": "Inducción electromagnética",
-        "horas": 12.0
+        "horas": 12.0,
+        "subtemas": [
+          "5.1 Ley de Faraday y principio de Lenz.",
+          "5.2 Fuerza electromotriz de movimiento.",
+          "5.3 Transformador con núcleo de aire.",
+          "5.4 Principio de operación del generador eléctrico.",
+          "5.5 Conceptos de inductor, inductancia propia e inductancia mutua.",
+          "5.6 Cálculo de inductancias. Inductancia propia: de un solenoide, de un toroide. Inductancia mutua entre dos solenoides coaxiales.",
+          "5.7 Energía almacenada en un campo magnético.",
+          "5.8 Conexión de inductores en serie y en paralelo; inductor equivalente.",
+          "5.9 Introducción a los circuitos RL y RLC en serie con voltaje continuo."
+        ]
       },
       {
         "num": 6,
         "nombre": "Fundamentos de las propiedades magnéticas de la materia",
-        "horas": 6.0
+        "horas": 6.0,
+        "subtemas": [
+          "6.1 Diamagnetismo, paramagnetismo y ferromagnetismo.",
+          "6.2 Definición de los vectores intensidad de campo magnético (H) y magnetización (M).",
+          "6.3 Susceptibilidad, permeabilidad del medio y del vacío, permeabilidad relativa.",
+          "6.4 Comportamiento de los materiales ferromagnéticos. Curva de magnetización y ciclo de histéresis.",
+          "6.5 Circuitos magnéticos. Fuerza magnetomotriz y reluctancia en serie.",
+          "6.6 El transformador con núcleo ferromagnético."
+        ]
       }
     ]
   },
@@ -126,27 +226,141 @@
       {
         "num": 1,
         "nombre": "Lógica proposicional y cálculo de predicados",
-        "horas": 16.0
+        "horas": 16.0,
+        "subtemas": [
+          "1.1 Fórmulas proposicionales y tablas de verdad.",
+          "1.1.1 Conceptos.",
+          "1.1.2 Conectores lógicos.",
+          "1.1.3 Tablas de verdad.",
+          "1.2 Formas normales y dispositivos de dos estados.",
+          "1.2.1 Forma normal disyuntiva principal.",
+          "1.2.2 Forma normal conjuntiva principal.",
+          "1.3 Notación polaca y parentizada.",
+          "1.3.1 Notación.",
+          "1.3.2 Transformación de notaciones.",
+          "1.4 Elementos de inferencia para el cálculo proposicional.",
+          "1.4.1 Método basado en tablas de verdad.",
+          "1.4.2 Método de deducción paso a paso.",
+          "1.5 Prueba automática de teoremas.",
+          "1.5.1 Razonamiento automático.",
+          "1.5.2 Prueba automática de teoremas.",
+          "1.6 Cálculo de predicados.",
+          "1.6.1 Predicados.",
+          "1.6.2 Cuantificador universal y existencial.",
+          "1.6.3 Fórmulas de predicados."
+        ]
       },
       {
         "num": 2,
         "nombre": "Conjuntos, relaciones y pruebas matemáticas",
-        "horas": 16.0
+        "horas": 16.0,
+        "subtemas": [
+          "2.1 Conjuntos.",
+          "2.1.1 Elementos de conjuntos.",
+          "2.1.2 Operaciones.",
+          "2.2 Relaciones y funciones.",
+          "2.2.1 Notaciones.",
+          "2.2.2 Características y aplicaciones.",
+          "2.3 Congruencias",
+          "2.3.1 Conceptos",
+          "2.3.2 Equivalencias de relaciones.",
+          "2.3.3 Funciones de dispersión.",
+          "2.3.4 Aplicaciones.",
+          "2.4 Prueba por inducción matemática.",
+          "2.4.1 Notaciones.",
+          "2.4.2 Características y aplicaciones.",
+          "2.5 Técnica del casillero vacío y diagonalización.",
+          "2.5.1 Características de la técnica.",
+          "2.5.2 Aplicaciones.",
+          "2.6 Análisis combinatorio.",
+          "2.6.1 Notaciones.",
+          "2.6.2 Inducción y recursión.",
+          "2.6.3 Permutaciones, ordenaciones, combinaciones y sus propiedades.",
+          "2.6.4 Características y aplicaciones.",
+          "2.6.5 Teoría de conteo.",
+          "2.6.6 Principio de Pigeonhole.",
+          "2.6.7 Funciones generadoras y relaciones de recurrencia.",
+          "2.7 Probabilidad discreta.",
+          "2.7.1 Espacio de probabilidad finito, medida de probabilidad, eventos.",
+          "2.7.2 Probabilidad condicional, independencia, teorema de Bayes."
+        ]
       },
       {
         "num": 3,
         "nombre": "Sistemas algebraicos",
-        "horas": 12.0
+        "horas": 12.0,
+        "subtemas": [
+          "3.1 Definiciones y conceptos de sistemas algebraicos.",
+          "3.1.1 Definiciones y conceptos.",
+          "3.1.2 Tipos y características.",
+          "3.1.3 Semigrupos, monoides y grupos.",
+          "3.2 La aritmética de residuos en las computadoras.",
+          "3.2.1 Aritmética de residuos.",
+          "3.2.2 Aplicaciones en las computadoras.",
+          "3.2.3 Aplicaciones de los códigos de grupo.",
+          "3.3 Los códigos de grupo en las comunicaciones.",
+          "3.3.1 Elementos de un sistema de comunicaciones.",
+          "3.3.2 Códigos de grupo.",
+          "3.3.3 Aplicaciones de los códigos de grupo.",
+          "3.4 Álgebra booleana.",
+          "3.4.1 Características del álgebra booleana.",
+          "3.4.2 Álgebra booleana en las computadoras.",
+          "3.5 Representación y minimización de funciones booleanas.",
+          "3.5.1 Métodos de representación.",
+          "3.5.2 Métodos de minimización.",
+          "3.5.3 Aplicaciones en el diseño.",
+          "3.6 Introducción a los circuitos de dos estados.",
+          "3.6.1 Circuitos de dos estados.",
+          "3.6.2 Diseño de circuitos de dos estados."
+        ]
       },
       {
         "num": 4,
         "nombre": "Teoría de gráficas",
-        "horas": 10.0
+        "horas": 10.0,
+        "subtemas": [
+          "4.1 Conceptos básicos y definiciones.",
+          "4.1.1 Definiciones y conceptos.",
+          "4.1.2 Representaciones.",
+          "4.2 Representación matricial.",
+          "4.2.1 Conceptos básicos.",
+          "4.2.2 Características y representaciones matriciales.",
+          "4.3 Manipulación de gráficas.",
+          "4.3.1 Propiedades de las gráficas.",
+          "4.3.2 Operaciones con gráficas.",
+          "4.4 Árboles.",
+          "4.4.1 Definiciones y conceptos de árboles.",
+          "4.4.2 Recorrido de árboles.",
+          "4.4.3 Operaciones con árboles.",
+          "4.4.4 Árboles de expansión.",
+          "4.5 Aplicaciones de la teoría de grafos y árboles.",
+          "4.5.1 El algoritmo de Dijkstra.",
+          "4.5.2 El algoritmo de Warshall.",
+          "4.5.3 El problema del vendedor viajero.",
+          "4.5.4 Ciclos hamiltonianos y de Euler.",
+          "4.5.5 Estrategia transversal."
+        ]
       },
       {
         "num": 5,
         "nombre": "Teoría de la computabilidad",
-        "horas": 10.0
+        "horas": 10.0,
+        "subtemas": [
+          "5.1 Elementos de la teoría de la computabilidad.",
+          "5.1.1 Definiciones y conceptos.",
+          "5.1.2 Computabilidad.",
+          "5.1.3 Máquina de estado finito.",
+          "5.2 Funciones parciales.",
+          "5.2.1 Conceptos básicos.",
+          "5.2.2 Características y representaciones de las funciones parciales.",
+          "5.3 Funciones computables.",
+          "5.3.1 Definiciones y conceptos.",
+          "5.3.2 Características y representaciones de las funciones computables.",
+          "5.4 Funciones universales e intérpretes.",
+          "5.4.1 Conceptos básicos.",
+          "5.4.2 Características y representaciones de las funciones universales e intérpretes.",
+          "5.4.3 Aplicaciones."
+        ]
       }
     ]
   },
@@ -173,32 +387,65 @@
       {
         "num": 1,
         "nombre": "Estadística descriptiva",
-        "horas": 12.0
+        "horas": 12.0,
+        "subtemas": [
+          "1.1 Investigación básica e investigación aplicada, el método científico y el papel de la estadística en la investigación y sus etapas.",
+          "1.2 Clasificación de la estadística: descriptiva e inferencial, paramétrica y no paramétrica, de una variable y de varias variables.",
+          "1.3 La población y la muestra, relación entre la probabilidad y la estadística.",
+          "1.4 Generación de números aleatorios, muestreo probabilístico: aleatorio, sistemático, estratificado y por conglomerados.",
+          "1.5 Estadística descriptiva: análisis de datos univariados, tabla de distribución de frecuencias, histogramas y polígonos de frecuencias, frecuencia relativa, ojivas de frecuencia acumulada y frecuencia relativa acumulada. Medidas de tendencia central, dispersión y asimetría y curtosis, para datos agrupados y no agrupados, fractiles, diagrama de tallo y hojas y diagrama de caja; analogía entre estas medidas y los parámetros correspondientes de una distribución de probabilidad."
+        ]
       },
       {
         "num": 2,
         "nombre": "Conceptos básicos de inferencia estadística",
-        "horas": 8.0
+        "horas": 8.0,
+        "subtemas": [
+          "2.1 La finalidad de la inferencia estadística, los conceptos y las definiciones de parámetro, muestra aleatoria, estadístico y estimador de un parámetro.",
+          "2.2 Teorema del límite central.",
+          "2.3 Los conceptos y las definiciones de la distribución de la población o poblacional, distribución de la media y la varianza muestral y sus parámetros.",
+          "2.4 La ley de los grandes números."
+        ]
       },
       {
         "num": 3,
         "nombre": "Estimación de parámetros",
-        "horas": 12.0
+        "horas": 12.0,
+        "subtemas": [
+          "3.1 Definición de estimador puntual, criterios para seleccionar estimadores puntuales: insesgamiento, eficiencia, error cuadrático medio, suficiencia y consistencia.",
+          "3.2 Estimación puntual: máxima verosimilitud y momentos.",
+          "3.3 Estimación por intervalos: concepto de nivel de confianza e intervalo de confianza, construcción e interpretación de intervalos de confianza para medias, proporciones y varianzas.",
+          "3.4 Determinación del tamaño de la muestra: tamaño de la muestra para medias, para proporciones, para diferencias de medias y diferencia de proporciones."
+        ]
       },
       {
         "num": 4,
         "nombre": "Pruebas de hipótesis estadísticas",
-        "horas": 12.0
+        "horas": 12.0,
+        "subtemas": [
+          "4.1 El concepto y la definición de hipótesis estadística en la investigación, elementos y tipos de pruebas de hipótesis, errores tipo I y tipo II, nivel de significación estadística y potencia de la prueba.",
+          "4.2 Pruebas de hipótesis de los parámetros de una población sobre: la media, la diferencia de medias, la varianza y la proporción.",
+          "4.3 Pruebas de hipótesis para la diferencia de medias, diferencia de proporciones y comparación de varianzas de dos poblaciones. Nivel de significancia alcanzado."
+        ]
       },
       {
         "num": 5,
         "nombre": "Introducción a la regresión lineal simple",
-        "horas": 10.0
+        "horas": 10.0,
+        "subtemas": [
+          "5.1 Pruebas de bondad de ajuste, prueba Ji cuadrada de bondad de ajuste."
+        ]
       },
       {
         "num": 6,
         "nombre": "Procesos estocásticos",
-        "horas": 10.0
+        "horas": 10.0,
+        "subtemas": [
+          "6.1 Los procesos de Bernoulli y de Poisson, el proceso de renovación y el modelo de renovación de comportamiento de los programas.",
+          "6.2 Parámetros discretos de las cadenas de Markov: probabilidades de transición y distribuciones limitantes.",
+          "6.3 Cola: M/M y M/G/1, inicio y fin del proceso.",
+          "6.4 Cadenas finitas de Markov y los tiempos de ejecución del programa."
+        ]
       }
     ]
   },
@@ -225,17 +472,46 @@
       {
         "num": 1,
         "nombre": "Variable compleja",
-        "horas": 24.0
+        "horas": 24.0,
+        "subtemas": [
+          "1.1 Funciones de variable compleja y mapeos.",
+          "1.2 Representación de mapeos con ayuda de la computadora.",
+          "1.3 Funciones analíticas y mapeos conformes.",
+          "1.4 Integrales de línea de funciones de variable compleja.",
+          "1.5 Teorema integral de Cauchy.",
+          "1.6 Fórmulas integrales de Cauchy.",
+          "1.7 Series de Laurent y teorema del residuo.",
+          "1.8 Aplicación del análisis complejo en problemas de flujo."
+        ]
       },
       {
         "num": 2,
         "nombre": "Análisis de Fourier. (Series de Fourier)",
-        "horas": 12.0
+        "horas": 12.0,
+        "subtemas": [
+          "2.1 Funciones periódicas y señales físicas.",
+          "2.2 Propiedades de ortogonalidad de las funciones trigonométricas sobre un intervalo.",
+          "2.3 Definición de las series trigonométricas de Fourier.",
+          "2.4 Condiciones de Dirichlet y enunciado de las propiedades de convergencia.",
+          "2.5 Propiedades de paridad.",
+          "2.6 Forma compleja de la serie de Fourier.",
+          "2.7 Espectros de frecuencias."
+        ]
       },
       {
         "num": 3,
         "nombre": "Análisis de Fourier. (Transformada de Fourier)",
-        "horas": 28.0
+        "horas": 28.0,
+        "subtemas": [
+          "3.1 La integral y la transformada de Fourier.",
+          "3.2 Ejemplos de transformadas de Fourier.",
+          "3.3 Propiedades de la transformada de Fourier.",
+          "3.4 La transformada de Fourier discreta.",
+          "3.5 Obtención de transformadas de Fourier con ayuda de la computadora.",
+          "3.6 Transformada de Fourier de derivadas y el teorema de convolución.",
+          "3.7 Aplicación del análisis de Fourier en problemas de sistemas oscilatorios.",
+          "3.8 Análisis de circuitos usando la transformada de Fourier."
+        ]
       }
     ]
   }
