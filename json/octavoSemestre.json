@@ -1,6 +1,6 @@
 [
   {
-    "clave": "1806",
+    "clave": "1846",
     "nombre": "COMPUTACIÓN GRÁFICA E INTERACCIÓN HUMANO-COMPUTADORA",
     "semestre": 8,
     "creditos": 8,
@@ -17,42 +17,88 @@
       "antecedente": "Ninguna",
       "consecuente": "Ninguna"
     },
-    "objetivo": "El alumno diseñará sistemas gráficos interactivos 2D y 3D aplicando técnicas de renderizado, transformaciones geométricas, iluminación y sombreado, integrando principios de interacción humano-computadora para evaluar y optimizar la usabilidad y experiencia de usuario.",
+    "objetivo": "El alumno diseñará sistemas gráficos interactivos 2D y 3D, aplicando algoritmos de rasterización, transformaciones geométricas, iluminación, sombreado y principios de diseño centrado en el usuario para interfaces humano-computadora.",
     "temario": [
       {
         "num": 1,
-        "nombre": "Fundamentos de graficación por computadora y modelos de color",
-        "horas": 6.0
+        "nombre": "Introducción a la computación gráfica y arquitecturas visuales",
+        "horas": 6.0,
+        "subtemas": [
+          "1.1 Historia y aplicaciones del cómputo gráfico interactivo.",
+          "1.2 Dispositivos de entrada/salida gráfica y hardware de aceleración (GPU).",
+          "1.3 El pipeline gráfico de renderizado moderno.",
+          "1.4 Modelos de color y representación de imágenes en memoria."
+        ]
       },
       {
         "num": 2,
-        "nombre": "Transformaciones geométricas bidimensionales y tridimensionales",
-        "horas": 9.0
+        "nombre": "Primitivas gráficas y algoritmos de rasterización 2D",
+        "horas": 8.0,
+        "subtemas": [
+          "2.1 Trazado de líneas (algoritmo DDA y Bresenham).",
+          "2.2 Generación de circunferencias y elipses por punto medio.",
+          "2.3 Algoritmos de relleno de polígonos y áreas (Flood Fill, Scan-line).",
+          "2.4 Técnicas de antialiasing.",
+          "2.5 Recorte de primitivas 2D (algoritmos Cohen-Sutherland y Sutherland-Hodgman)."
+        ]
       },
       {
         "num": 3,
-        "nombre": "Técnicas de modelado, iluminación y sombreado 3D",
-        "horas": 12.0
+        "nombre": "Transformaciones geométricas 2D y 3D",
+        "horas": 10.0,
+        "subtemas": [
+          "3.1 Coordenadas homogéneas y matrices de transformación afín.",
+          "3.2 Traslación, escalamiento, rotación y sesgado 2D y 3D.",
+          "3.3 Composición de matrices de transformación.",
+          "3.4 Proyecciones geométricas: perspectiva, ortográfica y axonométrica.",
+          "3.5 Transformaciones de cámara y sistemas de coordenadas de vista."
+        ]
       },
       {
         "num": 4,
-        "nombre": "Principios de diseño e Interacción Humano-Computadora (HCI)",
-        "horas": 9.0
+        "nombre": "Modelado geométrico, iluminación y renderizado 3D",
+        "horas": 12.0,
+        "subtemas": [
+          "4.1 Representación de superficies y curvas (splines, curvas de Bézier y B-splines).",
+          "4.2 Mallas poligonales y estructuras de datos para modelos 3D.",
+          "4.3 Algoritmos de determinación de superficies visibles (Z-Buffer, Ray Casting).",
+          "4.4 Modelos locales de iluminación: ambiental, difusa y especular (modelo de Phong).",
+          "4.5 Modelos de sombreado (Flat, Gouraud y Phong Shading).",
+          "4.6 Mapeo de texturas, relieve y materiales en shaders."
+        ]
       },
       {
         "num": 5,
-        "nombre": "Evaluación heurística, usabilidad y pruebas con usuarios",
-        "horas": 12.0
+        "nombre": "Fundamentos de la interacción humano-computadora (IHC)",
+        "horas": 6.0,
+        "subtemas": [
+          "5.1 Definición, evolución y relevancia multidisciplinaria de IHC.",
+          "5.2 Modelos cognitivos, percepción humana y memoria.",
+          "5.3 Principios y heurísticas de usabilidad (heurísticas de Nielsen y Shneiderman).",
+          "5.4 Accesibilidad, diseño inclusivo y estándares internacionales."
+        ]
+      },
+      {
+        "num": 6,
+        "nombre": "Diseño centrado en el usuario y evaluación de interfaces",
+        "horas": 6.0,
+        "subtemas": [
+          "6.1 Metodologías del diseño centrado en el usuario (DCU).",
+          "6.2 Ingeniería de requerimientos para interfaces y casos de uso.",
+          "6.3 Prototipado rápido de baja y alta fidelidad.",
+          "6.4 Métodos de evaluación de interfaces: inspección heurística y pruebas de usabilidad con usuarios.",
+          "6.5 Nuevos paradigmas interactivos: interfaces táctiles, realidad virtual, aumentada y reconocimiento gestual."
+        ]
       }
     ]
   },
   {
-    "clave": "1807",
+    "clave": "1847",
     "nombre": "ÉTICA PROFESIONAL",
     "semestre": 8,
     "creditos": 6,
     "division": "CIENCIAS SOCIALES Y HUMANIDADES",
-    "departamento": "ASIGNATURAS SOCIOHUMANISTICAS",
+    "departamento": "ASIGNATURAS SOCIOHUMANÍSTICAS",
     "tipo": "Obligatoria",
     "modalidad": "Curso teórico",
     "horas_semana": {
@@ -64,33 +110,139 @@
       "antecedente": "Ninguna",
       "consecuente": "Ninguna"
     },
-    "objetivo": "El alumno analizará dilemas morales y éticos derivados de la práctica profesional de la ingeniería, aplicando códigos de conducta, marcos deontológicos y criterios de responsabilidad social para fundamentar la toma de decisiones profesionales con integridad.",
+    "objetivo": "El alumno reflexionará sobre los fundamentos teóricos de la ética y la moral, identificando las responsabilidades y dilemas éticos que se suscitan en el ejercicio de la profesión de la ingeniería, a fin de actuar con integridad, apego legal, justicia y compromiso con la sociedad y el medio ambiente.",
     "temario": [
       {
         "num": 1,
-        "nombre": "Fundamentos de la ética y moral en el ejercicio profesional",
-        "horas": 9.0
+        "nombre": "Fundamentos teóricos de la ética y la moral",
+        "horas": 9.0,
+        "subtemas": [
+          "1.1 Definición y distinción conceptual entre ética, moral, derecho y religión.",
+          "1.2 Principales doctrinas y teorías éticas (ética de las virtudes, utilitarismo, deontologismo kantiano).",
+          "1.3 El acto moral: libertad, voluntad, valores y responsabilidad moral.",
+          "1.4 Ética cívica, pluralismo y derechos humanos en la sociedad contemporánea."
+        ]
       },
       {
         "num": 2,
-        "nombre": "Códigos de ética profesional y legislación en las tecnologías de la información",
-        "horas": 12.0
+        "nombre": "La profesión de la ingeniería y su función social",
+        "horas": 9.0,
+        "subtemas": [
+          "2.1 Concepto de profesión, profesionalismo y vocación.",
+          "2.2 El rol del ingeniero en el desarrollo socioeconómico y tecnológico.",
+          "2.3 Responsabilidad social y compromiso público de la ingeniería.",
+          "2.4 Conflictos entre el interés público, empresarial e individual."
+        ]
       },
       {
         "num": 3,
-        "nombre": "Responsabilidad social, desarrollo sustentable y dilemas bioéticos",
-        "horas": 15.0
+        "nombre": "Códigos de ética y dilemas profesionales en ingeniería",
+        "horas": 15.0,
+        "subtemas": [
+          "3.1 Códigos deontológicos y marcos normativos gremiales (IEEE, ACM, colegios profesionales).",
+          "3.2 Análisis, estructura y resolución de dilemas éticos en proyectos de ingeniería.",
+          "3.3 Honestidad profesional: plagio académico, fraude científico, corrupción y conflicto de intereses.",
+          "3.4 Secreto profesional, confidencialidad y lealtad con clientes y empleadores.",
+          "3.5 Seguridad, fiabilidad y evaluación del impacto del producto tecnológico en la vida humana."
+        ]
       },
       {
         "num": 4,
-        "nombre": "Propiedad intelectual, privacidad de datos y ética en la inteligencia artificial",
-        "horas": 12.0
+        "nombre": "Ética, tecnología y medio ambiente",
+        "horas": 15.0,
+        "subtemas": [
+          "4.1 Desafíos éticos de las tecnologías emergentes: privacidad, vigilancia digital, inteligencia artificial y automatización.",
+          "4.2 Principio de precaución y sustentabilidad ambiental.",
+          "4.3 La gestión de residuos tecnológicos y la obsolescencia programada.",
+          "4.4 El ingeniero ante la equidad social y la brecha digital."
+        ]
       }
     ]
   },
   {
-    "clave": "1808",
+    "clave": "1848",
     "nombre": "MICROCOMPUTADORAS",
+    "semestre": 8,
+    "creditos": 10,
+    "division": "INGENIERÍA ELÉCTRICA",
+    "departamento": "INGENIERÍA EN COMPUTACIÓN",
+    "tipo": "Obligatoria",
+    "modalidad": "Curso teórico-práctico",
+    "horas_semana": {
+      "teoricas": 4.0,
+      "practicas": 2.0,
+      "total": 6.0
+    },
+    "seriacion": {
+      "antecedente": "Diseño Digital VLSI",
+      "consecuente": "Fundamentos de Sistemas Embebidos"
+    },
+    "objetivo": "El alumno diseñará e implementará sistemas basados en microprocesadores y microcontroladores, integrando interfaces de memoria, puertos de entrada/salida y periféricos programables a bajo nivel para el control de dispositivos y adquisición de señales.",
+    "temario": [
+      {
+        "num": 1,
+        "nombre": "Arquitectura interna de las microcomputadoras y microcontroladores",
+        "horas": 12.0,
+        "subtemas": [
+          "1.1 Evolución histórica y taxonomía: CISC vs. RISC, Von Neumann vs. Harvard.",
+          "1.2 Arquitectura interna de microcontroladores modernos (familia PIC, AVR, ARM Cortex-M).",
+          "1.3 Registros internos, bus de datos, bus de direcciones y bus de control.",
+          "1.4 Mapa y segmentación de memoria (Flash, SRAM, EEPROM).",
+          "1.5 Ciclo de máquina, sincronización por reloj (osciladores) y estados de bajo consumo (Power-down)."
+        ]
+      },
+      {
+        "num": 2,
+        "nombre": "Conjunto de instrucciones y programación en bajo y mediano nivel",
+        "horas": 16.0,
+        "subtemas": [
+          "2.1 Modos de direccionamiento de la arquitectura seleccionada.",
+          "2.2 Repertorio de instrucciones (aritméticas, lógicas, salto y manipulación de bits).",
+          "2.3 Programación en lenguaje Ensamblador y macros.",
+          "2.4 Programación en lenguaje C empotrado (Embedded C) para sistemas microcontrolados.",
+          "2.5 Uso de compiladores cruzados, simuladores y depuración en circuito (JTAG, SWD, ICSP)."
+        ]
+      },
+      {
+        "num": 3,
+        "nombre": "Manejo de puertos de entrada/salida y sistema de interrupciones",
+        "horas": 14.0,
+        "subtemas": [
+          "3.1 Puertos de propósito general (GPIO): configuración de registros de dirección (TRIS/DDR) y datos.",
+          "3.2 Consideraciones eléctricas: lógica de colector/drenador abierto, resistencias pull-up/pull-down y corrientes máximas de excitación.",
+          "3.3 Interrupciones de hardware y software: vectorización, prioridades y latencia.",
+          "3.4 Rutinas de servicio a la interrupción (ISR) y mecanismos de cambio de contexto.",
+          "3.5 Interrupciones externas generadas por cambio de estado y por flancos."
+        ]
+      },
+      {
+        "num": 4,
+        "nombre": "Periféricos internos y sincronización",
+        "horas": 12.0,
+        "subtemas": [
+          "4.1 Temporizadores y contadores (Timers): modos de operación, prescaladores y recarga automática.",
+          "4.2 Módulos de captura y comparación.",
+          "4.3 Modulación por ancho de pulsos (PWM) y control de potencia o actuadores.",
+          "4.4 Convertidores analógico a digital (ADC): resolución, muestreo, canales analógicos y tensión de referencia.",
+          "4.5 Perro guardián (Watchdog Timer) y monitores de voltaje (Brown-out reset)."
+        ]
+      },
+      {
+        "num": 5,
+        "nombre": "Interfaces de comunicación serie e integración de periféricos externos",
+        "horas": 10.0,
+        "subtemas": [
+          "5.1 Comunicación serie asíncrona: módulo UART/USART y estándares RS-232/RS-485.",
+          "5.2 Comunicación serie síncrona: buses SPI e I2C (IIC).",
+          "5.3 Interfaz con dispositivos periféricos externos: teclados matriciales, pantallas LCD, pantallas OLED y sensores analógicos/digitales.",
+          "5.4 Introducción a buses industriales y de automoción (bus CAN, USB)."
+        ]
+      }
+    ]
+  },
+  {
+    "clave": "1849",
+    "nombre": "REDES DE DATOS SEGURAS",
     "semestre": 8,
     "creditos": 8,
     "division": "INGENIERÍA ELÉCTRICA",
@@ -103,82 +255,70 @@
       "total": 5.0
     },
     "seriacion": {
-      "antecedente": "Diseño Digital VLSI",
-      "consecuente": "Ninguna"
-    },
-    "objetivo": "El alumno diseñará e implementará sistemas basados en microcontroladores y microprocesadores embebidos, programando en bajo y alto nivel para el control de periféricos, manejo de temporizadores e interrupciones en tiempo real.",
-    "temario": [
-      {
-        "num": 1,
-        "nombre": "Arquitectura de microcontroladores y organización del hardware",
-        "horas": 9.0
-      },
-      {
-        "num": 2,
-        "nombre": "Programación de puertos de entrada/salida y temporizadores",
-        "horas": 12.0
-      },
-      {
-        "num": 3,
-        "nombre": "Manejo de interrupciones de hardware y módulos de captura/comparación/PWM",
-        "horas": 12.0
-      },
-      {
-        "num": 4,
-        "nombre": "Interfaces y protocolos de comunicación serie (UART, SPI, I2C)",
-        "horas": 9.0
-      },
-      {
-        "num": 5,
-        "nombre": "Conversión analógica-digital (ADC) e integración de actuadores",
-        "horas": 6.0
-      }
-    ]
-  },
-  {
-    "clave": "1809",
-    "nombre": "REDES DE DATOS SEGURAS",
-    "semestre": 8,
-    "creditos": 8,
-    "division": "INGENIERÍA ELÉCTRICA",
-    "departamento": "TELECOMUNICACIONES",
-    "tipo": "Obligatoria",
-    "modalidad": "Curso teórico-práctico",
-    "horas_semana": {
-      "teoricas": 3.0,
-      "practicas": 2.0,
-      "total": 5.0
-    },
-    "seriacion": {
       "antecedente": "Sistemas de Comunicaciones",
       "consecuente": "Ninguna"
     },
-    "objetivo": "El alumno analizará la arquitectura de redes IP, diseñará esquemas de enrutamiento y conmutación y aplicará técnicas de seguridad perimetral, criptografía aplicada y listas de control de acceso para mitigar riesgos en la transmisión de datos.",
+    "objetivo": "El alumno analizará la arquitectura, protocolos y diseño de redes computacionales bajo los modelos OSI y TCP/IP, implementando mecanismos, algoritmos criptográficos y protocolos de seguridad para proteger la integridad, confidencialidad y disponibilidad de los datos en tránsito.",
     "temario": [
       {
         "num": 1,
-        "nombre": "Modelos de red y conmutación de paquetes (VLANs, STP)",
-        "horas": 9.0
+        "nombre": "Modelos de referencia de redes y capa de enlace de datos",
+        "horas": 8.0,
+        "subtemas": [
+          "1.1 Comparación entre los modelos de referencia OSI y TCP/IP.",
+          "1.2 Funciones de la capa de enlace de datos: entramado, control de flujo y detección/corrección de errores (CRC).",
+          "1.3 Protocolos de acceso al medio (CSMA/CD, CSMA/CA) y arquitectura Ethernet (IEEE 802.3).",
+          "1.4 Dispositivos de conmutación (Switches capa 2) y redes de área local virtuales (VLAN - IEEE 802.1Q).",
+          "1.5 Redes inalámbricas LAN (IEEE 802.11) y protocolos de seguridad inalámbrica (WPA2, WPA3)."
+        ]
       },
       {
         "num": 2,
-        "nombre": "Protocolos de enrutamiento estático y dinámico (OSPF, RIP)",
-        "horas": 12.0
+        "nombre": "Capa de red y direccionamiento",
+        "horas": 12.0,
+        "subtemas": [
+          "2.1 Protocolo de Internet versión 4 (IPv4): estructura del encabezado, clases y esquemas de direccionamiento con máscara de longitud variable (VLSM) y CIDR.",
+          "2.2 Protocolo de Internet versión 6 (IPv6): estructura del encabezado, tipos de direcciones y mecanismos de transición.",
+          "2.3 Protocolos de soporte de capa de red: ARP, ICMP, DHCP y NAT/PAT.",
+          "2.4 Algoritmos y protocolos de enrutamiento estático y dinámico: RIP, OSPF y BGP.",
+          "2.5 Listas de control de acceso (ACLs) estándar y extendidas para filtrado de paquetes."
+        ]
       },
       {
         "num": 3,
-        "nombre": "Mecanismos de seguridad perimetral, firewalls y listas de control de acceso (ACL)",
-        "horas": 12.0
+        "nombre": "Capa de transporte y servicios de aplicación",
+        "horas": 8.0,
+        "subtemas": [
+          "3.1 Protocolo UDP: características, estructura de encabezado y usos principales.",
+          "3.2 Protocolo TCP: establecimiento de conexión en tres vías (3-way handshake), control de flujo por ventana deslizante y mecanismos de control de congestión.",
+          "3.3 Multiplexaje y demultiplexaje mediante puertos de transporte.",
+          "3.4 Protocolos de la capa de aplicación: DNS, HTTP/HTTPS, SSH, SMTP, FTP.",
+          "3.5 Programación de sockets de red para clientes y servidores."
+        ]
       },
       {
         "num": 4,
-        "nombre": "Criptografía en redes, túneles seguros y protocolos VPN (IPSec, SSL/TLS)",
-        "horas": 9.0
+        "nombre": "Fundamentos de seguridad y criptografía aplicada a redes",
+        "horas": 10.0,
+        "subtemas": [
+          "4.1 Pilares de la seguridad de la información: confidencialidad, integridad, disponibilidad, autenticación y no repudio.",
+          "4.2 Modelos y vectores de ataques a redes: sniffing, spoofing, Man-in-the-Middle (MitM), denegación de servicio (DoS/DDoS) y malware.",
+          "4.3 Criptografía simétrica (DES, 3DES, AES) y asimétrica (RSA, Diffie-Hellman, curvas elípticas).",
+          "4.4 Funciones hash criptográficas (SHA-2, SHA-3) y códigos de autenticación de mensajes (HMAC).",
+          "4.5 Infraestructura de clave pública (PKI), certificados digitales X.509 y autoridades certificadoras (CA)."
+        ]
       },
       {
         "num": 5,
-        "nombre": "Detección y prevención de intrusiones (IDS/IPS) y análisis de tráfico",
-        "horas": 6.0
+        "nombre": "Arquitecturas y protocolos de seguridad en redes",
+        "horas": 10.0,
+        "subtemas": [
+          "5.1 Seguridad en la capa de red: arquitectura IPsec, modos de transporte y túnel, protocolos AH y ESP, negociación IKE.",
+          "5.2 Redes privadas virtuales (VPN): VPNs basadas en IPsec y basadas en SSL/TLS.",
+          "5.3 Seguridad en la capa de transporte: protocolos SSL y TLS, intercambio de claves y cifrado de sesión.",
+          "5.4 Dispositivos de defensa perimetral: cortafuegos (Firewalls de filtrado de paquetes, estado e inspección profunda / NGFW).",
+          "5.5 Sistemas de detección y prevención de intrusos (IDS/IPS) y zonas desmilitarizadas (DMZ)."
+        ]
       }
     ]
   }
