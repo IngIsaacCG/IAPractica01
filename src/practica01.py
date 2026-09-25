@@ -3,8 +3,6 @@ import json
 from pathlib import Path
 
 
-# --- 1. ESTRUCTURAS DE DATOS (POO) Y LEXER ---
-
 
 class Token:
     def __init__(self, tipo: str, valor: str):
@@ -37,8 +35,6 @@ class Lexer:
         return tokens
 
 
-# ---RUTAS Y CARGA DE DATOS JSON ---
-
 
 def obtener_ruta_json(semestre: int) -> Path:
     mapa_archivos = {
@@ -66,8 +62,6 @@ def cargar_base_datos(semestre: int) -> list[dict]:
         return []
 
 
-# ---ALGORITMOS DE BÚSQUEDA POR SCORING ---
-
 
 def buscar_materia_por_scoring(materias: list[dict], texto: str) -> dict | None:
     texto_limpio = texto.lower()
@@ -78,12 +72,10 @@ def buscar_materia_por_scoring(materias: list[dict], texto: str) -> dict | None:
         nombre = materia.get("nombre", "").lower()
         puntaje = 0
 
-        # Sumar puntos por coincidencias individuales de palabras con más de 3 letras
         for palabra in nombre.split():
             if len(palabra) > 3 and palabra in texto_limpio:
                 puntaje += 1
 
-        # Sumar bonificación por coincidencia exacta de la frase
         if nombre in texto_limpio:
             puntaje += 10
 
@@ -122,8 +114,6 @@ def buscar_subtemas_en_materia(
 
     return None, []
 
-
-# ---ANALIZADOR SEMÁNTICO Y RESPUESTA ---
 
 
 def analizador_semantico(tokens: list[Token]):
@@ -167,13 +157,12 @@ def consultar_y_responder(
     texto_original: str,
     contexto: dict,
 ) -> str:
-    # Actualizar o recuperar el semestre almacenado en contexto
+    
     if semestre:
         contexto["semestre_actual"] = semestre
     else:
         semestre = contexto.get("semestre_actual")
 
-    # Caso 1: Listado general de materias de un semestre determinado
     if (
         "INT_SEMESTRE_LISTA" in intenciones
         and semestre
@@ -191,7 +180,6 @@ def consultar_y_responder(
             )
         return "\n".join(respuestas)
 
-    # Buscar la materia en el semestre en contexto o en todo el plan de estudios
     materia_encontrada = None
     if semestre:
         materias_sem = cargar_base_datos(semestre)
@@ -221,13 +209,11 @@ def consultar_y_responder(
 
     if not materia_encontrada:
         if semestre:
-            return f"No encontré esa materia en el semestre {semestre}."
+            return f"No encontré esa materia en el {semestre}° semestre."
         return "No encontré esa materia en el plan de estudios."
 
-    # Guardar materia encontrada en memoria de contexto
     contexto["materia_actual"] = materia_encontrada
 
-    # Caso 2: Consulta específica de subtemas dentro de un tema
     if "INT_SUBTEMA" in intenciones:
         tema, subtemas = buscar_subtemas_en_materia(materia_encontrada, texto_original)
         if tema and subtemas:
@@ -241,7 +227,6 @@ def consultar_y_responder(
             return f"El tema '{tema['nombre']}' no tiene subtemas registrados."
         return f"No encontré el tema especificado dentro de {materia_encontrada['nombre']}."
 
-    # Caso 3: Respuesta con los campos solicitados o ficha general
     respuestas = [
         f"--- Información de: {materia_encontrada['nombre']} (Clave: {materia_encontrada['clave']}) ---"
     ]
@@ -281,11 +266,9 @@ def consultar_y_responder(
     return "\n".join(respuestas)
 
 
-# ---FLUJO PRINCIPAL DE EJECUCIÓN (REPL) ---
-
 
 def main():
-    # Tabla de reglas
+
     reglas = [
         ("CLAVE", r"\b[0-9]{4}\b"),
         ("SEMESTRE_NUM", r"\b[1-9]\b"),
@@ -306,7 +289,7 @@ def main():
         ),
         (
             "MATERIA_NOMBRE",
-            r"\b(electricidad y magnetismo|dispositivos electronicos|ingenieria de software|estructuras? de datos|sistemas operativos|bases de datos|lenguajes formales y automatas|senales y sistemas|fundamentos de programacion|algebra)\b",
+            r"\b(fundamentos de programacion|algebra|calculo diferencial e integral|geometria analitica|quimica|redaccion y comunicacion|estructuras discretas|algebra lineal|calculo vectorial|estatica|fundamentos de fisica|programacion orientada a objetos|estructuras de datos|sistemas operativos|bases de datos|lenguajes formales y automatas|senales y sistemas|electricidad y magnetismo|dispositivos electronicos|estructura y programacion de computadoras|ingenieria de software|redes de computadoras|microcomputadoras|sistemas de comunicaciones|fundamentos de control|circuitos electricos|microcontroladores|arquitectura de computadoras|sistemas distribuidos|compiladores|inteligencia2 artificial|seguridad informatica|sistemas de tiempo real|sistemas embebidos|sistemas digitales|administracion de proyectos de software|etica profesional)\b",
         ),
         ("SALUDO", r"\b(hola|buenas?|que tal)\b"),
         ("DESPEDIDA", r"\b(adios|salir|chao|bye)\b"),
@@ -314,34 +297,29 @@ def main():
         ("MISC", r"."),
     ]
 
-    # Inicializar lexer y memoria de contexto del usuario
     lexer = Lexer(reglas)
     continuar_chat = True
     contexto = {"semestre_actual": None, "materia_actual": None}
 
     print("==================================================")
-    print("  Asistente Académico FI-UNAM (Plan 2023)")
+    print("Plan Académico FI-UNAM (Plan 2023)")
     print("==================================================")
 
-    # Captura de la consulta inicial
+
     entrada_usuario = input(
-        "\nHola, soy tu asistente para escoger materias, ¿en qué te puedo ayudar?\nUsuario > "
+        "\nHola, soy BOTAAFI tu asistente para escoger materias, ¿en qué te puedo ayudar?\nUsuario > "
     )
 
-    # Ciclo principal del bot (REPL)
     while continuar_chat:
         texto_limpio = entrada_usuario.lower().strip()
         tokens = lexer.tokenizar(texto_limpio)
 
-        # Evaluar token de salida
         if any(t.tipo == "DESPEDIDA" for t in tokens):
             continuar_chat = False
             break
 
-        # Análisis semántico de los tokens generados
         intenciones, clave, materia_nombre, semestre = analizador_semantico(tokens)
 
-        # Verificar si la consulta incluye información suficiente o hay contexto previo
         consulta_valida = bool(
             clave
             or materia_nombre
@@ -354,17 +332,16 @@ def main():
             respuesta = consultar_y_responder(
                 intenciones, clave, materia_nombre, semestre, texto_limpio, contexto
             )
-            print(f"\n[IA]:\n{respuesta}\n")
+            print(f"\n[BOTAAFI]:\n{respuesta}\n")
         else:
-            print("\n[IA]: Lo siento, no logré entender tu consulta.")
+            print("\n[BOTAAFI]: Lo siento, no logré entender tu consulta.")
             print(
                 "     Indica la clave (ej: 1539), el nombre de la materia o el semestre que deseas consultar.\n"
             )
 
-        # Solicitar siguiente consulta al usuario
         entrada_usuario = input("Usuario > ")
 
-    print("\n[IA]: Sesión finalizada. ¡Hasta luego!")
+    print("\n[BOTAAFI]: Sesión finalizada. ¡Hasta luego!")
 
 
 if __name__ == "__main__":
